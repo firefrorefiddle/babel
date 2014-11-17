@@ -1,0 +1,1313 @@
+-1099                     Jan  2  04:54     Jan  9  11:59     Jan 17  15:59      07h34m
+        Jan 24  22:03 T   Jan 31  13:26     Feb  8  05:05 p   Feb 16  09:17    
+        Feb 23  07:52     Mar  1  23:15     Mar  9  22:15     Mar 17  22:40    
+        Mar 24  15:58     Mar 31  10:59     Apr  8  14:18     Apr 16  08:23    
+        Apr 22  23:09     Apr 30  00:53     May  8  04:35     May 15  15:11    
+        May 22  06:32     May 29  16:43     Jun  6  17:07     Jun 13  20:10    
+        Jun 20  15:23     Jun 28  09:53     Jul  6  04:15     Jul 13  00:42    
+        Jul 20  02:42 A   Jul 28  03:38     Aug  4  14:27 p   Aug 11  06:20    
+        Aug 18  17:00     Aug 26  21:12     Sep  3  00:10     Sep  9  14:36    
+        Sep 17  10:00     Sep 25  13:45     Oct  2  09:54     Oct  9  02:41    
+        Oct 17  04:45     Oct 25  04:20     Oct 31  20:07     Nov  7  18:54    
+        Nov 15  23:55     Nov 23  16:19     Nov 30  07:19     Dec  7  14:23    
+        Dec 15  18:02     Dec 23  01:39     Dec 29  19:45 n                    
+-1098                                                         Jan  6  11:26      07h34m
+        Jan 14  09:52 A   Jan 21  09:06     Jan 28  09:22 n   Feb  5  08:07    
+        Feb 12  22:41     Feb 19  15:50     Feb 26  23:51     Mar  7  02:50    
+        Mar 14  08:32     Mar 20  23:04     Mar 28  14:48     Apr  5  18:27    
+        Apr 12  16:12     Apr 19  07:46     Apr 27  05:55     May  5  06:34    
+        May 11  22:49     May 18  18:35     May 26  20:54     Jun  3  15:27    
+        Jun 10  05:38     Jun 17  07:55     Jun 25  11:24 n   Jul  2  21:59    
+        Jul  9  13:44 T   Jul 16  23:52     Jul 25  00:59 n   Aug  1  03:28    
+        Aug  7  23:56     Aug 15  18:13     Aug 23  13:25     Aug 30  09:20    
+        Sep  6  12:49     Sep 14  14:05     Sep 22  00:50     Sep 28  16:55    
+        Oct  6  04:36     Oct 14  09:50     Oct 21  11:44     Oct 28  03:14    
+        Nov  4  23:01     Nov 13  03:35     Nov 19  22:35     Nov 26  16:41    
+        Dec  4  18:55     Dec 12  18:03     Dec 19  09:36 p   Dec 26  09:05    
+-1097   Jan  3  14:22 A   Jan 11  05:00     Jan 17  20:43     Jan 25  03:40      07h33m
+        Feb  2  07:24     Feb  9  13:03     Feb 16  07:56     Feb 23  23:14    
+        Mar  3  21:03     Mar 10  19:16     Mar 17  19:29     Mar 25  18:15    
+        Apr  2  07:33     Apr  9  00:51     Apr 16  07:56     Apr 24  11:19    
+        May  1  15:50     May  8  06:58     May 15  21:43     May 24  01:38    
+        May 30  23:00     Jun  6  14:46     Jun 14  12:46 p   Jun 22  13:10    
+        Jun 29  06:01 T   Jul  6  01:21     Jul 14  04:29     Jul 21  22:30    
+        Jul 28  13:45     Aug  4  15:32     Aug 12  20:02     Aug 20  06:23    
+        Aug 26  22:59     Sep  3  09:28     Sep 11  10:47     Sep 18  13:42    
+        Sep 25  10:31     Oct  3  06:14     Oct 11  00:33     Oct 17  21:18    
+        Oct 25  01:00     Nov  2  03:49     Nov  9  13:26     Nov 16  06:03    
+        Nov 23  18:27     Dec  1  23:58     Dec  9  01:24 t   Dec 15  16:43    
+        Dec 23  13:45 P                                                        
+-1096                     Dec 31  17:04     Jan  7  12:17     Jan 14  05:50      07h33m
+        Jan 22  08:59     Jan 30  06:22     Feb  5  22:04     Feb 12  21:20    
+        Feb 21  02:22     Feb 28  15:59     Mar  6  07:09     Mar 13  14:35    
+        Mar 21  17:01     Mar 28  22:36     Apr  4  16:24     Apr 12  08:25    
+        Apr 20  04:59     Apr 27  03:23     May  4  02:46     May 12  01:46    
+        May 19  14:46 P   May 26  07:47     Jun  2  14:56 t   Jun 10  17:54    
+        Jun 17  23:04 P   Jun 24  13:26     Jul  2  05:04     Jul 10  08:29    
+        Jul 17  06:39     Jul 23  21:49     Jul 31  20:52     Aug  8  21:23    
+        Aug 15  14:26     Aug 22  10:05     Aug 30  13:42     Sep  7  08:30    
+        Sep 13  23:21     Sep 21  02:33     Sep 29  06:49     Oct  6  17:58    
+        Oct 13  10:17     Oct 20  22:33     Oct 28  23:23     Nov  5  02:14    
+        Nov 11  23:44 A   Nov 19  20:24     Nov 27  14:30 p   Dec  4  10:11    
+        Dec 11  15:29     Dec 19  18:03     Dec 27  03:30                      
+-1095                                                         Jan  2  18:53      07h33m
+        Jan 10  08:45     Jan 18  13:27     Jan 25  14:14     Feb  1  05:08    
+        Feb  9  02:24     Feb 17  05:09     Feb 23  23:08     Mar  2  17:16    
+        Mar 10  19:25     Mar 18  16:38     Mar 25  07:03     Apr  1  07:11    
+        Apr  9  11:02     Apr 17  00:21     Apr 23  14:57     Apr 30  22:35    
+        May  9  00:42 A   May 16  05:32     May 22  23:41 p   May 30  15:09    
+        Jun  7  12:16     Jun 14  09:44     Jun 21  10:01     Jun 29  08:27    
+        Jul  6  22:02     Jul 13  14:36     Jul 20  22:32     Jul 29  01:46    
+        Aug  5  06:47     Aug 11  21:36     Aug 19  13:35     Aug 27  18:07    
+        Sep  3  15:29     Sep 10  07:54     Sep 18  07:05     Sep 26  08:37    
+        Oct  3  01:04     Oct  9  22:04     Oct 18  02:07     Oct 25  20:45    
+        Nov  1  12:01 T   Nov  8  16:00     Nov 16  20:57 n   Nov 24  06:41    
+        Dec  1  00:20     Dec  8  12:48     Dec 16  13:50     Dec 23  15:05    
+        Dec 30  13:49                                                          
+-1094                     Jan  7  10:39     Jan 15  03:48     Jan 21  22:47      07h32m
+        Jan 29  04:20     Feb  6  07:14     Feb 13  14:57     Feb 20  06:38    
+        Feb 27  19:46     Mar  8  00:38     Mar 14  23:57     Mar 21  15:22    
+        Mar 29  11:47     Apr  6  14:03     Apr 13  07:37 p   Apr 20  01:39    
+        Apr 28  03:39 A   May  5  23:47     May 12  14:46     May 19  14:08    
+        May 27  18:28     Jun  4  06:49     Jun 10  22:11     Jun 18  05:10    
+        Jun 26  07:43     Jul  3  12:21     Jul 10  06:52     Jul 17  22:35    
+        Jul 25  19:29     Aug  1  17:40     Aug  8  17:50     Aug 16  17:30    
+        Aug 24  06:20     Aug 30  23:59     Sep  7  07:59     Sep 15  12:30    
+        Sep 22  16:58     Sep 29  08:30     Oct  7  01:25 p   Oct 15  06:12    
+        Oct 22  03:45 T   Oct 28  20:12     Nov  5  21:02     Nov 13  21:34    
+        Nov 20  14:43     Nov 27  11:35     Dec  5  16:49     Dec 13  10:06    
+        Dec 20  01:46     Dec 27  06:15                                        
+-1093                                       Jan  4  10:51     Jan 11  19:49      07h32m
+        Jan 18  13:06     Jan 26  02:42     Feb  3  02:07     Feb 10  03:12    
+        Feb 17  01:09     Feb 24  22:50     Mar  4  14:28     Mar 11  09:15    
+        Mar 18  14:18     Mar 26  17:00     Apr  3  00:16 t   Apr  9  15:14    
+        Apr 17  04:33 P   Apr 25  08:22     May  2  08:08     May  8  22:31    
+        May 16  19:28     May 24  20:50     May 31  14:52     Jun  7  08:16    
+        Jun 15  10:32     Jun 23  06:43     Jun 29  21:33     Jul  6  21:14    
+        Jul 15  01:18     Jul 22  14:35     Jul 29  05:23     Aug  5  13:32    
+        Aug 13  15:37     Aug 20  21:13     Aug 27  15:33     Sep  4  08:35    
+        Sep 12  05:20     Sep 19  03:41     Sep 26  04:50 t   Oct  4  05:08    
+        Oct 11  18:17 P   Oct 18  11:15     Oct 25  21:14     Nov  3  01:36    
+        Nov 10  06:15     Nov 16  21:08     Nov 24  15:52     Dec  2  20:13    
+        Dec  9  17:15     Dec 16  09:58     Dec 24  11:17                      
+-1092                                                         Jan  1  11:31      07h32m
+        Jan  8  03:30     Jan 15  01:36     Jan 23  05:57     Jan 30  22:50    
+        Feb  6  13:28     Feb 13  19:07     Feb 21  22:35     Feb 29  06:36    
+        Mar  6  23:39 T   Mar 14  13:22     Mar 22  12:22 p   Mar 29  12:01    
+        Apr  5  10:29     Apr 13  07:21     Apr 20  23:10     Apr 27  16:40    
+        May  4  22:19     May 13  00:15     May 20  07:35     May 26  22:04    
+        Jun  3  11:26     Jun 11  15:24     Jun 18  14:39     Jun 25  05:33    
+        Jul  3  02:03     Jul 11  04:22     Jul 17  21:39     Jul 24  16:06    
+        Aug  1  18:03     Aug  9  15:06     Aug 16  05:43     Aug 23  06:19    
+        Aug 31  10:48 A   Sep  8  00:01     Sep 14  15:41 p   Sep 22  00:17    
+        Sep 30  03:14     Oct  7  07:56     Oct 14  03:57     Oct 21  21:13    
+        Oct 29  18:20     Nov  5  15:50     Nov 12  18:33     Nov 20  19:24    
+        Nov 28  07:38     Dec  5  00:37     Dec 12  11:15     Dec 20  16:19    
+        Dec 27  19:14                                                          
+-1091                     Jan  3  10:54     Jan 11  05:25     Jan 19  09:49      07h31m
+        Jan 26  05:30     Feb  1  22:57     Feb  9  23:53 n   Feb 17  22:59    
+        Feb 24  14:45 T   Mar  3  12:47     Mar 11  17:06 n   Mar 19  08:11    
+        Mar 25  23:23     Apr  2  04:18     Apr 10  07:51     Apr 17  14:28    
+        Apr 24  07:59     May  1  21:07     May  9  19:50     May 16  19:12    
+        May 23  17:25     May 31  14:30     Jun  8  05:35     Jun 14  23:46    
+        Jun 22  04:42     Jun 30  07:31     Jul  7  14:07     Jul 14  05:31    
+        Jul 21  18:33     Jul 29  23:17     Aug  5  22:28 n   Aug 12  13:48    
+        Aug 20  11:01 A   Aug 28  13:20     Sep  4  07:22 n   Sep 11  01:43    
+        Sep 19  05:11     Sep 27  01:35     Oct  3  17:17     Oct 10  17:56    
+        Oct 18  23:31     Oct 26  12:08     Nov  2  04:30     Nov  9  14:01    
+        Nov 17  16:37     Nov 24  21:15     Dec  1  17:20     Dec  9  12:11    
+        Dec 17  07:44     Dec 24  05:25     Dec 31  08:00                      
+-1090                                                         Jan  8  09:50      07h31m
+        Jan 15  20:39     Jan 22  13:26     Jan 30  00:18 p   Feb  7  04:51    
+        Feb 14  07:20 T   Feb 20  22:12     Feb 28  17:18     Mar  8  20:08    
+        Mar 15  16:03     Mar 22  08:33     Mar 30  09:49     Apr  7  07:37    
+        Apr 13  23:25     Apr 20  21:02     Apr 29  00:57     May  6  15:50    
+        May 13  06:25     May 20  11:44     May 28  14:23     Jun  4  21:40    
+        Jun 11  14:18     Jun 19  04:16     Jun 27  02:19     Jul  4  02:21    
+        Jul 11  00:16     Jul 18  21:57     Jul 26  13:11 p   Aug  2  07:20    
+        Aug  9  13:07 A   Aug 17  16:00     Aug 24  23:22     Aug 31  14:12    
+        Sep  8  04:58     Sep 16  09:31     Sep 23  09:16     Sep 30  00:19    
+        Oct  7  23:09     Oct 16  01:32     Oct 22  19:21     Oct 29  14:29    
+        Nov  6  18:25     Nov 14  15:07     Nov 21  06:03     Nov 28  08:24    
+        Dec  6  13:19     Dec 14  01:49     Dec 20  17:44     Dec 28  04:44    
+-1089   Jan  5  06:26 P   Jan 12  10:02     Jan 19  06:34 t   Jan 27  01:37      07h31m
+        Feb  3  20:44 P   Feb 10  16:48     Feb 17  20:21     Feb 25  21:18    
+        Mar  5  07:54     Mar 11  23:23     Mar 19  10:48     Mar 27  14:29    
+        Apr  3  16:25     Apr 10  06:57     Apr 18  01:38     Apr 26  04:24    
+        May  2  23:20     May  9  16:23     May 17  16:38     May 25  14:58    
+        Jun  1  05:52     Jun  8  04:15     Jun 16  07:30     Jun 23  22:44    
+        Jun 30  13:13 P   Jul  7  18:50     Jul 15  21:48 t   Jul 23  04:48    
+        Jul 29  22:20 P   Aug  6  12:08     Aug 14  11:07     Aug 21  10:29    
+        Aug 28  09:55     Sep  5  07:36     Sep 12  23:18     Sep 19  17:12    
+        Sep 27  00:20     Oct  5  03:56     Oct 12  10:38     Oct 19  02:07    
+        Oct 26  17:35     Nov  3  23:10     Nov 10  21:36     Nov 17  13:56    
+        Nov 25  12:57     Dec  3  15:34     Dec 10  08:33     Dec 17  04:44    
+        Dec 25  08:51 A                                                        
+-1088                     Jan  2  04:18     Jan  8  19:30 p   Jan 15  22:04      07h31m
+        Jan 24  03:12     Jan 31  13:39     Feb  7  06:25     Feb 14  17:00    
+        Feb 22  18:30     Feb 29  20:31     Mar  7  17:27     Mar 15  12:14    
+        Mar 23  06:25     Mar 30  02:06     Apr  6  05:05     Apr 14  06:17    
+        Apr 21  15:37     Apr 28  07:36     May  5  17:56     May 13  22:04    
+        May 20  23:12     May 27  14:15     Jun  4  08:18     Jun 12  11:09    
+        Jun 19  06:14 T   Jun 25  23:11     Jul  3  23:51 p   Jul 11  21:46    
+        Jul 18  13:36     Jul 25  11:27     Aug  2  15:49     Aug 10  06:35    
+        Aug 16  22:07     Aug 24  03:36     Sep  1  07:19     Sep  8  14:22    
+        Sep 15  08:31     Sep 22  23:17     Sep 30  21:53     Oct  7  21:55    
+        Oct 14  21:33     Oct 22  20:56     Oct 30  11:26     Nov  6  06:03    
+        Nov 13  13:34     Nov 21  18:13     Nov 28  23:59 n   Dec  5  15:36    
+        Dec 13  08:03 A   Dec 21  13:05     Dec 28  11:25 n                    
+-1087                                                         Jan  4  03:14      07h30m
+        Jan 12  03:25     Jan 20  04:20     Jan 26  21:35     Feb  2  17:15    
+        Feb 10  21:43     Feb 18  15:43     Feb 25  06:42     Mar  4  09:22    
+        Mar 12  13:39     Mar 19  23:38     Mar 26  15:30     Apr  3  02:45    
+        Apr 11  02:51     Apr 18  05:05     Apr 25  00:57     May  2  20:18    
+        May 10  13:40     May 17  09:25     May 24  11:59 n   Jun  1  13:07    
+        Jun  8  22:42 T   Jun 15  14:10     Jun 23  01:04 n   Jul  1  04:42    
+        Jul  8  06:41     Jul 14  20:58     Jul 22  16:10     Jul 30  18:47    
+        Aug  6  14:26     Aug 13  07:11     Aug 21  08:46     Aug 29  07:10    
+        Sep  4  22:51     Sep 11  21:37     Sep 20  02:06     Sep 27  17:46    
+        Oct  4  08:49     Oct 11  16:04     Oct 19  19:19     Oct 27  02:45    
+        Nov  2  21:02     Nov 10  13:17     Nov 18  11:27 p   Nov 25  10:48    
+        Dec  2  11:37 A   Dec 10  11:18     Dec 18  01:38     Dec 24  18:55    
+-1086   Jan  1  04:04     Jan  9  08:01     Jan 16  13:26     Jan 23  04:04      07h30m
+        Jan 30  21:24     Feb  8  01:40     Feb 14  23:01     Feb 21  14:55    
+        Mar  1  14:36     Mar  9  15:13     Mar 16  07:07     Mar 23  03:36    
+        Mar 31  06:50     Apr  8  00:42     Apr 14  14:44     Apr 21  18:00    
+        Apr 29  21:29     May  7  07:01     May 13  22:48 t   May 21  09:51    
+        May 29  10:10 A   Jun  5  11:33     Jun 12  08:09     Jun 20  02:51    
+        Jun 27  20:57     Jul  4  15:56     Jul 11  19:30     Jul 19  20:27    
+        Jul 27  06:19     Aug  2  21:46     Aug 10  09:19     Aug 18  13:45    
+        Aug 25  15:10     Sep  1  06:22     Sep  9  01:48     Sep 17  05:38    
+        Sep 24  00:26     Sep 30  18:35     Oct  8  20:26     Oct 16  19:18    
+        Oct 23  10:47 P   Oct 30  10:41     Nov  7  15:46 t   Nov 15  06:29    
+        Nov 21  22:27 P   Nov 29  06:08     Dec  7  09:55     Dec 14  15:37    
+        Dec 21  11:14     Dec 29  03:35                                        
+-1085                                       Jan  6  01:24     Jan 12  23:28      07h30m
+        Jan 20  01:00     Jan 28  00:55     Feb  4  13:49     Feb 11  06:55    
+        Feb 18  15:41     Feb 26  19:59     Mar  5  23:40     Mar 12  14:50    
+        Mar 20  07:12     Mar 28  11:22     Apr  4  07:46     Apr 10  23:56    
+        Apr 18  23:04 P   Apr 26  22:55     May  3  14:59 t   May 10  10:59    
+        May 18  14:27     May 26  07:17     Jun  1  22:06     Jun  9  00:32    
+        Jun 17  04:38     Jun 24  13:34     Jul  1  06:00     Jul  8  16:49    
+        Jul 16  17:19     Jul 23  19:01     Jul 30  15:44     Aug  7  11:17    
+        Aug 15  04:50     Aug 22  00:50     Aug 29  04:18     Sep  6  06:43    
+        Sep 13  15:48     Sep 20  08:12     Sep 27  20:14     Oct  6  01:33    
+        Oct 13  02:42 T   Oct 19  18:14     Oct 27  15:05 p   Nov  4  18:27    
+        Nov 11  13:42     Nov 18  07:42     Nov 26  11:06     Dec  4  08:36    
+        Dec 11  00:41     Dec 18  00:40     Dec 26  06:12                      
+-1084                                                         Jan  2  19:45      07h29m
+        Jan  9  11:41     Jan 16  20:12     Jan 24  22:51     Feb  1  04:07    
+        Feb  7  23:03     Feb 15  16:28     Feb 23  12:33     Mar  1  10:32    
+        Mar  8  11:18     Mar 16  11:36     Mar 23  23:29 n   Mar 30  16:10    
+        Apr  7  00:45 A   Apr 15  04:21     Apr 22  08:10 n   Apr 28  22:24    
+        May  6  15:13     May 14  18:19     May 21  15:20     May 28  06:35    
+        Jun  5  06:13     Jun 13  05:38     Jun 19  21:56     Jun 26  17:44    
+        Jul  4  21:17     Jul 12  14:42     Jul 19  05:06     Jul 26  08:23    
+        Aug  3  12:05     Aug 10  22:06     Aug 17  14:04     Aug 25  02:17    
+        Sep  2  02:26     Sep  9  04:44     Sep 16  01:50     Sep 23  22:27    
+        Oct  1  16:06 A   Oct  8  11:44     Oct 15  16:48 n   Oct 23  19:25    
+        Oct 31  04:47     Nov  6  20:22     Nov 14  10:28     Nov 22  15:22    
+        Nov 29  16:21     Dec  6  07:34     Dec 14  05:37     Dec 22  08:33    
+        Dec 29  02:51                                                          
+-1083                     Jan  4  21:38     Jan 13  00:42     Jan 20  21:53      07h29m
+        Jan 27  12:44     Feb  3  14:00     Feb 11  18:21     Feb 19  07:16    
+        Feb 25  22:30     Mar  5  07:41     Mar 13  09:30 p   Mar 20  13:35    
+        Mar 27  08:41 T   Apr  4  01:39     Apr 11  21:44     Apr 18  18:18    
+        Apr 25  19:44     May  3  19:05     May 11  07:15     May 17  23:01    
+        May 25  08:01     Jun  2  11:16     Jun  9  14:55     Jun 16  05:12    
+        Jun 23  21:50     Jul  2  01:37     Jul  8  21:55     Jul 15  14:04    
+        Jul 23  13:17     Jul 31  13:47     Aug  7  05:29     Aug 14  02:25    
+        Aug 22  06:00     Aug 29  23:52     Sep  5  14:34 p   Sep 12  18:36    
+        Sep 20  23:03 A   Sep 28  08:28     Oct  5  01:47     Oct 12  14:18    
+        Oct 20  15:11     Oct 27  16:25     Nov  3  15:16     Nov 11  12:14    
+        Nov 19  05:35     Nov 26  00:41     Dec  3  06:52     Dec 11  10:09    
+        Dec 18  18:03     Dec 25  10:02                                        
+-1082                                       Jan  2  00:13     Jan 10  05:34      07h29m
+        Jan 17  04:50     Jan 23  20:54     Jan 31  18:29     Feb  8  20:54    
+        Feb 15  14:22 P   Feb 22  09:29     Mar  2  12:18 t   Mar 10  07:56    
+        Mar 16  23:03 P   Mar 23  23:48     Apr  1  04:16     Apr  8  15:30    
+        Apr 15  07:22     Apr 22  15:45     Apr 30  17:36     May  7  20:50    
+        May 14  16:06     May 22  08:51     May 30  04:27     Jun  6  01:19    
+        Jun 13  02:14     Jun 21  02:15     Jun 28  13:37     Jul  5  06:19    
+        Jul 12  14:43     Jul 20  18:58     Jul 27  22:09     Aug  3  13:12    
+        Aug 11  06:02     Aug 19  10:17     Aug 26  06:56 t   Sep  1  23:13    
+        Sep  9  23:42 P   Sep 17  23:48     Sep 24  16:29     Oct  1  13:17    
+        Oct  9  18:23     Oct 17  11:29     Oct 24  03:07     Oct 31  07:34    
+        Nov  8  12:26     Nov 15  21:26     Nov 22  15:05     Nov 30  04:56    
+        Dec  8  04:43     Dec 15  06:01     Dec 22  04:41     Dec 30  03:04    
+-1081   Jan  6  18:44     Jan 13  13:52     Jan 20  19:59     Jan 28  23:30      07h28m
+        Feb  5  06:25 T   Feb 11  21:53     Feb 19  12:28 p   Feb 27  16:39    
+        Mar  6  15:56     Mar 13  07:00     Mar 21  05:07     Mar 29  05:59    
+        Apr  4  23:43     Apr 11  18:02     Apr 19  20:53     Apr 27  15:48    
+        May  4  06:38     May 11  07:23     May 19  11:10     May 26  22:47    
+        Jun  2  13:51     Jun  9  22:56     Jun 17  23:57     Jun 25  04:01    
+        Jul  1  22:37     Jul  9  16:12     Jul 17  11:32     Jul 24  08:47    
+        Jul 31  09:59 A   Aug  8  10:23     Aug 15  22:16 p   Aug 22  14:37    
+        Aug 30  00:27     Sep  7  04:37     Sep 14  08:32     Sep 20  23:02    
+        Sep 28  17:43     Oct  6  21:51     Oct 13  18:40     Oct 20  11:08    
+        Oct 28  12:45     Nov  5  13:01     Nov 12  05:04     Nov 19  03:12    
+        Nov 27  08:06     Dec  5  01:19     Dec 11  16:11     Dec 18  22:22    
+        Dec 27  02:18                                                          
+-1080                     Jan  3  10:42     Jan 10  04:16 n   Jan 17  18:59      07h28m
+        Jan 25  18:03 A   Feb  1  17:55     Feb  8  17:19 n   Feb 16  15:14    
+        Feb 24  06:40     Mar  2  00:12     Mar  9  07:09     Mar 17  09:40    
+        Mar 24  16:19     Mar 31  06:54     Apr  7  21:33     Apr 16  01:15    
+        Apr 22  23:48     Apr 29  15:02     May  7  12:20     May 15  13:34    
+        May 22  06:19     May 29  01:24     Jun  6  03:19     Jun 13  22:50    
+        Jun 20  13:08     Jun 27  14:29     Jul  5  18:07 n   Jul 13  05:50    
+        Jul 19  21:19 T   Jul 27  06:29     Aug  4  08:14 n   Aug 11  11:45    
+        Aug 18  07:41     Aug 26  01:09     Sep  2  21:19     Sep  9  17:59    
+        Sep 16  20:45     Sep 24  21:32     Oct  2  09:19     Oct  9  01:47    
+        Oct 16  12:42     Oct 24  17:50     Oct 31  20:36     Nov  7  12:06    
+        Nov 15  07:10     Nov 23  12:02     Nov 30  07:35     Dec  7  01:18    
+        Dec 15  03:00     Dec 23  02:44     Dec 29  18:27 p                    
+-1079                                                         Jan  5  17:11      07h28m
+        Jan 13  22:17 A   Jan 21  13:41     Jan 28  05:11     Feb  4  11:07    
+        Feb 12  15:08     Feb 19  21:34     Feb 26  15:50     Mar  6  06:04    
+        Mar 14  04:36     Mar 21  03:29     Mar 28  02:47     Apr  5  00:42    
+        Apr 12  14:59     Apr 19  08:42     Apr 26  14:43     May  4  17:41    
+        May 11  23:14     May 18  14:28     May 26  04:10     Jun  3  08:16    
+        Jun 10  06:28     Jun 16  21:58     Jun 24  19:12 p   Jul  2  20:18    
+        Jul  9  13:39 T   Jul 16  08:24     Jul 24  11:14     Aug  1  06:15    
+        Aug  7  21:39     Aug 14  22:36     Aug 23  03:20     Aug 30  14:46    
+        Sep  6  07:09     Sep 13  16:45     Sep 21  18:43     Sep 28  22:36    
+        Oct  5  18:53     Oct 13  13:50     Oct 21  09:03     Oct 28  06:28    
+        Nov  4  09:25     Nov 12  11:45     Nov 19  22:17     Nov 26  15:11    
+        Dec  4  02:44     Dec 12  08:07     Dec 19  10:18 t   Dec 26  01:31    
+-1078   Jan  2  21:43 P   Jan 11  01:17     Jan 17  20:59     Jan 24  14:02      07h27m
+        Feb  1  16:35     Feb  9  14:34     Feb 16  06:22     Feb 23  04:47    
+        Mar  3  09:38     Mar 11  00:04     Mar 17  14:58     Mar 24  21:19    
+        Apr  2  00:06     Apr  9  06:33     Apr 15  23:44     Apr 23  14:41    
+        May  1  12:02     May  8  11:12     May 15  09:42     May 23  07:55    
+        May 30  21:57 P   Jun  6  15:30     Jun 13  21:37 t   Jun 22  00:18    
+        Jun 29  06:31 P   Jul  5  21:03     Jul 13  11:46     Jul 21  15:27    
+        Jul 28  14:28     Aug  4  05:25     Aug 12  03:51     Aug 20  05:04    
+        Aug 26  22:38     Sep  2  17:43     Sep 10  21:09     Sep 18  16:55    
+        Sep 25  07:53     Oct  2  10:18     Oct 10  14:49     Oct 18  02:56    
+        Oct 24  19:00     Nov  1  06:23     Nov  9  07:50     Nov 16  11:29    
+        Nov 23  08:24 A   Dec  1  04:17     Dec  8  23:11 p   Dec 15  19:24    
+        Dec 22  23:51     Dec 31  01:51                                        
+-1077                                       Jan  7  12:10     Jan 14  03:45      07h27m
+        Jan 21  16:37     Jan 29  21:09     Feb  5  22:40     Feb 12  13:23    
+        Feb 20  09:43     Feb 28  12:45     Mar  7  07:14     Mar 14  00:47    
+        Mar 22  02:18     Mar 30  00:12     Apr  5  14:47     Apr 12  14:00    
+        Apr 20  17:43     Apr 28  07:59     May  4  22:21     May 12  04:55    
+        May 20  07:26 A   May 27  13:16     Jun  3  06:51 p   Jun 10  21:19    
+        Jun 18  19:17     Jun 25  17:36     Jul  2  17:05     Jul 10  14:49    
+        Jul 18  05:30     Jul 24  22:36     Aug  1  05:40     Aug  9  08:40    
+        Aug 16  14:44     Aug 23  05:44     Aug 30  20:56     Sep  8  01:45    
+        Sep 14  23:55     Sep 21  16:07     Sep 29  14:46     Oct  7  16:58    
+        Oct 14  09:51     Oct 21  06:17     Oct 29  10:10     Nov  6  05:38    
+        Nov 12  20:56 T   Nov 20  00:07     Nov 28  05:16 n   Dec  5  15:51    
+        Dec 12  09:07     Dec 19  20:40     Dec 27  22:15                      
+-1076                                                         Jan  4  00:12      07h27m
+        Jan 10  22:13     Jan 18  18:10     Jan 26  12:08     Feb  2  07:35    
+        Feb  9  12:08     Feb 17  14:27     Feb 24  23:04     Mar  2  14:55    
+        Mar 10  02:57     Mar 18  07:41     Mar 25  07:48     Mar 31  23:01    
+        Apr  8  18:28     Apr 16  21:07     Apr 23  15:15 p   Apr 30  08:42    
+        May  8  10:05 A   May 16  07:03     May 22  22:14 n   May 29  20:43    
+        Jun  7  00:59     Jun 14  14:24     Jun 21  05:36     Jun 28  11:33    
+        Jul  6  14:36     Jul 13  20:18     Jul 20  14:20     Jul 28  05:07    
+        Aug  5  02:55     Aug 12  01:58     Aug 19  01:26     Aug 27  00:28    
+        Sep  3  14:22     Sep 10  08:33     Sep 17  15:45     Sep 25  20:06    
+        Oct  3  01:31     Oct  9  17:12     Oct 17  09:22 n   Oct 25  14:25    
+        Nov  1  12:39 T   Nov  8  04:50     Nov 16  05:08     Nov 24  06:14    
+        Nov 30  23:42     Dec  7  19:58     Dec 16  00:57     Dec 23  18:58    
+        Dec 30  10:34                                                          
+-1075                     Jan  6  14:09     Jan 14  18:54     Jan 22  04:38      07h27m
+        Jan 28  21:27     Feb  5  10:01     Feb 13  10:00     Feb 20  11:47    
+        Feb 27  08:55     Mar  7  05:40     Mar 14  22:10     Mar 21  17:26    
+        Mar 28  21:26     Apr  5  23:35     Apr 13  07:50 t   Apr 19  22:59    
+        Apr 27  11:11 P   May  5  14:58     May 12  15:37     May 19  05:49    
+        May 27  01:52     Jun  4  03:44     Jun 10  22:23     Jun 17  15:13    
+        Jun 25  17:01     Jul  3  14:07     Jul 10  05:12     Jul 17  04:03    
+        Jul 25  08:11     Aug  1  22:33     Aug  8  13:14     Aug 15  20:27    
+        Aug 23  23:05     Aug 31  05:43     Sep  6  23:37     Sep 14  15:48    
+        Sep 22  13:26     Sep 29  12:35     Oct  6  13:04 t   Oct 14  12:48    
+        Oct 22  02:54 P   Oct 28  20:20     Nov  5  05:31     Nov 13  09:40    
+        Nov 20  15:10     Nov 27  06:06     Dec  5  00:02     Dec 13  04:33    
+        Dec 20  02:10     Dec 26  18:32                                        
+-1074                                       Jan  3  19:13     Jan 11  19:56      07h26m
+        Jan 18  12:10     Jan 25  09:33     Feb  2  13:35     Feb 10  07:12    
+        Feb 16  21:42     Feb 24  02:21     Mar  4  05:57     Mar 11  14:49    
+        Mar 18  07:21 T   Mar 25  19:59     Apr  2  19:36 p   Apr  9  20:02    
+        Apr 16  17:39     Apr 24  13:36     May  2  06:24     May  9  00:27    
+        May 16  05:05     May 24  06:30     May 31  14:55     Jun  7  05:38    
+        Jun 14  18:00     Jun 22  22:00     Jun 29  22:12     Jul  6  12:57    
+        Jul 14  08:42     Jul 22  11:35     Jul 29  05:30     Aug  4  23:28    
+        Aug 13  01:03     Aug 20  23:02     Aug 27  13:53     Sep  3  13:46    
+        Sep 11  18:21 A   Sep 19  08:37     Sep 26  00:08 t   Oct  3  07:52    
+        Oct 11  11:22     Oct 18  16:59     Oct 25  12:33     Nov  2  05:00    
+        Nov 10  02:56     Nov 17  01:05     Nov 24  03:04     Dec  2  03:18    
+        Dec  9  16:26     Dec 16  09:44     Dec 23  19:27                      
+-1073                                                         Jan  1  00:15      07h26m
+        Jan  8  03:58     Jan 14  19:35     Jan 22  13:10     Jan 30  17:42    
+        Feb  6  13:57     Feb 13  06:58     Feb 21  07:09     Mar  1  06:49    
+        Mar  7  22:48 T   Mar 14  20:03     Mar 23  00:02 n   Mar 30  15:58    
+        Apr  6  07:02     Apr 13  10:54     Apr 21  14:41     Apr 28  22:15    
+        May  5  15:16     May 13  03:18     May 21  02:46     May 28  03:00    
+        Jun  4  00:27     Jun 11  20:39     Jun 19  12:48     Jun 26  07:36    
+        Jul  3  11:37     Jul 11  14:01     Jul 18  21:43     Jul 25  13:24    
+        Aug  2  01:33     Aug 10  06:25     Aug 17  06:30 n   Aug 23  21:44    
+        Aug 31  18:18 A   Sep  8  21:13     Sep 15  15:49 n   Sep 22  09:43    
+        Sep 30  12:53     Oct  8  10:09     Oct 15  02:02     Oct 22  01:57    
+        Oct 30  07:38     Nov  6  21:11     Nov 13  13:20     Nov 20  21:58    
+        Nov 29  01:03     Dec  6  06:28     Dec 13  01:59     Dec 20  19:57    
+        Dec 28  16:16                                                          
+-1072                     Jan  4  14:31     Jan 11  16:14     Jan 19  17:23      07h26m
+        Jan 27  05:03     Feb  2  22:07     Feb 10  07:55 p   Feb 18  12:11    
+        Feb 25  15:29 T   Mar  3  06:16     Mar 11  00:20     Mar 19  03:23    
+        Mar 25  23:55     Apr  1  15:56     Apr  9  16:28     Apr 17  14:56    
+        Apr 24  07:01     May  1  03:47     May  9  07:28     May 16  23:19    
+        May 23  13:49     May 30  18:05     Jun  7  21:04     Jun 15  05:25    
+        Jun 21  21:37     Jun 29  10:33     Jul  7  09:24     Jul 14  10:23    
+        Jul 21  07:35     Jul 29  04:31     Aug  5  20:47 p   Aug 12  15:37    
+        Aug 19  20:34 A   Aug 27  23:07     Sep  4  07:32     Sep 10  22:39    
+        Sep 18  12:38     Sep 26  17:20     Oct  3  17:54     Oct 10  08:51    
+        Oct 18  07:04     Oct 26  09:59     Nov  2  04:16     Nov  8  22:56    
+        Nov 17  02:33     Nov 24  23:59     Dec  1  15:00     Dec  8  16:34    
+        Dec 16  21:32     Dec 24  10:50     Dec 31  02:26                      
+-1071                                                         Jan  7  12:27      07h25m
+        Jan 15  14:36 P   Jan 22  18:56     Jan 29  14:46 t   Feb  6  08:51    
+        Feb 14  04:44 P   Feb 21  01:21     Feb 28  03:55     Mar  8  04:10    
+        Mar 15  15:42     Mar 22  07:26     Mar 29  17:45     Apr  6  21:11    
+        Apr 14  00:03     Apr 20  14:28     Apr 28  08:09     May  6  11:13    
+        May 13  06:51     May 19  23:25     May 27  23:00     Jun  4  22:07    
+        Jun 11  13:22     Jun 18  10:57     Jun 26  14:02     Jul  4  06:21    
+        Jul 10  20:47 P   Jul 18  01:27     Jul 26  04:48 t   Aug  2  12:54    
+        Aug  9  06:04 P   Aug 16  18:56     Aug 24  18:45     Aug 31  19:02    
+        Sep  7  17:50     Sep 15  14:51     Sep 23  07:34     Sep 30  02:03    
+        Oct  7  08:25     Oct 15  11:43     Oct 22  19:23     Oct 29  11:04    
+        Nov  6  01:44     Nov 14  07:26     Nov 21  06:35     Nov 27  22:43    
+        Dec  5  21:04     Dec 14  00:07     Dec 20  17:28     Dec 27  13:05    
+-1070   Jan  4  16:48 A   Jan 12  12:56     Jan 19  04:07 p   Jan 26  05:47      07h25m
+        Feb  3  10:56     Feb 10  22:10     Feb 17  14:32     Feb 25  00:03    
+        Mar  5  02:01     Mar 12  04:48     Mar 19  00:58     Mar 26  18:45    
+        Apr  3  13:48     Apr 10  10:05     Apr 17  12:04     Apr 25  12:36    
+        May  2  22:58     May  9  15:16     May 17  00:31     May 25  04:31    
+        Jun  1  06:37     Jun  7  21:37     Jun 15  14:44     Jun 23  18:02    
+        Jun 30  13:49 T   Jul  7  06:22     Jul 15  06:28 p   Jul 23  05:16    
+        Jul 29  21:27     Aug  5  18:35     Aug 13  22:54     Aug 21  14:45    
+        Aug 28  06:15     Sep  4  10:52     Sep 12  15:01     Sep 19  23:06    
+        Sep 26  16:54     Oct  4  06:48     Oct 12  06:11     Oct 19  07:02    
+        Oct 26  06:02     Nov  3  04:45     Nov 10  20:10     Nov 17  15:16    
+        Nov 24  21:57     Dec  3  02:15     Dec 10  08:53 n   Dec 17  00:35    
+        Dec 24  16:08 A                                                        
+-1069                     Jan  1  21:12     Jan  8  20:11 n   Jan 15  11:42      07h25m
+        Jan 23  11:06     Jan 31  12:26     Feb  7  06:01     Feb 14  01:00    
+        Feb 22  05:01     Mar  1  23:44     Mar  8  14:41     Mar 15  16:22    
+        Mar 23  20:42     Mar 31  07:34     Apr  6  23:01     Apr 14  09:09    
+        Apr 22  09:49     Apr 29  12:56     May  6  08:03     May 14  02:25    
+        May 21  20:44     May 28  17:10     Jun  4  18:47 n   Jun 12  19:22    
+        Jun 20  06:01 T   Jun 26  21:53     Jul  4  07:48 n   Jul 12  11:24    
+        Jul 19  14:22     Jul 26  04:39     Aug  2  23:04     Aug 11  02:10    
+        Aug 17  22:31     Aug 24  14:54     Sep  1  16:03     Sep  9  15:18    
+        Sep 16  07:18     Sep 23  05:24     Oct  1  09:54     Oct  9  02:32    
+        Oct 15  17:31     Oct 22  23:56     Oct 31  03:36     Nov  7  11:56    
+        Nov 14  05:47     Nov 21  21:10     Nov 29  20:03 p   Dec  6  20:04    
+        Dec 13  20:09 A   Dec 21  19:07     Dec 29  10:18                      
+-1068                                                         Jan  5  03:57      07h24m
+        Jan 12  12:09     Jan 20  15:42     Jan 27  21:56     Feb  3  12:36    
+        Feb 11  04:55     Feb 19  09:12     Feb 26  07:13     Mar  3  22:45    
+        Mar 11  21:36     Mar 19  22:42     Mar 26  14:58     Apr  2  10:43    
+        Apr 10  13:31     Apr 18  08:14     Apr 24  22:15     May  2  00:31    
+        May 10  04:06     May 17  14:39     May 24  06:03 p   May 31  16:03    
+        Jun  8  17:00 A   Jun 15  19:21     Jun 22  15:17     Jun 30  09:05    
+        Jul  8  04:11     Jul 14  23:55     Jul 22  02:38     Jul 30  03:05    
+        Aug  6  14:04     Aug 13  05:54     Aug 20  16:37     Aug 28  21:03    
+        Sep  4  23:24     Sep 11  14:37     Sep 19  09:23     Sep 27  13:41    
+        Oct  4  09:06     Oct 11  02:54     Oct 19  04:21     Oct 27  03:58    
+        Nov  2  19:42 P   Nov  9  18:55     Nov 17  23:59 t   Nov 25  15:32    
+        Dec  2  07:20 P   Dec  9  14:08     Dec 17  18:16     Dec 25  00:44    
+-1067   Dec 31  19:50     Jan  8  11:13     Jan 16  09:43     Jan 23  08:23      07h24m
+        Jan 30  09:04     Feb  7  08:11     Feb 14  21:58     Feb 21  15:24    
+        Feb 28  23:06     Mar  9  02:59     Mar 16  07:34     Mar 22  22:44    
+        Mar 30  14:01     Apr  7  18:19     Apr 14  15:26     Apr 21  07:14    
+        Apr 29  05:31 P   May  7  06:00     May 13  22:28 t   May 20  17:45    
+        May 28  20:52     Jun  5  14:40     Jun 12  05:31     Jun 19  07:00    
+        Jun 27  11:19     Jul  4  21:21     Jul 11  13:29     Jul 18  23:16    
+        Jul 27  00:31     Aug  3  03:11     Aug  9  23:20     Aug 17  18:04    
+        Aug 25  12:38     Sep  1  09:21     Sep  8  12:04     Sep 16  14:04    
+        Sep 24  00:10     Sep 30  16:57     Oct  8  04:12     Oct 16  09:31    
+        Oct 23  11:31 T   Oct 30  03:00     Nov  6  23:10 p   Nov 15  02:56    
+        Nov 21  22:42     Nov 28  16:16     Dec  6  19:14     Dec 14  17:23    
+        Dec 21  09:36     Dec 28  08:48                                        
+-1066                                       Jan  5  14:15     Jan 13  04:33      07h24m
+        Jan 19  20:14     Jan 27  03:44     Feb  4  06:44     Feb 11  12:45    
+        Feb 18  07:03     Feb 25  23:26     Mar  5  20:15     Mar 12  18:50    
+        Mar 19  18:40     Mar 27  18:10     Apr  4  07:01     Apr 11  00:04    
+        Apr 18  07:33 A   Apr 26  10:49     May  3  15:36 p   May 10  05:53    
+        May 17  21:39     May 26  01:00     Jun  1  22:47     Jun  8  13:42    
+        Jun 16  12:37     Jun 24  12:45     Jul  1  05:31     Jul  8  00:39    
+        Jul 16  03:58     Jul 23  22:24     Jul 30  12:54     Aug  6  15:17    
+        Aug 14  19:18     Aug 22  06:24     Aug 28  22:06     Sep  5  09:25    
+        Sep 13  10:17     Sep 20  13:32     Sep 27  10:05     Oct  5  05:58    
+        Oct 13  00:32 A   Oct 19  20:49     Oct 27  01:08 n   Nov  4  03:19    
+        Nov 11  13:37     Nov 18  05:27     Nov 25  18:44     Dec  3  23:34    
+        Dec 11  01:17     Dec 17  16:23     Dec 25  13:39                      
+-1065                                                         Jan  2  16:54      07h23m
+        Jan  9  11:39     Jan 16  05:53     Jan 24  08:26     Feb  1  06:13    
+        Feb  7  21:09     Feb 14  21:32     Feb 23  01:46     Mar  2  15:29    
+        Mar  9  06:25     Mar 16  14:31     Mar 24  16:43 p   Mar 31  21:39    
+        Apr  7  16:04 T   Apr 15  08:00     Apr 23  04:53     Apr 30  02:10    
+        May  7  02:40     May 15  01:17     May 22  14:30     May 29  06:42    
+        Jun  5  14:40     Jun 13  17:40     Jun 20  22:22     Jun 27  12:44    
+        Jul  5  04:27     Jul 13  08:32     Jul 20  05:40     Jul 26  21:31    
+        Aug  3  20:08     Aug 11  21:24     Aug 18  13:33     Aug 25  09:53    
+        Sep  2  13:19     Sep 10  08:12     Sep 16  22:58 p   Sep 24  02:11    
+        Oct  2  06:56 A   Oct  9  17:21     Oct 16  10:23     Oct 23  22:03    
+        Oct 31  23:36     Nov  8  01:38     Nov 14  23:53     Nov 22  20:06    
+        Nov 30  14:18     Dec  7  09:55     Dec 14  15:15     Dec 22  18:02    
+        Dec 30  02:48                                                          
+-1064                     Jan  5  18:57     Jan 13  08:10     Jan 21  13:25      07h23m
+        Jan 28  13:24     Feb  4  05:14     Feb 12  01:55     Feb 20  04:40    
+        Feb 26  22:35 P   Mar  4  17:05     Mar 12  19:18 t   Mar 20  15:40    
+        Mar 27  06:51 P   Apr  3  06:41     Apr 11  11:03     Apr 18  23:14    
+        Apr 25  14:48     May  2  22:05     May 11  00:25     May 18  04:36    
+        May 24  23:15     Jun  1  14:58     Jun  9  11:30     Jun 16  09:08    
+        Jun 23  09:13     Jul  1  08:33     Jul  8  21:02     Jul 15  14:13    
+        Jul 22  21:43     Jul 31  01:48     Aug  7  06:00     Aug 13  21:11    
+        Aug 21  13:13     Aug 29  17:49     Sep  5  15:14 t   Sep 12  07:16    
+        Sep 20  07:15 P   Sep 28  08:05     Oct  5  01:09     Oct 11  21:22    
+        Oct 20  02:21     Oct 27  20:21     Nov  3  11:59     Nov 10  15:37    
+        Nov 18  20:45     Nov 26  06:37     Dec  2  23:53     Dec 10  12:49    
+        Dec 18  13:12     Dec 25  15:12                                        
+-1063                                       Jan  1  13:08     Jan  9  10:42      07h23m
+        Jan 17  03:11     Jan 23  22:45     Jan 31  03:52     Feb  8  06:52    
+        Feb 15  14:40 T   Feb 22  06:14     Mar  1  19:44 p   Mar  9  23:51    
+        Mar 16  23:53     Mar 23  14:42     Mar 31  11:52     Apr  8  13:10    
+        Apr 15  07:24     Apr 22  01:04     Apr 30  03:23     May  7  23:07    
+        May 14  14:06     May 21  13:54     May 29  17:42     Jun  6  06:22    
+        Jun 12  21:12     Jun 20  05:14     Jun 28  06:48     Jul  5  11:54    
+        Jul 12  05:57     Jul 19  22:37     Jul 27  18:53     Aug  3  16:58    
+        Aug 10  17:25 A   Aug 18  17:15     Aug 26  06:12 p   Sep  1  23:03    
+        Sep  9  08:05     Sep 17  12:07     Sep 24  17:00     Oct  1  07:36    
+        Oct  9  01:35     Oct 17  06:02     Oct 24  03:30     Oct 30  19:41    
+        Nov  7  20:49     Nov 15  21:43     Nov 22  14:03     Nov 29  11:32    
+        Dec  7  16:17     Dec 15  10:16     Dec 22  01:01     Dec 29  06:18    
+-1062   Jan  6  10:27     Jan 13  19:38     Jan 20  12:41 n   Jan 28  02:24      07h22m
+        Feb  5  02:04 A   Feb 12  02:35     Feb 19  01:09 n   Feb 26  22:11    
+        Mar  6  14:30     Mar 13  08:29     Mar 20  14:21     Mar 28  16:21    
+        Apr  4  23:58     Apr 11  14:39     Apr 19  04:14     Apr 27  07:56    
+        May  4  07:20     May 10  22:18     May 18  18:44     May 26  20:31    
+        Jun  2  13:49     Jun  9  08:17     Jun 17  09:45     Jun 25  06:13    
+        Jul  1  20:42     Jul  8  21:11     Jul 17  00:54 n   Jul 24  13:45    
+        Jul 31  05:02 T   Aug  7  13:15     Aug 15  15:37 n   Aug 22  20:10    
+        Aug 29  15:36     Sep  6  08:15     Sep 14  05:20     Sep 21  02:47    
+        Sep 28  04:51     Oct  6  05:06     Oct 13  17:53     Oct 20  10:46    
+        Oct 27  20:53     Nov  5  01:54     Nov 12  05:30     Nov 18  21:01    
+        Nov 26  15:19     Dec  4  20:26     Dec 11  16:32     Dec 18  09:52    
+        Dec 26  10:59                                                          
+-1061                     Jan  3  11:16     Jan 10  03:12 p   Jan 17  01:11      07h22m
+        Jan 25  06:02 A   Feb  1  22:11     Feb  8  13:30     Feb 15  18:26    
+        Feb 23  22:39     Mar  3  05:54     Mar  9  23:36     Mar 17  12:46    
+        Mar 25  11:59     Apr  1  11:35     Apr  8  10:01     Apr 16  07:01    
+        Apr 23  22:18     Apr 30  16:31     May  7  21:29     May 16  00:00    
+        May 23  06:36     May 29  22:00     Jun  6  10:41     Jun 14  14:54    
+        Jun 21  13:59     Jun 28  05:18     Jul  6  01:45 p   Jul 14  03:31    
+        Jul 20  21:26 T   Jul 27  15:37     Aug  4  18:07     Aug 12  14:08    
+        Aug 19  05:43     Aug 26  05:52     Sep  3  10:47     Sep 10  23:18    
+        Sep 17  15:29     Sep 25  00:12     Oct  3  02:47     Oct 10  07:36    
+        Oct 17  03:23     Oct 24  21:32     Nov  1  17:37     Nov  8  15:41    
+        Nov 15  17:54     Nov 23  19:40     Dec  1  07:06     Dec  8  00:19    
+        Dec 15  10:58     Dec 23  16:10     Dec 30  19:07 t                    
+-1060                                                         Jan  6  10:15      07h22m
+        Jan 14  05:34 P   Jan 22  09:20     Jan 29  05:33     Feb  4  22:07    
+        Feb 12  23:59     Feb 20  22:33     Feb 27  14:32     Mar  5  12:07    
+        Mar 13  16:43     Mar 21  07:59     Mar 27  22:42     Apr  4  03:58    
+        Apr 12  07:02     Apr 19  14:25     Apr 26  07:02     May  3  20:54    
+        May 11  19:01     May 18  19:01     May 25  16:40     Jun  2  14:04    
+        Jun 10  05:09 P   Jun 16  23:16     Jun 24  04:25 t   Jul  2  06:46    
+        Jul  9  14:03 P   Jul 16  04:48     Jul 23  18:37     Jul 31  22:30    
+        Aug  7  22:24     Aug 14  13:11     Aug 22  10:59     Aug 30  12:52    
+        Sep  6  06:58     Sep 13  01:32     Sep 21  04:45     Sep 29  01:26    
+        Oct  5  16:31     Oct 12  18:11     Oct 20  22:54     Oct 28  11:58    
+        Nov  4  03:47     Nov 11  14:18     Nov 19  16:17     Nov 26  20:44    
+        Dec  3  17:03 A   Dec 11  12:07     Dec 19  07:48 p   Dec 26  04:33    
+-1059   Jan  2  08:08     Jan 10  09:32     Jan 17  20:43     Jan 24  12:30      07h22m
+        Feb  1  00:21     Feb  9  04:39     Feb 16  06:58     Feb 22  21:31    
+        Mar  2  16:53     Mar 10  20:10     Mar 17  15:11     Mar 24  08:12    
+        Apr  1  09:03     Apr  9  07:37     Apr 15  22:25     Apr 22  20:46    
+        May  1  00:17     May  8  15:31     May 15  05:43     May 22  11:14    
+        May 30  14:07 A   Jun  6  20:59     Jun 13  14:04 p   Jun 21  03:31    
+        Jun 29  02:20     Jul  6  01:32     Jul 13  00:16     Jul 20  21:16    
+        Jul 28  13:02     Aug  4  06:44     Aug 11  12:57     Aug 19  15:41    
+        Aug 26  22:48     Sep  2  14:02     Sep 10  04:28     Sep 18  09:30    
+        Sep 25  08:27     Oct  2  00:30     Oct  9  22:36     Oct 18  01:23    
+        Oct 24  18:43     Oct 31  14:39     Nov  8  18:16     Nov 16  14:32    
+        Nov 23  05:53 T   Nov 30  08:16     Dec  8  13:33 n   Dec 16  00:56    
+        Dec 22  17:52     Dec 30  04:27                                        
+-1058                                       Jan  7  06:32     Jan 14  09:11      07h21m
+        Jan 21  06:29     Jan 29  01:31     Feb  5  20:17     Feb 12  16:14    
+        Feb 19  19:47     Feb 27  21:27     Mar  7  06:59     Mar 13  23:02    
+        Mar 21  09:58     Mar 29  14:31     Apr  5  15:30     Apr 12  06:33    
+        Apr 20  01:00     Apr 28  04:02     May  4  22:46 n   May 11  15:42    
+        May 19  16:26 A   May 27  14:15     Jun  3  05:40 n   Jun 10  03:20    
+        Jun 18  07:30     Jun 25  21:59     Jul  2  13:05     Jul  9  18:03    
+        Jul 17  21:34     Jul 25  04:20     Jul 31  21:56     Aug  8  11:47    
+        Aug 16  10:29     Aug 23  10:24     Aug 30  09:13     Sep  7  07:37    
+        Sep 14  22:33     Sep 21  17:17     Sep 28  23:43     Oct  7  03:50    
+        Oct 14  10:12     Oct 21  02:03     Oct 28  17:28 n   Nov  5  22:41    
+        Nov 12  21:37 T   Nov 19  13:34     Nov 27  13:15     Dec  5  14:51    
+        Dec 12  08:40     Dec 19  04:20     Dec 27  08:59                      
+-1057                                                         Jan  4  03:44      07h21m
+        Jan 10  19:16     Jan 17  21:57     Jan 26  02:47     Feb  2  13:18    
+        Feb  9  05:40     Feb 16  17:10     Feb 24  17:41     Mar  3  20:11    
+        Mar 10  16:31     Mar 18  12:19     Mar 26  05:41     Apr  2  01:30    
+        Apr  9  04:27     Apr 17  06:00     Apr 24  15:15 t   May  1  06:39    
+        May  8  17:46 A   May 16  21:29     May 23  23:03     May 30  13:08    
+        Jun  7  08:17     Jun 15  10:37     Jun 22  05:56     Jun 28  22:17    
+        Jul  6  23:34     Jul 14  21:34     Jul 21  12:57     Jul 28  11:01    
+        Aug  5  15:11     Aug 13  06:38     Aug 19  21:14     Aug 27  03:33    
+        Sep  4  06:41     Sep 11  14:21     Sep 18  07:51     Sep 25  23:12    
+        Oct  3  21:39     Oct 10  21:36     Oct 17  21:26 t   Oct 25  20:33    
+        Nov  2  11:36 P   Nov  9  05:28     Nov 16  13:51     Nov 24  17:44    
+        Dec  2  00:05     Dec  8  15:05     Dec 16  08:10     Dec 24  12:47    
+        Dec 31  11:01                                                          
+-1056                     Jan  7  03:04     Jan 15  03:02     Jan 23  04:12      07h21m
+        Jan 29  20:43     Feb  5  17:23     Feb 13  21:03     Feb 21  15:24    
+        Feb 28  05:48     Mar  6  09:27     Mar 14  13:09     Mar 21  22:53    
+        Mar 28  14:56 T   Apr  5  02:29     Apr 13  02:41 t   Apr 20  03:58    
+        Apr 27  00:47     May  4  19:47     May 12  13:32     May 19  08:13    
+        May 26  11:52     Jun  3  12:44     Jun 10  22:15     Jun 17  13:15    
+        Jun 25  00:39     Jul  3  04:39     Jul 10  05:50     Jul 16  20:30    
+        Jul 24  15:28     Aug  1  18:53     Aug  8  13:28     Aug 15  07:00    
+        Aug 23  08:11     Aug 31  07:05     Sep  6  22:13     Sep 13  21:23    
+        Sep 22  02:02 A   Sep 29  17:19     Oct  6  08:44 t   Oct 13  15:38    
+        Oct 21  19:36     Oct 29  02:08     Nov  4  21:15     Nov 12  12:52    
+        Nov 20  11:33     Nov 27  10:22     Dec  4  11:37     Dec 12  11:11    
+        Dec 20  01:11     Dec 26  18:50                                        
+-1055                                       Jan  3  03:37     Jan 11  08:04      07h20m
+        Jan 18  12:36     Jan 25  04:12     Feb  1  20:48     Feb 10  01:26    
+        Feb 16  22:17     Feb 23  14:53     Mar  3  14:16     Mar 11  14:28    
+        Mar 18  06:45 T   Mar 25  03:13     Apr  2  06:49 n   Apr  9  23:36    
+        Apr 16  14:35     Apr 23  17:26     May  1  21:23     May  9  05:56    
+        May 15  22:31     May 23  09:28     May 31  09:38     Jun  7  10:46    
+        Jun 14  07:31     Jun 22  02:49     Jun 29  20:00     Jul  6  15:29    
+        Jul 13  18:37     Jul 21  20:34     Jul 29  05:22     Aug  4  21:24    
+        Aug 12  08:41     Aug 20  13:38     Aug 27  14:38 n   Sep  3  05:50    
+        Sep 11  01:44 A   Sep 19  05:12     Sep 26  00:24 n   Oct  2  17:53    
+        Oct 10  20:43     Oct 18  18:48     Oct 25  10:53     Nov  1  10:06    
+        Nov  9  15:51     Nov 17  06:16     Nov 23  22:13     Dec  1  05:58    
+        Dec  9  09:28     Dec 16  15:41     Dec 23  10:38     Dec 31  03:40    
+-1054   Jan  8  00:43     Jan 14  23:32     Jan 22  00:22     Jan 30  00:47      07h20m
+        Feb  6  13:20     Feb 13  06:41     Feb 20  15:25 p   Feb 28  19:21    
+        Mar  7  23:31 T   Mar 14  14:14     Mar 22  07:15     Mar 30  10:28    
+        Apr  6  07:40     Apr 12  23:14     Apr 20  22:59     Apr 28  22:06    
+        May  5  14:32     May 12  10:32     May 20  13:55     May 28  06:44    
+        Jun  3  21:14     Jun 11  00:29     Jun 19  03:45     Jun 26  13:10    
+        Jul  3  05:00     Jul 10  16:55     Jul 18  16:32     Jul 25  18:29    
+        Aug  1  15:03     Aug  9  11:12     Aug 17  04:30 p   Aug 24  00:01    
+        Aug 31  04:11 A   Sep  8  06:22     Sep 15  15:49     Sep 22  07:16    
+        Sep 29  20:28     Oct  8  01:15     Oct 15  02:39     Oct 21  17:31    
+        Oct 29  15:06     Nov  6  18:29     Nov 13  13:15     Nov 20  07:27    
+        Nov 28  10:41     Dec  6  08:49     Dec 12  23:56     Dec 20  00:43    
+        Dec 28  05:40                                                          
+-1053                     Jan  4  19:46     Jan 11  11:03     Jan 18  20:05      07h20m
+        Jan 26  22:37 P   Feb  3  03:42     Feb  9  22:51 t   Feb 17  15:57    
+        Feb 25  12:35 P   Mar  4  09:46     Mar 11  11:22     Mar 19  10:52    
+        Mar 26  23:22     Apr  2  15:25     Apr 10  00:38     Apr 18  03:46    
+        Apr 25  07:35     May  1  21:58     May  9  14:38     May 17  17:58    
+        May 24  14:20     May 31  06:29     Jun  8  05:23     Jun 16  05:16    
+        Jun 22  20:55     Jun 29  17:46     Jul  7  20:39     Jul 15  14:02    
+        Jul 22  04:29 P   Jul 29  08:13     Aug  6  11:55 t   Aug 13  21:08    
+        Aug 20  13:58 P   Aug 28  01:56     Sep  5  02:30     Sep 12  03:43    
+        Sep 19  01:56     Sep 26  22:15     Oct  4  15:56     Oct 11  11:02    
+        Oct 18  16:39     Oct 26  19:35     Nov  3  04:11     Nov  9  20:06    
+        Nov 17  09:58     Nov 25  15:41     Dec  2  15:33     Dec  9  07:31    
+        Dec 17  05:08     Dec 25  08:34                                        
+-1052                                       Jan  1  02:21     Jan  7  21:24      07h19m
+        Jan 16  00:38 A   Jan 23  21:25     Jan 30  12:38 p   Feb  6  13:25    
+        Feb 14  18:30     Feb 22  06:33     Feb 28  22:33     Mar  7  06:59    
+        Mar 15  09:24     Mar 22  13:00     Mar 29  08:26     Apr  6  01:11    
+        Apr 13  21:05     Apr 20  18:01     Apr 27  19:02     May  5  18:50    
+        May 13  06:16     May 19  22:56     May 27  07:09     Jun  4  10:57    
+        Jun 11  14:03     Jun 18  05:04     Jun 25  21:15     Jul  4  00:56    
+        Jul 10  21:29 T   Jul 17  13:41     Jul 25  13:12 p   Aug  2  12:50    
+        Aug  9  05:25     Aug 16  01:53     Aug 24  06:06     Aug 31  22:59    
+        Sep  7  14:31     Sep 14  18:17     Sep 22  22:50     Sep 30  07:56    
+        Oct  7  01:23     Oct 14  14:26     Oct 22  14:33     Oct 29  16:12    
+        Nov  5  14:34     Nov 13  12:35     Nov 21  04:54     Nov 28  00:29    
+        Dec  5  06:20     Dec 13  10:13     Dec 20  17:42 n   Dec 27  09:32    
+-1051   Jan  4  00:10 A   Jan 12  05:12     Jan 19  04:51 n   Jan 25  20:06      07h19m
+        Feb  2  18:40     Feb 10  20:23     Feb 17  14:20     Feb 24  08:40    
+        Mar  4  12:11     Mar 12  07:37     Mar 18  22:35     Mar 25  23:18    
+        Apr  3  03:37     Apr 10  15:24     Apr 17  06:29     Apr 24  15:31    
+        May  2  16:43     May  9  20:44     May 16  15:10     May 24  08:33    
+        Jun  1  03:47     Jun  8  00:58     Jun 15  01:40 n   Jun 23  01:38    
+        Jun 30  13:23 T   Jul  7  05:40     Jul 14  14:39 n   Jul 22  18:10    
+        Jul 29  22:08     Aug  5  12:29     Aug 13  06:06     Aug 21  09:38    
+        Aug 28  06:43     Sep  3  22:47     Sep 11  23:29     Sep 19  23:31    
+        Sep 26  15:52     Oct  3  13:21     Oct 11  17:48     Oct 19  11:22    
+        Oct 26  02:19     Nov  2  07:54     Nov 10  11:55     Nov 17  21:07    
+        Nov 24  14:33     Dec  2  05:04     Dec 10  04:36 p   Dec 17  05:18    
+        Dec 24  04:38 A                                                        
+-1050                     Jan  1  02:51     Jan  8  18:52     Jan 15  12:54      07h19m
+        Jan 22  20:07     Jan 30  23:12     Feb  7  06:18     Feb 13  21:01    
+        Feb 21  12:17     Mar  1  16:33     Mar  8  15:17     Mar 15  06:29    
+        Mar 23  04:27     Mar 31  06:01     Apr  6  22:43     Apr 13  17:45    
+        Apr 21  20:05     Apr 29  15:39     May  6  05:43     May 13  07:01    
+        May 21  10:40     May 28  22:16     Jun  4  13:21 p   Jun 11  22:17    
+        Jun 19  23:51 A   Jun 27  03:12     Jul  3  22:31     Jul 11  15:25    
+        Jul 19  11:30     Jul 26  08:00     Aug  2  09:56     Aug 10  09:51    
+        Aug 17  21:55     Aug 24  14:12     Sep  1  00:06     Sep  9  04:28    
+        Sep 16  07:47     Sep 22  23:03     Sep 30  17:08     Oct  8  21:49    
+        Oct 15  17:52     Oct 22  11:20     Oct 30  12:21     Nov  7  12:40    
+        Nov 14  04:39 P   Nov 21  03:12     Nov 29  08:11 t   Dec  7  00:32    
+        Dec 13  16:12 P   Dec 20  22:06     Dec 29  02:31                      
+-1049                                                         Jan  5  09:46      07h19m
+        Jan 12  04:19     Jan 19  18:44     Jan 27  17:52     Feb  3  17:10    
+        Feb 10  16:59     Feb 18  15:16     Feb 26  05:56     Mar  4  23:45    
+        Mar 12  06:23     Mar 20  09:48     Mar 27  15:19     Apr  3  06:32    
+        Apr 10  20:45     Apr 19  01:07     Apr 25  23:01     May  2  14:30    
+        May 10  11:55 P   May 18  13:01     May 25  05:58 t   Jun  1  00:35    
+        Jun  9  03:17     Jun 16  22:04     Jun 23  13:02     Jun 30  13:36    
+        Jul  8  18:04     Jul 16  05:12     Jul 22  21:05     Jul 30  05:54    
+        Aug  7  07:49     Aug 14  11:30     Aug 21  07:07     Aug 29  01:01    
+        Sep  5  20:34     Sep 12  18:01     Sep 19  20:02     Sep 27  21:32    
+        Oct  5  08:39     Oct 12  01:49     Oct 19  12:17     Oct 27  17:32    
+        Nov  3  20:23 T   Nov 10  11:51     Nov 18  07:18 p   Nov 26  11:22    
+        Dec  3  07:41     Dec 10  00:50     Dec 18  03:17     Dec 26  02:01    
+-1048   Jan  1  18:24     Jan  8  16:51     Jan 16  22:08     Jan 24  13:12      07h18m
+        Jan 31  04:38     Feb  7  11:08     Feb 15  14:26     Feb 22  21:14    
+        Feb 29  14:54     Mar  8  06:14     Mar 16  03:46     Mar 23  03:02    
+        Mar 30  01:57     Apr  7  00:36     Apr 14  14:25     Apr 21  07:55    
+        Apr 28  14:18 A   May  6  17:13     May 13  23:00 p   May 20  13:23    
+        May 28  04:07     Jun  5  07:40     Jun 12  06:17     Jun 18  20:55    
+        Jun 26  19:06     Jul  4  19:56     Jul 11  13:12     Jul 18  07:43    
+        Jul 26  10:46     Aug  3  06:12     Aug  9  20:50     Aug 16  22:23    
+        Aug 25  02:39     Sep  1  14:50     Sep  8  06:18     Sep 15  16:43    
+        Sep 23  18:15     Sep 30  22:26     Oct  7  18:28     Oct 15  13:36    
+        Oct 23  09:03 A   Oct 30  05:58     Nov  6  09:33 n   Nov 14  11:15    
+        Nov 21  22:28     Nov 28  14:34     Dec  6  02:59     Dec 14  07:42    
+        Dec 21  10:10     Dec 28  01:08                                        
+-1047                                       Jan  4  21:35     Jan 13  01:06      07h18m
+        Jan 19  20:19     Jan 26  14:02     Feb  3  15:58     Feb 11  14:22    
+        Feb 18  05:25     Feb 25  04:57     Mar  5  08:59     Mar 12  23:32    
+        Mar 19  14:12     Mar 26  21:14     Apr  3  23:46 p   Apr 11  05:35    
+        Apr 17  23:22 T   Apr 25  14:15     May  3  11:56     May 10  09:59    
+        May 17  09:35     May 25  07:25     Jun  1  21:42     Jun  8  14:23    
+        Jun 15  21:23     Jun 24  00:04     Jul  1  05:51     Jul  7  20:21    
+        Jul 15  11:11     Jul 23  15:31     Jul 30  13:29     Aug  6  05:07    
+        Aug 14  03:08     Aug 22  05:07     Aug 28  21:46     Sep  4  17:33    
+        Sep 12  20:48     Sep 20  16:38     Sep 27  07:31 p   Oct  4  09:57    
+        Oct 12  14:57 A   Oct 20  02:21     Oct 26  19:07     Nov  3  05:54    
+        Nov 11  08:04     Nov 18  10:53     Nov 25  08:32     Dec  3  03:57    
+        Dec 10  22:59     Dec 17  19:07     Dec 24  23:35                      
+-1046                                                         Jan  2  01:50      07h18m
+        Jan  9  11:27     Jan 16  03:47     Jan 23  16:00     Jan 31  21:04    
+        Feb  7  21:48     Feb 14  13:27     Feb 22  09:11     Mar  2  12:14    
+        Mar  9  06:38 P   Mar 16  00:33     Mar 24  02:08 t   Mar 31  23:13    
+        Apr  7  14:32 P   Apr 14  13:28     Apr 22  17:42     Apr 30  06:50    
+        May  6  22:10     May 14  04:23     May 22  07:09     May 29  12:19    
+        Jun  5  06:25     Jun 12  21:06     Jun 20  18:32     Jun 27  17:00    
+        Jul  4  16:18     Jul 12  14:55     Jul 20  04:30     Jul 26  22:14    
+        Aug  3  04:51     Aug 11  08:44     Aug 18  13:59     Aug 25  05:20    
+        Sep  1  20:35     Sep 10  01:30     Sep 16  23:41 t   Sep 23  15:30    
+        Oct  1  14:58 P   Oct  9  16:28     Oct 16  09:57     Oct 23  05:37    
+        Oct 31  10:25     Nov  8  05:15     Nov 14  20:54     Nov 21  23:44    
+        Nov 30  05:04     Dec  7  15:46     Dec 14  08:39     Dec 21  20:39    
+        Dec 29  21:35                                                          
+-1045                     Jan  6  00:17     Jan 12  21:29     Jan 20  18:10      07h17m
+        Jan 28  11:28     Feb  4  07:30     Feb 11  11:37     Feb 19  14:02    
+        Feb 26  22:43 T   Mar  5  14:26     Mar 13  02:50 p   Mar 21  06:51    
+        Mar 28  07:41     Apr  3  22:17     Apr 11  18:29     Apr 19  20:12    
+        Apr 26  14:59     May  3  08:04     May 11  09:47     May 19  06:22    
+        May 25  21:34     Jun  1  20:27     Jun 10  00:14     Jun 17  13:58    
+        Jun 24  04:37     Jul  1  11:38     Jul  9  13:43     Jul 16  19:53    
+        Jul 23  13:26     Jul 31  05:11     Aug  8  02:22     Aug 15  01:19    
+        Aug 22  01:03 A   Aug 30  00:16     Sep  6  14:17 p   Sep 13  07:39    
+        Sep 20  15:54     Sep 28  19:46     Oct  6  01:36     Oct 12  16:20    
+        Oct 20  09:35     Oct 28  14:17     Nov  4  12:26     Nov 11  04:21    
+        Nov 19  04:56     Nov 27  06:24     Dec  3  23:03     Dec 10  19:54    
+        Dec 19  00:24     Dec 26  19:08                                        
+-1044                                       Jan  2  09:48     Jan  9  14:10      07h17m
+        Jan 17  18:28     Jan 25  04:26     Jan 31  21:00 n   Feb  8  09:41    
+        Feb 16  09:55 A   Feb 23  11:08     Mar  1  08:52 n   Mar  9  04:59    
+        Mar 16  22:10     Mar 23  16:38     Mar 30  21:27     Apr  7  22:53    
+        Apr 15  07:30     Apr 21  22:21     Apr 29  10:51     May  7  14:31    
+        May 14  14:48     May 21  05:34     May 29  01:08     Jun  6  03:25    
+        Jun 12  21:20     Jun 19  15:14     Jun 27  16:14     Jul  5  13:38    
+        Jul 12  04:21     Jul 19  04:01     Jul 27  07:47     Aug  3  21:44    
+        Aug 10  12:54 T   Aug 17  20:11     Aug 25  23:06 n   Sep  2  04:42    
+        Sep  8  23:41     Sep 16  15:29     Sep 24  13:28     Oct  1  11:42    
+        Oct  8  13:06     Oct 16  12:47     Oct 24  02:32     Oct 30  19:51    
+        Nov  7  05:10     Nov 15  09:58     Nov 22  14:26     Nov 29  05:59    
+        Dec  6  23:29     Dec 15  04:46     Dec 22  01:28     Dec 28  18:26    
+-1043   Jan  5  18:54     Jan 13  19:42     Jan 20  11:52 p   Jan 27  09:07      07h17m
+        Feb  4  13:39 A   Feb 12  06:33     Feb 18  21:42     Feb 26  01:38    
+        Mar  6  06:01     Mar 13  14:07     Mar 20  07:16     Mar 27  19:20    
+        Apr  4  19:13     Apr 11  19:35     Apr 18  17:10     Apr 26  13:15    
+        May  4  05:32     May 11  00:17     May 18  04:14     May 26  06:16    
+        Jun  2  13:56     Jun  9  05:33     Jun 16  17:14     Jun 24  21:32    
+        Jul  1  21:32     Jul  8  12:43     Jul 16  08:23 p   Jul 24  10:46    
+        Jul 31  05:17 T   Aug  6  22:59     Aug 15  01:08     Aug 22  22:06    
+        Aug 29  13:54     Sep  5  13:18     Sep 13  18:22     Sep 21  07:55    
+        Sep 27  23:58     Oct  5  07:48     Oct 13  10:58     Oct 20  16:41    
+        Oct 27  12:00     Nov  4  05:20     Nov 12  02:14     Nov 19  00:57    
+        Nov 26  02:25     Dec  4  03:36     Dec 11  15:55     Dec 18  09:26    
+        Dec 25  19:10                                                          
+-1042                     Jan  3  00:07     Jan 10  03:52 t   Jan 16  18:55      07h16m
+        Jan 24  13:17 P   Feb  1  17:14     Feb  8  14:00     Feb 15  06:06    
+        Feb 23  07:15     Mar  3  06:22     Mar  9  22:35     Mar 16  19:20    
+        Mar 24  23:39     Apr  1  15:45     Apr  8  06:19     Apr 15  10:31    
+        Apr 23  13:51     Apr 30  22:10     May  7  14:17     May 15  03:04    
+        May 23  01:56     May 30  02:47     Jun  5  23:39     Jun 13  20:13    
+        Jun 21  12:20 P   Jun 28  07:05     Jul  5  11:18 t   Jul 13  13:16    
+        Jul 20  21:38 P   Jul 27  12:41     Aug  4  01:37     Aug 12  05:39    
+        Aug 19  06:27     Aug 25  21:07     Sep  2  18:17     Sep 10  20:47    
+        Sep 17  15:26     Sep 24  09:33     Oct  2  12:29     Oct 10  10:02    
+        Oct 17  01:18     Oct 24  02:14     Nov  1  07:04     Nov  8  21:02    
+        Nov 15  12:38     Nov 22  22:16     Dec  1  00:45     Dec  8  05:58    
+        Dec 15  01:43 A   Dec 22  19:54     Dec 30  16:21 p                    
+-1041                                                         Jan  6  13:39      07h16m
+        Jan 13  16:21     Jan 21  17:05     Jan 29  05:07     Feb  4  21:10    
+        Feb 12  07:58     Feb 20  11:59     Feb 27  15:07     Mar  6  05:33    
+        Mar 13  23:55     Mar 22  03:24     Mar 28  23:03     Apr  4  15:33    
+        Apr 12  15:41     Apr 20  14:56     Apr 27  06:00     May  4  03:31    
+        May 12  06:47     May 19  23:01     May 26  13:06     Jun  2  17:36    
+        Jun 10  20:48 A   Jun 18  04:45     Jun 24  21:22 p   Jul  2  09:49    
+        Jul 10  09:25     Jul 17  09:33     Jul 24  07:36     Aug  1  03:51    
+        Aug  8  20:40     Aug 15  15:00     Aug 22  20:26     Aug 30  22:50    
+        Sep  7  06:59     Sep 13  22:29     Sep 21  12:09     Sep 29  17:20    
+        Oct  6  17:06     Oct 13  09:02     Oct 21  06:32     Oct 29  09:51    
+        Nov  5  03:38     Nov 11  23:05     Nov 20  02:24     Nov 27  23:25    
+        Dec  4  14:49 T   Dec 11  16:25     Dec 19  21:45 n   Dec 27  09:56    
+-1040   Jan  3  02:32     Jan 10  12:10     Jan 18  14:42     Jan 25  18:04      07h16m
+        Feb  1  14:40     Feb  9  08:45     Feb 17  04:17     Feb 24  00:46    
+        Mar  2  03:21     Mar 10  04:18     Mar 17  14:48     Mar 24  07:05    
+        Mar 31  16:55     Apr  8  21:15     Apr 15  23:07     Apr 22  14:04    
+        Apr 30  07:31     May  8  10:54     May 15  06:17 n   May 21  22:45    
+        May 29  22:49 A   Jun  6  21:26     Jun 13  13:11 n   Jun 20  10:04    
+        Jun 28  14:05     Jul  6  05:38     Jul 12  20:41     Jul 20  00:41    
+        Jul 28  04:37     Aug  4  12:29     Aug 11  05:42     Aug 18  18:37    
+        Aug 26  18:09     Sep  2  18:58     Sep  9  17:10     Sep 17  14:53    
+        Sep 25  06:49     Oct  2  02:09     Oct  9  07:49     Oct 17  11:38    
+        Oct 24  18:57     Oct 31  10:59     Nov  8  01:38 n   Nov 16  06:57    
+        Nov 23  06:35 T   Nov 29  22:21     Dec  7  21:22     Dec 15  23:24    
+        Dec 22  17:35     Dec 29  12:39                                        
+-1039                                       Jan  6  16:56     Jan 14  12:21      07h15m
+        Jan 21  03:52     Jan 28  05:39     Feb  5  10:30     Feb 12  21:49    
+        Feb 19  13:47     Feb 27  00:12     Mar  7  01:13     Mar 14  04:28    
+        Mar 21  00:03     Mar 28  18:51     Apr  5  13:05     Apr 12  09:29    
+        Apr 19  11:26     Apr 27  12:20     May  4  22:36 t   May 11  14:19    
+        May 19  00:20 A   May 27  03:57     Jun  3  06:28     Jun  9  20:30    
+        Jun 17  14:44     Jun 25  17:30     Jul  2  13:32     Jul  9  05:27    
+        Jul 17  06:13     Jul 25  05:04     Jul 31  20:49     Aug  7  18:09    
+        Aug 15  22:17     Aug 23  14:48     Aug 30  05:22     Sep  6  10:49    
+        Sep 14  14:24     Sep 21  23:06     Sep 28  16:13     Oct  6  06:44    
+        Oct 14  05:58     Oct 21  06:42     Oct 28  05:55 t   Nov  5  04:22    
+        Nov 12  20:20 P   Nov 19  14:40     Nov 26  22:14     Dec  5  01:46    
+        Dec 12  08:58     Dec 19  00:03     Dec 26  16:15                      
+-1038                                                         Jan  3  20:54      07h15m
+        Jan 10  19:47     Jan 17  11:31     Jan 25  10:42     Feb  2  12:18    
+        Feb  9  05:09     Feb 16  01:08     Feb 24  04:20     Mar  3  23:25    
+        Mar 10  13:46     Mar 17  16:27     Mar 25  20:12     Apr  2  06:49    
+        Apr  8  22:27 P   Apr 16  08:54     Apr 24  09:39 t   May  1  11:49    
+        May  8  07:53     May 16  01:56     May 23  20:38     May 30  15:59    
+        Jun  6  18:42     Jun 14  18:59     Jun 22  05:36     Jun 28  20:58    
+        Jul  6  07:25     Jul 14  11:22     Jul 21  13:32     Jul 28  04:12    
+        Aug  4  22:24     Aug 13  02:18     Aug 19  21:34     Aug 26  14:44    
+        Sep  3  15:30     Sep 11  15:14     Sep 18  06:41     Sep 25  05:11    
+        Oct  3  09:50 A   Oct 11  02:06     Oct 17  17:27 t   Oct 24  23:30    
+        Nov  2  03:53     Nov  9  11:18     Nov 16  05:59     Nov 23  20:44    
+        Dec  1  20:07     Dec  8  19:37     Dec 15  20:07     Dec 23  18:57    
+        Dec 31  09:49                                                          
+-1037                     Jan  7  03:51     Jan 14  11:40     Jan 22  15:42      07h15m
+        Jan 29  21:04     Feb  5  12:41     Feb 13  04:16     Feb 21  08:56    
+        Feb 28  06:27     Mar  6  22:41     Mar 14  21:14     Mar 22  21:56    
+        Mar 29  14:34 T   Apr  5  10:19     Apr 13  13:28 n   Apr 21  07:08    
+        Apr 27  22:06     May  4  23:56     May 13  04:01     May 20  13:35    
+        May 27  05:48     Jun  3  15:40     Jun 11  16:30     Jun 18  18:36    
+        Jun 25  14:41     Jul  3  09:05     Jul 11  03:17     Jul 17  23:29    
+        Jul 25  01:48     Aug  2  03:15     Aug  9  13:09     Aug 16  05:35    
+        Aug 23  16:01     Aug 31  20:59     Sep  7  22:55     Sep 14  14:08    
+        Sep 22  09:20 A   Sep 30  13:17     Oct  7  09:06 n   Oct 14  02:13    
+        Oct 22  04:39     Oct 30  03:30     Nov  5  19:48     Nov 12  18:20    
+        Nov 21  00:03     Nov 28  15:19     Dec  5  07:06     Dec 12  13:57    
+        Dec 20  17:48     Dec 28  00:47                                        
+-1036                                       Jan  3  19:11     Jan 11  11:17      07h15m
+        Jan 19  09:00     Jan 26  08:26     Feb  2  08:23     Feb 10  08:01    
+        Feb 17  21:27     Feb 24  15:08     Mar  2  22:47 p   Mar 11  02:20    
+        Mar 18  07:23 T   Mar 24  22:06     Apr  1  14:03     Apr  9  17:24    
+        Apr 16  15:19     Apr 23  06:31     May  1  05:27     May  9  05:12    
+        May 15  22:03     May 22  17:18     May 30  20:21     Jun  7  14:09    
+        Jun 14  04:41     Jun 21  06:57     Jun 29  10:28     Jul  6  20:58    
+        Jul 13  12:30     Jul 20  23:25     Jul 28  23:45     Aug  5  02:42    
+        Aug 11  22:40     Aug 19  18:02     Aug 27  12:20 p   Sep  3  08:34    
+        Sep 10  11:59 A   Sep 18  13:45     Sep 26  00:13     Oct  2  16:01    
+        Oct 10  04:26     Oct 18  09:15     Oct 25  11:28     Nov  1  02:17    
+        Nov  8  23:11     Nov 17  02:57     Nov 23  22:14     Nov 30  16:00    
+        Dec  8  18:47     Dec 16  17:34     Dec 23  08:48     Dec 30  08:49    
+-1035   Jan  7  13:41     Jan 15  04:32     Jan 21  19:34     Jan 29  03:36      07h14m
+        Feb  6  06:28 P   Feb 13  12:18     Feb 20  06:48 t   Feb 27  22:53    
+        Mar  7  20:14 P   Mar 14  18:04     Mar 21  18:42     Mar 29  17:25    
+        Apr  6  06:53     Apr 12  23:18     Apr 20  07:25     Apr 28  10:14    
+        May  5  15:02     May 12  05:26     May 19  21:06     May 28  00:39    
+        Jun  3  21:49     Jun 10  13:37     Jun 18  11:48     Jun 26  12:25    
+        Jul  3  04:31     Jul 10  00:41     Jul 18  03:21     Jul 25  21:47    
+        Aug  1  12:18 P   Aug  8  15:10     Aug 16  19:10 t   Aug 24  05:28    
+        Aug 30  22:02 P   Sep  7  09:06     Sep 15  10:24     Sep 22  12:32    
+        Sep 29  10:12     Oct  7  05:47     Oct 15  00:24     Oct 21  20:08    
+        Oct 29  00:59     Nov  6  03:30     Nov 13  13:01     Nov 20  05:11    
+        Nov 27  18:13     Dec  5  23:53     Dec 13  00:30     Dec 19  16:18    
+        Dec 27  13:08                                                          
+-1034                     Jan  4  16:54     Jan 11  11:06     Jan 18  05:36      07h14m
+        Jan 26  08:18 A   Feb  3  05:44     Feb  9  21:00 p   Feb 16  20:54    
+        Feb 25  01:52     Mar  4  14:44     Mar 11  06:24     Mar 18  13:46    
+        Mar 26  16:35     Apr  2  21:01     Apr  9  15:47     Apr 17  07:28    
+        Apr 25  04:13     May  2  01:51     May  9  01:57     May 17  00:59    
+        May 24  13:30     May 31  06:35     Jun  7  13:47     Jun 15  17:21    
+        Jun 22  21:29     Jun 29  12:35     Jul  7  03:52     Jul 15  07:54    
+        Jul 22  05:14 T   Jul 28  21:08     Aug  5  20:04 p   Aug 13  20:30    
+        Aug 20  13:31     Aug 27  09:22     Sep  4  13:28     Sep 12  07:22    
+        Sep 18  22:57     Sep 26  01:54     Oct  4  06:47     Oct 11  16:52    
+        Oct 18  10:01     Oct 25  22:12     Nov  2  23:00     Nov 10  01:27    
+        Nov 16  23:12     Nov 24  20:28     Dec  2  13:37     Dec  9  09:42    
+        Dec 16  14:42     Dec 24  18:07                                        
+-1033                                       Jan  1  02:27 n   Jan  7  18:25      07h14m
+        Jan 15  08:04 A   Jan 23  13:02     Jan 30  13:23 n   Feb  6  04:23    
+        Feb 14  02:03     Feb 22  04:08     Feb 28  22:31     Mar  7  16:13    
+        Mar 15  19:10     Mar 23  15:19     Mar 30  06:22     Apr  6  06:07    
+        Apr 14  10:24     Apr 21  23:06     Apr 28  13:54     May  5  21:49    
+        May 13  23:31     May 21  04:29     May 27  22:17     Jun  4  14:40    
+        Jun 12  10:49     Jun 19  08:48     Jun 26  08:39 n   Jul  4  07:58    
+        Jul 11  20:48 T   Jul 18  13:35     Jul 25  21:39 n   Aug  3  01:02    
+        Aug 10  06:01     Aug 16  20:28     Aug 24  13:20     Sep  1  17:13    
+        Sep  8  15:03     Sep 15  06:51     Sep 23  07:04     Oct  1  07:50    
+        Oct  8  00:34     Oct 14  21:27     Oct 23  01:49     Oct 30  20:16    
+        Nov  6  11:11     Nov 13  15:57     Nov 21  20:15     Nov 29  06:18    
+        Dec  5  23:20     Dec 13  12:56     Dec 21  13:05 p   Dec 28  14:27    
+-1032   Jan  4  13:03 A   Jan 12  10:27     Jan 20  03:17     Jan 26  21:44      07h13m
+        Feb  3  03:58     Feb 11  06:32     Feb 18  14:30     Feb 25  05:19    
+        Mar  3  19:31     Mar 11  23:43     Mar 18  23:12     Mar 25  14:07    
+        Apr  2  11:11     Apr 10  13:11     Apr 17  06:22     Apr 24  00:45    
+        May  2  02:33     May  9  22:59     May 16  13:10     May 23  13:32    
+        May 31  17:12     Jun  8  05:52     Jun 14  20:41 p   Jun 22  04:36    
+        Jun 30  06:43 A   Jul  7  11:07     Jul 14  05:52     Jul 21  21:52    
+        Jul 29  18:54     Aug  5  16:13     Aug 12  17:24     Aug 20  16:45    
+        Aug 28  05:54     Sep  3  22:39     Sep 11  07:46     Sep 19  12:02    
+        Sep 26  16:18     Oct  3  07:39     Oct 11  01:01     Oct 19  06:02    
+        Oct 26  02:45     Nov  1  19:55     Nov  9  20:26     Nov 17  21:23    
+        Nov 24  13:39 P   Dec  1  11:33     Dec  9  16:21 t   Dec 17  09:29    
+        Dec 24  01:02 P   Dec 31  06:01                                        
+-1031                                       Jan  8  10:40     Jan 15  18:41      07h13m
+        Jan 22  12:44     Jan 30  02:08     Feb  7  01:53     Feb 14  01:50    
+        Feb 21  00:47     Feb 28  22:11     Mar  8  13:45     Mar 15  07:59    
+        Mar 22  13:33     Mar 30  16:28     Apr  6  22:57     Apr 13  14:16    
+        Apr 21  03:24     Apr 29  07:48     May  6  06:31     May 12  21:44    
+        May 20  18:17 P   May 28  19:58     Jun  4  13:26 t   Jun 11  07:27    
+        Jun 19  09:42 P   Jun 27  05:27     Jul  3  20:35     Jul 10  20:17    
+        Jul 19  00:53     Jul 26  13:07     Aug  2  04:49     Aug  9  12:40    
+        Aug 17  15:13     Aug 24  19:55     Aug 31  15:03     Sep  8  08:08    
+        Sep 16  04:36     Sep 23  02:50     Sep 30  04:09     Oct  8  05:08    
+        Oct 15  17:15     Oct 22  10:48     Oct 29  20:30     Nov  7  01:38    
+        Nov 14  05:18 T   Nov 20  20:47     Nov 28  15:28 p   Dec  6  19:48    
+        Dec 13  16:39     Dec 20  09:25     Dec 28  11:17                      
+-1030                                                         Jan  5  10:35      07h13m
+        Jan 12  03:09     Jan 19  00:51     Jan 27  05:54     Feb  3  21:42    
+        Feb 10  12:57     Feb 17  18:26     Feb 25  21:57     Mar  5  05:34    
+        Mar 11  22:40     Mar 19  12:55     Mar 27  11:07     Apr  3  11:07    
+        Apr 10  09:08     Apr 18  06:56     Apr 25  21:43     May  2  15:43    
+        May  9  21:02 A   May 17  23:32     May 25  06:21 p   May 31  20:54    
+        Jun  8  10:37     Jun 16  14:18     Jun 23  13:48     Jun 30  04:14    
+        Jul  8  01:40     Jul 16  03:08     Jul 22  20:59     Jul 29  14:56    
+        Aug  6  17:41     Aug 14  14:06     Aug 21  04:55     Aug 28  05:40    
+        Sep  5  10:07     Sep 12  23:22     Sep 19  14:40     Sep 27  00:12    
+        Oct  5  02:21     Oct 12  07:27     Oct 19  02:59     Oct 26  21:20    
+        Nov  3  17:38 A   Nov 10  15:12     Nov 17  18:02 n   Nov 25  19:12    
+        Dec  3  07:18     Dec  9  23:42     Dec 17  11:13     Dec 25  15:44    
+-1029   Jan  1  18:59     Jan  8  09:52     Jan 16  05:25     Jan 24  09:08      07h12m
+        Jan 31  04:52     Feb  6  22:06     Feb 14  23:22     Feb 22  22:20    
+        Mar  1  13:34     Mar  8  12:15     Mar 16  16:03     Mar 24  07:27    
+        Mar 30  21:53     Apr  7  03:52     Apr 15  06:41 n   Apr 22  13:26    
+        Apr 29  06:39 T   May  6  20:28     May 14  18:54     May 21  17:47    
+        May 28  16:33     Jun  5  13:34     Jun 13  04:54     Jun 19  22:10    
+        Jun 27  04:12     Jul  5  06:32     Jul 12  13:24     Jul 19  04:06    
+        Jul 26  18:04     Aug  3  22:36     Aug 10  21:27     Aug 17  12:54    
+        Aug 25  10:18     Sep  2  12:57     Sep  9  06:07     Sep 16  01:24    
+        Sep 24  04:25     Oct  2  01:11     Oct  8  16:11 p   Oct 15  17:52    
+        Oct 23  23:04 A   Oct 31  11:23     Nov  7  03:54     Nov 14  13:49    
+        Nov 22  16:32     Nov 29  20:09     Dec  6  17:12     Dec 14  11:47    
+        Dec 22  07:36     Dec 29  04:16                                        
+-1028                                       Jan  5  07:53     Jan 13  09:29      07h12m
+        Jan 20  19:59     Jan 27  12:32     Feb  3  23:43     Feb 12  04:34    
+        Feb 19  06:06     Feb 25  21:35     Mar  4  16:20     Mar 12  19:39    
+        Mar 19  14:36     Mar 26  07:59     Apr  3  08:52 t   Apr 11  06:39    
+        Apr 17  22:11 T   Apr 24  20:14     May  3  00:16     May 10  14:23    
+        May 17  05:33     May 24  10:42     Jun  1  13:52     Jun  8  20:03    
+        Jun 15  13:39     Jun 23  03:19     Jul  1  01:36     Jul  8  00:57    
+        Jul 14  23:31     Jul 22  21:23     Jul 30  12:04     Aug  6  06:23    
+        Aug 13  12:10     Aug 21  15:47     Aug 28  22:04     Sep  4  13:38    
+        Sep 12  04:06     Sep 20  09:15     Sep 27  08:14 t   Oct  3  23:53    
+        Oct 11  22:47 P   Oct 20  00:54     Oct 26  18:49     Nov  2  13:57    
+        Nov 10  18:31     Nov 18  14:10     Nov 25  05:50     Dec  2  07:52    
+        Dec 10  13:20     Dec 18  00:52     Dec 24  17:23                      
+-1027                                                         Jan  1  04:25      07h12m
+        Jan  9  05:52     Jan 16  09:16     Jan 23  05:45     Jan 31  01:31    
+        Feb  7  19:37     Feb 14  16:08     Feb 21  19:15     Mar  1  21:03    
+        Mar  9  06:39 T   Mar 15  22:34     Mar 23  09:51 t   Mar 31  13:42    
+        Apr  7  15:24     Apr 14  05:50     Apr 22  01:03     Apr 30  03:09    
+        May  6  22:32     May 13  15:04     May 21  16:11     May 29  13:35    
+        Jun  5  05:03     Jun 12  03:05     Jun 20  06:48     Jun 27  21:35    
+        Jul  4  12:08     Jul 11  18:08     Jul 19  20:42     Jul 27  03:57    
+        Aug  2  21:03     Aug 10  11:53     Aug 18  09:56     Aug 25  09:47    
+        Sep  1  08:50 P   Sep  9  07:26     Sep 16  22:28 t   Sep 23  16:24    
+        Sep 30  23:52     Oct  9  03:31     Oct 16  10:17     Oct 23  01:11    
+        Oct 30  17:40     Nov  7  22:34     Nov 14  21:23     Nov 21  13:05    
+        Nov 29  13:02     Dec  7  15:01     Dec 14  08:00     Dec 21  04:15    
+        Dec 29  08:25                                                          
+-1026                     Jan  6  03:52     Jan 12  18:28     Jan 19  21:56      07h12m
+        Jan 28  02:19     Feb  4  13:04     Feb 11  05:11 n   Feb 18  16:49    
+        Feb 26  17:34 A   Mar  5  19:32     Mar 12  16:27 n   Mar 20  11:37    
+        Mar 28  05:41     Apr  4  00:41     Apr 11  04:27     Apr 19  05:17    
+        Apr 26  14:56     May  3  06:01     May 10  17:26     May 18  21:01    
+        May 25  22:15     Jun  1  12:53     Jun  9  07:33     Jun 17  10:19    
+        Jun 24  04:54     Jun 30  22:18     Jul  8  22:48     Jul 16  21:07    
+        Jul 23  12:07     Jul 30  11:00     Aug  7  14:48     Aug 15  05:51    
+        Aug 21  20:55 T   Aug 29  03:18     Sep  6  06:44 n   Sep 13  13:22    
+        Sep 20  07:56     Sep 27  22:54     Oct  5  21:43     Oct 12  20:44    
+        Oct 19  21:29     Oct 27  20:33     Nov  4  11:14     Nov 11  05:01    
+        Nov 18  13:30     Nov 26  18:02     Dec  3  23:20     Dec 10  14:57    
+        Dec 18  07:36     Dec 26  13:00                                        
+-1025                                       Jan  2  10:18     Jan  9  02:56      07h11m
+        Jan 17  02:41     Jan 25  03:57     Jan 31  20:23 p   Feb  7  16:55    
+        Feb 15  21:05 A   Feb 23  14:44     Mar  2  05:46     Mar  9  08:42    
+        Mar 17  13:12     Mar 24  22:10     Mar 31  14:51     Apr  8  01:49    
+        Apr 16  02:19     Apr 23  03:30     Apr 30  00:17     May  7  19:25    
+        May 15  12:42     May 22  08:03     May 29  11:02     Jun  6  12:31    
+        Jun 13  21:17     Jun 20  13:12     Jun 27  23:53     Jul  6  04:14    
+        Jul 13  05:11     Jul 19  20:17     Jul 27  15:10 p   Aug  4  18:08    
+        Aug 11  13:17 T   Aug 18  06:33     Aug 26  08:19     Sep  3  06:11    
+        Sep  9  22:15     Sep 16  20:56     Sep 25  02:05     Oct  2  16:39    
+        Oct  9  08:34     Oct 16  15:33     Oct 24  19:12     Nov  1  01:49    
+        Nov  7  20:40     Nov 15  13:11     Nov 23  10:50     Nov 30  10:12    
+        Dec  7  10:56     Dec 15  11:27     Dec 23  00:38     Dec 29  18:29    
+-1024   Jan  6  03:16     Jan 14  07:54     Jan 21  12:27 t   Jan 28  03:28      07h11m
+        Feb  4  20:52 P   Feb 13  00:55     Feb 19  22:17     Feb 26  13:58    
+        Mar  5  14:20     Mar 13  13:59     Mar 20  06:30     Mar 27  02:28    
+        Apr  4  06:26     Apr 11  23:23     Apr 18  13:52     Apr 25  17:02    
+        May  3  20:34     May 11  05:52     May 17  21:33     May 25  09:14    
+        Jun  2  08:49     Jun  9  10:36     Jun 16  06:43     Jun 24  02:26    
+        Jul  1  19:34 P   Jul  8  15:01     Jul 15  18:20 t   Jul 23  19:53    
+        Jul 31  05:20 P   Aug  6  20:43     Aug 14  08:47     Aug 22  12:56    
+        Aug 29  14:38     Sep  5  05:15     Sep 13  01:46     Sep 21  04:48    
+        Sep 28  00:02     Oct  4  17:44     Oct 12  20:21     Oct 20  18:42    
+        Oct 27  10:09     Nov  3  10:22     Nov 11  15:16     Nov 19  06:07    
+        Nov 25  21:30     Dec  3  06:15     Dec 11  09:10     Dec 18  15:09    
+        Dec 25  10:19 A                                                        
+-1023                     Jan  2  03:36     Jan 10  00:46 p   Jan 16  22:37      07h11m
+        Jan 24  00:26     Feb  1  00:27     Feb  8  13:22     Feb 15  05:41    
+        Feb 22  15:26     Mar  2  19:07     Mar  9  23:06     Mar 16  13:29    
+        Mar 24  06:48     Apr  1  10:27     Apr  8  06:46     Apr 14  22:49    
+        Apr 22  22:11     Apr 30  22:06     May  7  13:30     May 14  10:14    
+        May 22  13:13     May 30  06:26     Jun  5  20:29     Jun 13  00:00    
+        Jun 21  03:28 A   Jun 28  12:30     Jul  5  04:44 p   Jul 12  16:13    
+        Jul 20  16:34     Jul 27  17:40     Aug  3  15:05     Aug 11  10:33    
+        Aug 19  04:25     Aug 25  23:26     Sep  2  04:05     Sep 10  06:06    
+        Sep 17  15:19     Sep 24  07:07     Oct  1  20:00     Oct 10  01:17    
+        Oct 17  01:52     Oct 23  17:42     Oct 31  14:34     Nov  8  18:21    
+        Nov 15  12:37     Nov 22  07:36     Nov 30  10:32     Dec  8  08:15    
+        Dec 14  23:45 T   Dec 22  00:33     Dec 30  05:53 n                    
+-1022                                                         Jan  6  18:51      07h10m
+        Jan 13  11:07     Jan 20  19:45     Jan 28  22:41     Feb  5  02:48    
+        Feb 11  22:42     Feb 19  15:47     Feb 27  12:06     Mar  6  09:08    
+        Mar 13  10:45     Mar 21  10:57     Mar 28  22:26     Apr  4  15:01    
+        Apr 11  23:45     Apr 20  03:48     Apr 27  06:38     May  3  21:32    
+        May 11  13:58     May 19  17:39     May 26  13:45 n   Jun  2  05:48    
+        Jun 10  05:11 A   Jun 18  04:36     Jun 24  20:43 n   Jul  1  16:53    
+        Jul  9  20:43     Jul 17  13:20     Jul 24  04:24     Jul 31  07:29    
+        Aug  8  11:47     Aug 15  20:44     Aug 22  13:38     Aug 30  01:39    
+        Sep  7  01:57     Sep 14  03:42     Sep 21  01:18     Sep 28  22:19    
+        Oct  6  15:14     Oct 13  11:09     Oct 20  16:04     Oct 28  19:32    
+        Nov  5  03:46     Nov 11  20:01     Nov 19  09:52 n   Nov 27  15:13    
+        Dec  4  15:33 T   Dec 11  07:08     Dec 19  05:25     Dec 27  07:51    
+-1021   Jan  3  02:25     Jan  9  20:55     Jan 18  00:44     Jan 25  20:48      07h10m
+        Feb  1  12:20     Feb  8  13:12     Feb 16  18:02     Feb 24  06:09    
+        Mar  2  21:44     Mar 10  07:05     Mar 18  08:33     Mar 25  12:36    
+        Apr  1  07:27     Apr  9  01:15     Apr 16  20:19     Apr 23  17:23    
+        Apr 30  18:21     May  8  18:34     May 16  05:52 p   May 22  21:58    
+        May 30  06:56 A   Jun  7  10:23     Jun 14  13:54     Jun 21  03:57    
+        Jun 28  21:16     Jul  7  00:26     Jul 13  21:14     Jul 20  12:47    
+        Jul 28  13:00     Aug  5  12:40     Aug 12  04:49     Aug 19  01:29    
+        Aug 27  05:33     Sep  3  23:05     Sep 10  13:41     Sep 17  18:17    
+        Sep 25  22:15     Oct  3  07:58     Oct 10  00:45     Oct 17  14:24    
+        Oct 25  14:22     Nov  1  15:54     Nov  8  14:29 t   Nov 16  12:15    
+        Nov 24  05:05 P   Nov 30  23:54     Dec  8  06:37     Dec 16  09:44    
+        Dec 23  17:48     Dec 30  08:59                                        
+-1020                                       Jan  7  00:16     Jan 15  04:53      07h10m
+        Jan 22  04:26     Jan 28  19:53     Feb  5  18:15     Feb 13  20:13    
+        Feb 20  13:27     Feb 27  08:46     Mar  6  11:28     Mar 14  07:16    
+        Mar 20  21:38     Mar 27  23:21     Apr  5  03:05     Apr 12  14:38    
+        Apr 19  05:53 P   Apr 26  15:15     May  4  16:31 t   May 11  19:36    
+        May 18  14:58 P   May 26  08:03     Jun  3  03:40     Jun  9  23:46    
+        Jun 17  01:35     Jun 25  01:15     Jul  2  12:59     Jul  9  04:46    
+        Jul 16  14:17     Jul 24  18:08     Jul 31  21:19     Aug  7  12:02    
+        Aug 15  05:28     Aug 23  09:47     Aug 30  05:47     Sep  5  22:38    
+        Sep 13  22:57     Sep 21  23:29     Sep 28  15:16     Oct  5  13:09    
+        Oct 13  17:46 A   Oct 21  10:57     Oct 28  02:16 t   Nov  4  07:29    
+        Nov 12  12:13     Nov 19  20:31     Nov 26  14:46     Dec  4  04:38    
+        Dec 12  04:41     Dec 19  04:51     Dec 26  04:36                      
+-1019                                                         Jan  3  02:40      07h09m
+        Jan 10  18:22     Jan 17  12:47     Jan 24  19:37     Feb  1  23:11    
+        Feb  9  05:26     Feb 15  21:05     Feb 23  11:37     Mar  3  16:17    
+        Mar 10  14:30     Mar 17  06:24     Mar 25  04:03     Apr  2  05:15    
+        Apr  8  22:18 T   Apr 15  17:20     Apr 23  20:01 n   May  1  14:33    
+        May  8  05:33     May 15  06:25     May 23  10:35     May 30  21:12    
+        Jun  6  13:06     Jun 13  21:53     Jun 21  23:22     Jun 29  02:27    
+        Jul  5  21:56     Jul 13  15:25     Jul 21  10:37     Jul 28  07:35    
+        Aug  4  09:07     Aug 12  10:02     Aug 19  21:02     Aug 26  13:54    
+        Sep  2  23:30     Sep 11  04:27     Sep 18  07:20     Sep 24  22:35    
+        Oct  2  17:06 A   Oct 10  21:28     Oct 17  17:54 n   Oct 24  10:41    
+        Nov  1  12:41     Nov  9  12:14     Nov 16  04:47     Nov 23  02:39    
+        Dec  1  08:16     Dec  9  00:20     Dec 15  15:58     Dec 22  21:54    
+        Dec 31  02:04                                                          
+-1018                     Jan  7  09:49     Jan 14  03:40     Jan 21  18:47      07h09m
+        Jan 29  17:09     Feb  5  17:12     Feb 12  16:17     Feb 20  15:05    
+        Feb 28  05:24     Mar  6  23:28     Mar 14  06:02 n   Mar 22  09:09    
+        Mar 29  15:07 T   Apr  5  05:53     Apr 12  20:44     Apr 21  00:11    
+        Apr 27  22:53     May  4  13:45     May 12  11:51     May 20  12:12    
+        May 27  05:32     Jun  3  00:05     Jun 11  02:47     Jun 18  21:32    
+        Jun 25  12:12     Jul  2  13:32     Jul 10  17:14     Jul 18  04:51    
+        Jul 24  20:07     Aug  1  06:03     Aug  9  07:04     Aug 16  11:01    
+        Aug 23  06:27     Aug 31  01:01     Sep  7  20:17 p   Sep 14  17:16    
+        Sep 21  19:57 A   Sep 29  21:16     Oct  7  08:44     Oct 14  00:54    
+        Oct 21  12:33     Oct 29  17:18     Nov  5  20:22     Nov 12  11:09    
+        Nov 20  07:20     Nov 28  11:26     Dec  5  07:14     Dec 12  00:34    
+        Dec 20  02:51     Dec 28  02:14                                        
+-1017                                       Jan  3  17:38     Jan 10  16:52      07h09m
+        Jan 18  21:34     Jan 26  13:11     Feb  2  03:58     Feb  9  10:59    
+        Feb 17  14:09     Feb 24  20:47     Mar  3  14:38 t   Mar 11  05:41    
+        Mar 19  03:45 P   Mar 26  02:15     Apr  2  01:57     Apr  9  23:51    
+        Apr 17  14:18     Apr 24  07:09     May  1  14:11     May  9  16:37    
+        May 16  22:27     May 23  12:56     May 31  03:35     Jun  8  07:19    
+        Jun 15  05:20     Jun 21  20:50     Jun 29  18:18     Jul  7  19:37    
+        Jul 14  12:14     Jul 21  07:46     Jul 29  10:10     Aug  6  05:37    
+        Aug 12  20:15     Aug 19  22:17     Aug 28  02:32 t   Sep  4  13:56    
+        Sep 11  06:14 P   Sep 18  16:25     Sep 26  18:24     Oct  3  21:28    
+        Oct 10  18:35     Oct 18  13:25     Oct 26  08:56     Nov  2  05:17    
+        Nov  9  09:24     Nov 17  11:26     Nov 24  21:52     Dec  1  14:18    
+        Dec  9  02:28     Dec 17  08:00     Dec 24  09:22     Dec 31  01:03    
+-1016   Jan  7  21:03     Jan 16  01:05     Jan 22  19:45     Jan 29  13:44      07h08m
+        Feb  6  15:49 A   Feb 14  13:52     Feb 21  05:15 p   Feb 28  04:17    
+        Mar  7  09:05     Mar 14  22:48     Mar 21  14:11     Mar 28  20:28    
+        Apr  5  23:38     Apr 13  04:58     Apr 19  23:06     Apr 27  13:43    
+        May  5  11:18     May 12  09:40     May 19  08:54     May 27  07:09    
+        Jun  3  20:44     Jun 10  14:19     Jun 17  20:31     Jun 25  23:48    
+        Jul  3  05:00     Jul  9  20:14     Jul 17  10:37     Jul 25  14:56    
+        Aug  1  13:05 T   Aug  8  04:46     Aug 16  03:06 p   Aug 24  04:16    
+        Aug 30  21:45     Sep  6  17:03     Sep 14  20:58     Sep 22  15:50    
+        Sep 29  07:30     Oct  6  09:40     Oct 14  14:49     Oct 22  01:52    
+        Oct 28  18:44     Nov  5  06:03     Nov 13  07:28     Nov 20  10:42    
+        Nov 27  07:51     Dec  5  04:19     Dec 12  22:19     Dec 19  18:54    
+        Dec 26  23:01                                                          
+-1015                     Jan  4  01:54     Jan 11  11:06 n   Jan 18  03:14      07h08m
+        Jan 25  15:53 A   Feb  2  20:42     Feb  9  21:47 n   Feb 16  12:34    
+        Feb 24  09:19     Mar  4  11:42     Mar 11  06:34     Mar 17  23:40    
+        Mar 26  02:00     Apr  2  22:52     Apr  9  14:03     Apr 16  12:53    
+        Apr 24  17:04     May  2  06:43     May  8  21:16     May 16  04:06    
+        May 24  06:16     May 31  12:13     Jun  7  05:27     Jun 14  20:50    
+        Jun 22  17:52     Jun 29  16:41     Jul  6  15:43 n   Jul 14  14:22    
+        Jul 22  04:17 T   Jul 28  21:37     Aug  5  04:48 n   Aug 13  07:59    
+        Aug 20  14:00     Aug 27  04:38     Sep  3  20:43     Sep 12  00:55    
+        Sep 18  23:31     Sep 25  15:05     Oct  3  14:48     Oct 11  16:14    
+        Oct 18  09:22     Oct 25  05:41     Nov  2  09:53     Nov 10  05:10    
+        Nov 16  20:06     Nov 24  00:03     Dec  2  04:34     Dec  9  15:26    
+        Dec 16  08:05     Dec 23  20:45                                        
+-1014                                       Dec 31  21:28 p   Jan  7  23:31      07h08m
+        Jan 14  21:23 A   Jan 22  17:54     Jan 30  11:33     Feb  6  06:28    
+        Feb 13  11:41     Feb 21  13:41     Feb 28  22:33     Mar  7  13:30    
+        Mar 15  02:37     Mar 23  06:42     Mar 30  07:01     Apr  5  21:41    
+        Apr 13  17:49     Apr 21  20:14     Apr 28  13:58     May  5  07:44    
+        May 13  08:59     May 21  06:15     May 27  20:37     Jun  3  20:06    
+        Jun 11  23:44     Jun 19  13:29     Jun 26  04:07 p   Jul  3  11:02    
+        Jul 11  13:39 A   Jul 18  19:07     Jul 25  13:22     Aug  2  04:28    
+        Aug 10  02:24     Aug 17  00:34     Aug 24  01:04     Aug 31  23:48    
+        Sep  8  14:01     Sep 15  07:17     Sep 22  15:37     Sep 30  19:42    
+        Oct  8  00:55     Oct 14  16:23     Oct 22  09:02     Oct 30  14:18    
+        Nov  6  11:40     Nov 13  04:34     Nov 21  04:33     Nov 29  06:03    
+        Dec  5  22:37 P   Dec 12  19:53     Dec 21  00:27 t   Dec 28  18:19    
+-1013   Jan  4  09:46 P   Jan 11  13:51     Jan 19  18:39     Jan 27  03:27      07h08m
+        Feb  2  21:00     Feb 10  09:22     Feb 18  09:42     Feb 25  10:20    
+        Mar  4  08:28     Mar 12  04:56     Mar 19  21:24     Mar 26  16:06    
+        Apr  2  20:38     Apr 10  22:59     Apr 18  06:28     Apr 24  21:57    
+        May  2  10:00     May 10  14:24     May 17  13:59     May 24  05:01    
+        Jun  1  00:40 P   Jun  9  02:55     Jun 15  20:57 t   Jun 22  14:26    
+        Jun 30  16:13 P   Jul  8  12:55     Jul 15  04:16     Jul 22  03:09    
+        Jul 30  07:49     Aug  6  21:10     Aug 13  12:43     Aug 20  19:38    
+        Aug 28  22:46     Sep  5  04:29     Sep 11  23:10     Sep 19  15:25    
+        Sep 27  12:47     Oct  4  11:46     Oct 11  12:25     Oct 19  12:51    
+        Oct 27  01:55     Nov  2  19:54     Nov 10  04:47     Nov 18  09:43    
+        Nov 25  14:14 T   Dec  2  05:44     Dec  9  23:36 p   Dec 18  04:07    
+        Dec 25  01:33                                                          
+-1012                     Dec 31  17:57     Jan  8  19:10     Jan 16  18:59      07h07m
+        Jan 23  11:46     Jan 30  08:43     Feb  7  13:29     Feb 15  06:02    
+        Feb 21  21:07     Feb 29  01:35     Mar  8  05:18     Mar 15  13:44    
+        Mar 22  06:19     Mar 29  19:28     Apr  6  18:20     Apr 13  19:06    
+        Apr 20  16:16     Apr 28  13:10     May  6  04:56     May 12  23:29    
+        May 20  03:47 A   May 28  05:49     Jun  4  13:42 p   Jun 11  04:29    
+        Jun 18  17:11     Jun 26  20:58     Jul  3  21:23     Jul 10  11:40    
+        Jul 18  08:20     Jul 26  10:25     Aug  2  04:52     Aug  8  22:19    
+        Aug 17  00:45     Aug 24  22:05     Aug 31  13:08     Sep  7  13:08    
+        Sep 15  17:44     Sep 23  08:01     Sep 29  23:09     Oct  7  07:50    
+        Oct 15  10:32     Oct 22  16:32     Oct 29  11:35     Nov  6  05:08    
+        Nov 14  02:15 A   Nov 21  00:27     Nov 28  02:33 n   Dec  6  03:07    
+        Dec 13  16:05     Dec 20  08:47     Dec 27  19:24                      
+-1011                                                         Jan  4  23:39      07h07m
+        Jan 12  03:41     Jan 18  18:29     Jan 26  13:07     Feb  3  16:59    
+        Feb 10  13:16     Feb 17  06:02     Feb 25  06:36     Mar  5  06:07    
+        Mar 11  21:34     Mar 18  19:26     Mar 26  22:56     Apr  3  15:12    
+        Apr 10  05:29     Apr 17  10:25     Apr 25  13:28 n   May  2  21:11    
+        May  9  13:53 T   May 17  02:38     May 25  01:49     Jun  1  01:34    
+        Jun  7  23:33     Jun 15  19:43     Jun 23  12:07     Jun 30  05:59    
+        Jul  7  11:07     Jul 15  13:04     Jul 22  21:02     Jul 29  12:00    
+        Aug  6  01:06     Aug 14  05:47     Aug 21  05:32     Aug 27  20:52    
+        Sep  4  17:38     Sep 12  20:54     Sep 19  14:37     Sep 26  09:26    
+        Oct  4  12:10     Oct 12  09:49     Oct 19  00:58 p   Oct 26  01:55    
+        Nov  3  07:14 A   Nov 10  20:28     Nov 17  12:46     Nov 24  21:47    
+        Dec  3  00:59     Dec 10  05:23     Dec 17  01:51     Dec 24  19:33    
+-1010   Jan  1  16:08     Jan  8  13:20     Jan 15  16:03     Jan 23  16:59      07h07m
+        Jan 31  04:22     Feb  6  21:08     Feb 14  07:17     Feb 22  11:51    
+        Mar  1  14:12     Mar  8  05:34     Mar 15  23:18     Mar 24  02:51    
+        Mar 30  22:24     Apr  6  15:17     Apr 14  15:26 t   Apr 22  13:56    
+        Apr 29  05:43 T   May  6  02:57     May 14  06:45     May 21  21:52    
+        May 28  12:55     Jun  4  17:02     Jun 12  20:33     Jun 20  03:48    
+        Jun 26  20:57     Jul  4  09:36     Jul 12  08:43     Jul 19  08:59    
+        Jul 26  06:52     Aug  3  03:59     Aug 10  19:44     Aug 17  14:42    
+        Aug 24  19:39     Sep  1  22:58     Sep  9  06:17     Sep 15  22:08    
+        Sep 23  11:50     Oct  1  17:09     Oct  8  16:55 t   Oct 15  08:27    
+        Oct 23  06:45 P   Oct 31  09:24     Nov  7  03:46     Nov 13  22:24    
+        Nov 22  02:40     Nov 29  23:03     Dec  6  14:47     Dec 13  16:00    
+        Dec 21  21:33     Dec 29  09:52                                        
+-1009                                       Jan  5  02:02     Jan 12  12:06      07h06m
+        Jan 20  14:01     Jan 27  18:08     Feb  3  13:53     Feb 11  08:42    
+        Feb 19  03:35     Feb 26  00:38     Mar  5  02:45     Mar 13  03:52    
+        Mar 20  14:25 T   Mar 27  06:35     Apr  3  16:44 t   Apr 11  20:24    
+        Apr 18  22:59     Apr 25  13:19     May  3  07:32     May 11  09:59    
+        May 18  06:03     May 24  22:05     Jun  1  22:34     Jun  9  20:46    
+        Jun 16  12:34     Jun 23  09:47     Jul  1  13:24     Jul  9  05:14    
+        Jul 15  19:45     Jul 23  00:47     Jul 31  03:47     Aug  7  12:07    
+        Aug 14  04:50     Aug 21  18:45     Aug 29  17:38     Sep  5  18:23    
+        Sep 12  16:48 P   Sep 20  14:45     Sep 28  06:47 t   Oct  5  01:17    
+        Oct 12  07:59     Oct 20  11:21     Oct 27  19:03     Nov  3  10:08    
+        Nov 11  01:51     Nov 19  06:51     Nov 26  06:22     Dec  2  21:50    
+        Dec 10  21:08     Dec 18  23:34     Dec 25  16:54                      
+-1008                                                         Jan  1  12:33      07h06m
+        Jan  9  16:21     Jan 17  12:28     Jan 24  03:03     Jan 31  05:35    
+        Feb  8  10:01     Feb 15  21:34     Feb 22  13:15 n   Feb 29  23:49    
+        Mar  9  01:04 A   Mar 16  03:48     Mar 22  23:56 n   Mar 30  18:07    
+        Apr  7  13:03     Apr 14  08:39     Apr 21  11:25     Apr 29  11:36    
+        May  6  22:17     May 13  13:40     May 21  00:01     May 29  03:29    
+        Jun  5  05:42     Jun 11  20:14     Jun 19  14:01     Jun 27  17:14    
+        Jul  4  12:31     Jul 11  05:29     Jul 19  05:28     Jul 27  04:40    
+        Aug  2  20:00     Aug  9  18:10     Aug 17  21:56     Aug 25  14:04    
+        Sep  1  05:05 T   Sep  8  10:36     Sep 16  14:29 n   Sep 23  22:08    
+        Sep 30  16:20     Oct  8  06:27     Oct 16  06:04     Oct 23  05:52    
+        Oct 30  05:58     Nov  7  04:23     Nov 14  19:59     Nov 21  14:13    
+        Nov 28  21:53     Dec  7  02:04     Dec 14  08:13     Dec 20  23:55    
+        Dec 28  15:40                                                          
+-1007                     Jan  5  21:07     Jan 12  19:03     Jan 19  11:22      07h06m
+        Jan 27  10:20     Feb  4  12:02     Feb 11  04:47 p   Feb 18  00:38    
+        Feb 26  04:21 A   Mar  5  22:45     Mar 12  13:43     Mar 19  15:40    
+        Mar 27  20:13     Apr  4  06:05     Apr 10  22:20     Apr 18  08:11    
+        Apr 26  09:17     May  3  11:19     May 10  07:22     May 18  01:31    
+        May 25  19:47     Jun  1  15:48     Jun  8  17:50     Jun 16  18:45    
+        Jun 24  04:38     Jun 30  20:54     Jul  8  06:38     Jul 16  10:58    
+        Jul 23  12:53     Jul 30  03:58     Aug  6  22:05 n   Aug 15  01:34    
+        Aug 21  21:24 T   Aug 28  14:17     Sep  5  15:38     Sep 13  14:22    
+        Sep 20  06:44     Sep 27  04:45     Oct  5  09:56     Oct 13  01:28    
+        Oct 19  17:18     Oct 26  23:26     Nov  4  03:31     Nov 11  11:02    
+        Nov 18  05:26     Nov 25  21:04     Dec  3  19:27     Dec 10  19:28    
+        Dec 17  19:26     Dec 25  19:15                                        
+-1006                                       Jan  2  09:17     Jan  9  03:29      07h05m
+        Jan 16  11:18     Jan 24  15:32     Jan 31  20:55 t   Feb  7  11:57    
+        Feb 15  04:19 P   Feb 23  08:26     Mar  2  06:27     Mar  8  21:45    
+        Mar 16  21:16     Mar 24  21:27     Mar 31  14:18     Apr  7  09:31    
+        Apr 15  13:05     Apr 23  06:54     Apr 29  21:22     May  6  23:30    
+        May 15  03:12     May 22  13:31     May 29  04:49     Jun  5  15:26    
+        Jun 13  15:41     Jun 20  18:25     Jun 27  13:52     Jul  5  08:43    
+        Jul 13  02:51 P   Jul 19  23:02     Jul 27  01:31 t   Aug  4  02:36    
+        Aug 11  13:08 P   Aug 18  04:54     Aug 25  16:08     Sep  2  20:19    
+        Sep  9  22:56     Sep 16  13:33     Sep 24  09:24     Oct  2  12:55    
+        Oct  9  08:45     Oct 16  02:04     Oct 24  04:19     Nov  1  03:25    
+        Nov  7  19:05     Nov 14  18:37     Nov 22  23:30     Nov 30  15:10    
+        Dec  7  06:22     Dec 14  14:14     Dec 22  17:30     Dec 30  00:15    
+-1005   Jan  5  18:51 A   Jan 13  11:12     Jan 21  09:02 p   Jan 28  07:29      07h05m
+        Feb  4  08:25     Feb 12  07:40     Feb 19  21:28     Feb 26  14:06    
+        Mar  5  22:46     Mar 14  02:04     Mar 21  06:58     Mar 27  21:19    
+        Apr  4  13:35     Apr 12  17:22     Apr 19  14:25     Apr 26  06:04    
+        May  4  04:39     May 12  05:11     May 18  21:00     May 25  17:00    
+        Jun  2  19:39     Jun 10  13:52     Jun 17  03:56     Jun 24  06:31    
+        Jul  2  10:12 A   Jul  9  20:21     Jul 16  12:15 p   Jul 23  22:45    
+        Jul 31  23:50     Aug  8  01:55     Aug 14  22:44     Aug 22  17:25    
+        Aug 30  12:17     Sep  6  08:00     Sep 13  11:54     Sep 21  13:31    
+        Sep 28  23:45     Oct  5  15:53     Oct 13  04:00     Oct 21  09:18    
+        Oct 28  10:43     Nov  4  02:29     Nov 11  22:41     Nov 20  02:51    
+        Nov 26  21:37     Dec  3  16:09     Dec 11  18:39     Dec 19  17:00    
+        Dec 26  08:37 T                                                        
+-1004                     Jan  2  08:39     Jan 10  13:53 n   Jan 18  03:37      07h05m
+        Jan 24  19:37     Feb  1  03:15     Feb  9  06:32     Feb 16  11:24    
+        Feb 23  06:39     Mar  1  22:42     Mar  9  19:46     Mar 16  17:26    
+        Mar 23  18:06     Mar 31  17:30     Apr  8  05:57     Apr 14  22:54    
+        Apr 22  06:33     Apr 30  10:17     May  7  14:05     May 14  05:00    
+        May 21  20:25     May 30  00:22     Jun  5  21:14 n   Jun 12  12:57    
+        Jun 20  11:36 A   Jun 28  11:47     Jul  5  04:20 n   Jul 11  23:49    
+        Jul 20  03:27     Jul 27  21:06     Aug  3  12:14     Aug 10  14:26    
+        Aug 18  19:04     Aug 26  05:05     Sep  1  21:42     Sep  9  08:49    
+        Sep 17  09:52     Sep 24  12:31     Oct  1  09:34     Oct  9  05:51    
+        Oct 16  23:42     Oct 23  20:14     Oct 31  00:25     Nov  8  03:28    
+        Nov 15  12:37     Nov 22  05:06     Nov 29  18:06 n   Dec  7  23:25    
+        Dec 15  00:29 T   Dec 21  15:54     Dec 29  13:25                      
+-1003                                                         Jan  6  16:11      07h05m
+        Jan 13  11:10     Jan 20  05:07     Jan 28  08:24     Feb  5  05:06    
+        Feb 11  20:42     Feb 18  20:41     Feb 27  01:25     Mar  6  14:20    
+        Mar 13  05:36     Mar 20  13:51     Mar 28  15:44     Apr  4  20:38    
+        Apr 11  14:48     Apr 19  07:33     Apr 27  03:28     May  4  01:14    
+        May 11  01:15     May 19  00:45     May 26  13:07 p   Jun  2  05:39    
+        Jun  9  13:35 A   Jun 17  16:49     Jun 24  21:22     Jul  1  11:30    
+        Jul  9  03:55     Jul 17  07:25     Jul 24  05:00     Jul 30  20:15    
+        Aug  7  19:55     Aug 15  20:21     Aug 22  12:56     Aug 29  08:59    
+        Sep  6  12:57     Sep 14  07:29     Sep 20  22:08     Sep 28  01:54    
+        Oct  6  06:13     Oct 13  16:55     Oct 20  09:24     Oct 27  22:11    
+        Nov  4  22:49     Nov 12  01:09     Nov 18  23:06 t   Nov 26  20:07    
+        Dec  4  13:48 P   Dec 11  09:06     Dec 18  14:58     Dec 26  17:37    
+-1002   Jan  3  02:31     Jan  9  17:51     Jan 17  08:09     Jan 25  12:41      07h04m
+        Feb  1  12:56     Feb  8  04:09     Feb 16  01:37     Feb 24  03:56    
+        Mar  2  21:36     Mar  9  16:16     Mar 17  18:26     Mar 25  14:57    
+        Apr  1  05:23     Apr  8  06:09     Apr 16  09:50     Apr 23  22:20    
+        Apr 30  13:16 P   May  7  21:33     May 15  23:18 t   May 23  03:22    
+        May 29  22:05 P   Jun  6  14:11     Jun 14  10:43     Jun 21  07:36    
+        Jun 28  08:34     Jul  6  07:36     Jul 13  20:26     Jul 20  12:41    
+        Jul 27  21:19     Aug  5  01:01     Aug 12  05:14     Aug 18  20:03    
+        Aug 26  12:43     Sep  3  17:25     Sep 10  14:09     Sep 17  06:44    
+        Sep 25  06:33     Oct  3  07:50     Oct 10  00:00     Oct 16  21:17    
+        Oct 25  01:47 A   Nov  1  19:51     Nov  8  11:09 t   Nov 15  15:32    
+        Nov 23  20:33     Dec  1  05:41     Dec  7  23:32     Dec 15  12:29    
+        Dec 23  13:09     Dec 30  13:59                                        
+-1001                                       Jan  6  13:00     Jan 14  10:14      07h04m
+        Jan 22  02:46     Jan 28  21:36     Feb  5  03:26     Feb 13  06:29    
+        Feb 20  13:37     Feb 27  05:22     Mar  6  18:49     Mar 14  23:26    
+        Mar 21  22:24     Mar 28  14:02     Apr  5  10:45     Apr 13  12:26    
+        Apr 20  05:57 T   Apr 27  00:20     May  5  02:29 n   May 12  21:54    
+        May 19  13:01     May 26  12:57     Jun  3  17:09     Jun 11  04:49    
+        Jun 17  20:29     Jun 25  04:13     Jul  3  06:17     Jul 10  10:24    
+        Jul 17  05:19     Jul 24  21:53     Aug  1  18:03     Aug  8  15:50    
+        Aug 15  16:37     Aug 23  16:58     Aug 31  05:03     Sep  6  22:23    
+        Sep 14  07:11     Sep 22  12:03     Sep 29  15:51     Oct  6  07:11    
+        Oct 14  00:59 A   Oct 22  05:41     Oct 29  02:46 n   Nov  4  19:15    
+        Nov 12  20:45     Nov 20  20:56     Nov 27  13:45     Dec  4  10:57    
+        Dec 12  16:25     Dec 20  09:16     Dec 27  00:45                      
+-1000                                                         Jan  3  05:47      07h04m
+        Jan 11  10:11     Jan 18  18:42     Jan 25  12:02     Feb  2  02:07    
+        Feb 10  01:07     Feb 17  01:50     Feb 24  00:02     Mar  2  21:59    
+        Mar 10  13:11     Mar 17  07:41     Mar 24  13:10 n   Apr  1  15:48    
+        Apr  8  22:44 T   Apr 15  13:37     Apr 23  03:22     May  1  06:53    
+        May  8  06:24     May 14  21:00     May 22  18:14     May 30  19:10    
+        Jun  6  13:03     Jun 13  06:58     Jun 21  09:16     Jun 29  04:58    
+        Jul  5  19:48     Jul 12  20:14     Jul 21  00:05     Jul 28  12:49    
+        Aug  4  03:53     Aug 11  12:52     Aug 19  14:31     Aug 26  19:29    
+        Sep  2  14:25     Sep 10  08:10     Sep 18  04:22 p   Sep 25  02:06    
+        Oct  2  04:05 A   Oct 10  04:54     Oct 17  17:21     Oct 24  09:55    
+        Oct 31  20:46     Nov  9  01:24     Nov 16  05:17     Nov 22  20:04    
+        Nov 30  15:29     Dec  8  19:50     Dec 15  16:11     Dec 22  09:07    
+        Dec 30  10:49                                                          

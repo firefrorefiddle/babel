@@ -1,4 +1,4 @@
-module C2520 where
+module Main where
 
 import Text.Printf
 import Data.Graph.Inductive.Graph
@@ -14,12 +14,13 @@ import HebrewCal
 import Events
 import Dates
 
-mkDateGraph :: [(String, HDate)] -> Gr (String, HDate) String
-mkDateGraph dates =
+mkDateGraph :: [(String, HDate)] -> [(String, HDate)] -> [(String, HDate)] ->
+               Gr (String, HDate) String
+mkDateGraph datesBabel dates360 datesSolar =
   let len = length dates1
       sortDs  = sortBy (compare `on` snd)
       sortDs' = sortBy (compare `on` (snd.snd))
-      dates1  = sortDs dates
+      dates1  = sortDs datesBabel
       dates2  = map (\d -> after d "" (2520*360)) dates1
       dates3  = map (\d -> afterSolar d "" 2520) dates1
       dates4  = map (\d -> after d "" (1260*360)) dates1
@@ -27,19 +28,13 @@ mkDateGraph dates =
       nodes1  = zip [1..] dates1
       nodes2  = zip [((+1).fst.last $ nodes1)..] (dates2 ++ dates360)
       nodes3  = zip [((+1).fst.last $ nodes2)..] (dates3 ++ datesSolar)
-      nodes4  = zip [((+1).fst.last $ nodes3)..] (dates4 ++ dates360')
-      nodes5  = zip [((+1).fst.last $ nodes4)..] (dates5 ++ datesSolar') 
       edges1  = zipWith (\(x,_) (y,_) -> (x,y,"")) nodes1 (tail nodes1)
       edges2  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes2) (tail $ sortDs' nodes2)
       edges3  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes3) (tail $ sortDs' nodes3)
-      edges4  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes4) (tail $ sortDs' nodes4)
-      edges5  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes5) (tail $ sortDs' nodes5)
       crossEdges1 = zipWith (\(x,_) (y,_) -> (x, y, "2520*360d")) nodes1 nodes2
       crossEdges2 = zipWith (\(x,_) (y,_) -> (x, y, "2520y")) nodes1 nodes3
-      crossEdges3 = zipWith (\(x,_) (y,_) -> (x, y, "1260*360d")) nodes1 nodes4
-      crossEdges4 = zipWith (\(x,_) (y,_) -> (x, y, "1260y")) nodes1 nodes5
-      allNodes   = nodes1 ++ nodes2 ++ nodes3 -- ++ nodes4 ++ nodes5      
-      allEdges = concat [edges1,edges2,edges3,crossEdges1,crossEdges2] -- edges4,edges5,crossEdges3,crossEdges4]
+      allNodes   = nodes1 ++ nodes2 ++ nodes3
+      allEdges = concat [edges1,edges2,edges3,crossEdges1,crossEdges2]
   in mkGraph allNodes allEdges
 
 markNodesEqual (u, v) g =
@@ -114,8 +109,17 @@ unifyGraphNodes g =
 
   in g''
 
-mkGraphic dates = let gr = unifyGraphNodes $ mkDateGraph dates
-                  in fglToDotGeneric gr showNode id id
+readDates = do
+  evs <- readEvents "Events.txt"
+  case (lookup "datesBabel" evs,
+        lookup "dates360" evs,
+        lookup "datesSolar" evs) of
+    (Just babel, Just d360, Just solar) -> return (babel, d360, solar)
+    _ -> error "Could not find all required groups in Events.txt. Need datesBabel, dates360 and datesSolar."
+
+mkGraphic = do (datesBabel, dates360, datesSolar) <- readDates
+               let gr = unifyGraphNodes $ mkDateGraph datesBabel dates360 datesSolar
+               return $ fglToDotGeneric gr showNode id id
   where showNode (str, d) = pretty str ++ "\n" ++ show d ++ "\n" ++ showHebrew d ++ showWeekDay d
         threshold = 25
         pretty str | length str < threshold = str
@@ -140,4 +144,6 @@ mkGraphic dates = let gr = unifyGraphNodes $ mkDateGraph dates
         showWeekDay' 7 = "Sunday"
 
 
-writeIt = writeFile "babel.dot" . showDot . mkGraphic $ babelDates
+writeIt = mkGraphic >>= writeFile "babel.dot" . showDot 
+
+main = writeIt

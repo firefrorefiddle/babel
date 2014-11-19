@@ -1,0 +1,286 @@
+dIsraelDest | israel and syria destroyed | -720
+dSennach | siege of sennacherib - judah almost falls | -701
+dDownfallAssyria | downfall of assyria | -626 | -605
+
+-- third year of jojakim, when 609 was accession year
+dFirstSiegeNebu | daniel kidnapped | -606h | 700
+
+-- german wikipedia
+dNebuAcc | accession of nebukadnezar | -605
+
+-- might also be in 611 or 613
+dNineveh | nineveh sacked | -612
+
+-- wikipedia gives "summer" of 605, i'll assume between june and august
+dFallAssyria | assyria falls (battle of charchemish) | -605 6 | -605 8
+
+-- nebukadnezar's firstYear starts 1st nisannu 604,
+-- which is between 7th march and 19th april (german wikipedia)
+dNebuFirst | nebukadnezars first year starts | -604 3 7 | -604 4 19
+
+dNebuDream | nebukadnezars dream of the standing picture | extend 360 after 360 dNebuFirst
+
+-- wikipedia gives the exact date!?
+-- according to the babylonian chronicles
+-- http://en.wikipedia.org/wiki/Jehoiakim
+dJehoiachinSiege | jehoiachin deported | -597 3 16
+
+-- nineteenth year of nebukadnezar
+dLastSiegeNebu | jerusalem destroyed | -587
+
+-- 9th of Av
+dTempleDestroyed1 | temple destroyed | -587h 5 9
+dTempleDestroyed2 | alternative date temple destroyed | -586h 5 9
+
+-- Nabonid returned from exile to Babylon four years before the fall
+-- of Babylon, in 543. This may well have been because his son and 
+-- regent Belsazar died, as Belsazar is not mentioned in the Babylonian
+-- chronicles afterwards.
+-- this is a bit guesswork, though.
+dWritingWall | the writing on the wall | -543
+
+-- nabonid chronic says that the army entered babylon tishri 16th
+-- kyros some 17 days later.
+dFallBabel | babylon falls | -539h 7 16
+dKyrosEntersBabel | kyros enters babylon | after 21 dFallBabel 
+
+-- kyros was king of persia already when he conquered babylon, so we
+-- don't have to count accession years. his first year would start 
+-- immediately [on afterthought maybe this is nonsense; perhaps he
+-- was crowned as king of babylon just the same.]
+dFirstYearKyros | kyros' first year, edict to build temple | extend 360 dKyrosEntersBabel 
+
+-- daniel receives revelation in dan 10 in this year
+-- this is the third year kyros reigns in babylon;
+-- he was king of persia for some years already.
+dThirdYearKyros | daniel sees jesus | after 1y dFirstYearKyros
+
+dSerubbabel | serubbabel leaves babylon | after 0 dFirstYearKyros
+
+dStartSac1 | start of sacrifices if in same year | -538h 7 1
+dStartSac2 | start of sacrifices if in next year | -537h 7 1
+
+-- Now in the second year after their coming to the house of God at Jerusalem, in the second month, (ezr 3)
+dTempleStart1 | temple foundations | -537h 2 1
+-- it may have been one year later though, or could they do the journey so quickly?
+dTempleStart2 | temple foundations (alternative) | -536h 2 1
+
+dDiscourage1 | people of the land stop the building (speculative)" | -537 6
+dDiscourage2 | people of the land stop the building (alternative, speculative | -536 6
+
+dTempleRestart | build temple | -520
+dTempleFinish | finish temple | -516h 12 3
+
+dAfterTemplePassah | passah after temple finished | -515h 1 14
+
+dEsraLeave | esra leaves babylon | -458h 1 1
+dEsraArrive | esra arrives in jerusalem | -458h 5 1
+
+-- some scholars think ezra's artaxerxes was the 2nd
+-- this might not be true or logical, relevant or interesting; 
+-- it does have the merit, however, that if it is true, then he would
+-- come as "a messiah" after the first seven weeks of daniel, as some
+-- translations have it. after seven weeks "a messiah", after the sixty-two
+-- weeks "a messiah" will be cut off. since ezra was high priest according
+-- two some sources, it might be possible to call him a "messiah" (anointed
+-- one) too.
+dEsraLeaveAlt | esra leaves babylon (artaxerxes II theory) | -397h 1 1
+dEsraArriveAlt | esra arrives in jerusalem (artaxerxes II theory) | -397 5 1
+
+-- if artaxerxes ii's rule also started in summer, then his 7th year would not end before
+-- summer 396
+dEsraLeaveAltAlt | esra leaves babylon (artaxerxes II theory, alt) | -396h 1 1
+dEsraArriveAltAlt | esra arrives in jerusalem (artaxerxes II theory, alt) | -396h 5 1
+
+dNehemia1  |nehemia leaves babylon (445) |-445h 1
+
+-- Nehemiah left for Jerusalem in Nisan rather than the preceding Adar 2. However,
+-- we cannot be sure if 445 was counted as a leap year or not, since this not only 
+-- depended on various factors which we can not all know (like the weather and the
+-- ripeness of barley), but also we cannot be sure that the "correct" decision was
+-- made then. If they didn't count it as a leap year, then the below date is correct
+-- and 69 "week" later would be Nisan 33 C.E. This seems to be the only reasonable way
+-- to reach a date in 30-33 with the passover on a fitting day of week (32 C.E. had
+-- it on a Monday which seems to be too much off to be a possible solution).
+-- 
+-- why would nehemiah leave in 444 rather than 445? if artaxerxes' ascended the throne
+-- in summer, then his regnal years would start and end in summer. -465 (summer) - -464 
+-- would be his ascension, starting his first year in summer -464 and his 2nd in 
+-- summer -445, so spring -444 would still be his 20th year.
+dNehemia2 | nehemia leaves babylon (alt., 444) | -445h 13 1
+
+d7WeeksNehem1 | 7 360-weeks after artaxerxes' edict (starting 445) | after 49t dNehemia1
+d7WeeksNehem2 | 7 360-weeks after artaxerxes' edict (starting 444) | after 49t dNehemia2
+d69WeeksNehem1 | 69 360-weeks after artaxerxes' edict (starting 445) | after 360t dNehemia1
+d69WeeksNehem2 | 69 360-weeks after artaxerxes' edict (starting 444) | after 360t dNehemia2
+
+dAndersonStart | Sir Robert Anderson's start date | -445 3 14
+dAndersonEnd | Sir Robert Anderson's end date | 32 4 6
+dAnderson70 | 69 weeks after Sir Robert Anderson's start date | after 483t dAndersonStart
+
+dDareios | dareios rises to power | -522 9
+
+dXerxesStart | xerxes/ahasveros beginning reign (ester) | -486
+dXerxesEnd | xerxes/ahasveros death | -465 8
+
+-- seventh year + 1 year ascension
+dEstherQueen | esther becomes queen | -479h 10
+dPurimLots | purim lots cast before haman (est 3,7) | -474h 1 1
+dHamansLaw | haman's law to destroy jews signed | -474h 1 13
+dPurimRevenge | haman tries to destroy jews, but jews take revenge (purim) | -474h 12 13 | -474h 12 15
+                                                                         
+begin group datesBabel
+  dIsraelDest
+  dSennach
+  -- dDownfallAssyria
+  dFirstSiegeNebu
+  | 70*360 after daniel kidnapped | after 70t dFirstSiegeNebu
+  | 70 solar after daniel kidnapped | after 70y dFirstSiegeNebu
+  dNebuAcc
+  dNineveh
+  dFallAssyria
+  dNebuFirst
+  dNebuDream
+  dJehoiachinSiege
+  | 70*360 after jehoiachin | after 70t dJehoiachinSiege
+  | 70 after jehoiachin | after 70y dJehoiachinSiege
+--  dLastSiegeNebu
+  dTempleDestroyed1
+  dTempleDestroyed2
+  | 70*360 after temple destr. | after 70t dTempleDestroyed1
+  | 70*360 after temple destr. (alt.) | after 70t dTempleDestroyed2
+  | 70 solar after temple destr. | after 70y dTempleDestroyed1
+  | 70 solar after temple destr. (alt.) | after 70y dTempleDestroyed2
+  | nebukadnezar's death | -562
+  dWritingWall
+  dFallBabel
+  dKyrosEntersBabel
+  dFirstYearKyros
+  dSerubbabel
+  dThirdYearKyros
+  dStartSac1
+--  dStartSac2
+  dTempleStart1
+-- dTempleStart2
+  dDiscourage1
+--  dDiscourage2
+--  dDareios
+  dTempleRestart
+  dTempleFinish
+  dAfterTemplePassah
+  dEsraLeave
+  dEsraArrive
+  dEsraLeaveAlt
+  dEsraArriveAlt
+  dEsraLeaveAltAlt
+  dEsraArriveAltAlt
+  dNehemia1
+  dNehemia2
+  d7WeeksNehem1
+  d7WeeksNehem2
+  d69WeeksNehem1
+  d69WeeksNehem2
+  dXerxesStart
+  dXerxesEnd
+  dEstherQueen
+  dPurimLots
+  dPurimRevenge
+  dHamansLaw
+  dAndersonStart
+  dAndersonEnd
+  dAnderson70
+end group
+  
+begin group dates360
+  | seven years war ends; prussia rises to great power | 1763
+  | sugar act, stamp act, resistance | 1764 | 1765
+  | american independence war peace ratified | 1784 1
+  | petah tikvah founded | 1878 11 3
+  | france defeated, germany unified | 1871 5 10
+  | first zionist congress | 1897 8 29 | 1897 8 31
+  | palestine immigration stop | 1946 8 12
+  | exodus1947 | 1947 7 17
+  | un partition plan | 1947 11 29
+  | declaration of independence | 1948 5 14
+  | start of independence war | 1948 5 15
+  | raising of the ink flag | 1949 3 10
+  | egypt armistice | 1949 2 24
+  | lebanon armistice | 1949 3 23
+  | jordan armistice | 1949 4 3
+  | syria armistice (last) | 1949 7 20
+  | 6 day war | 1967 6 5 | 1967 6 10
+  | founded jqdc | 1969 4 1
+  | saddam sentenced to death | 2006 11 5
+  -- arab spring events
+  | arab spring starts in tunisia | 2010 12 17
+  | tahrir square - egypt revolution starts | 2011 1 25
+  | tunisian government overthrown | 2011 1 14
+  | syrian protests start | 2011 3 15
+  | mubarak resigns | 2011 2 11
+  | lybian civil war starts | 2011 2 15
+  | gaddafi overthrown | 2011 8 28
+  | egyptian christians killed | 2011 10 10
+  | gaddafi killed | 2011 10 20
+  | syrian army attacks homs | 2012 2 3
+  -- 1999 events
+  | putin becomes prime minister | 1999 8 9
+  | operation desert fox (iraq) | 1998 12 16 | 1998 12 20
+  | operation allied force (serbia) | 1999 3 24 | 1999 6 10
+  -- aliyah events
+  | 1st aliyah | 1882 | 1903
+  | operation ezra & nehemiah (iraq) | 1951 5 | 1952 1
+  | operation magic carpet (yemen) | 1949 6 | 1950 9
+  | suez crisis, peak exodus from egypt | 1956 10 29 | 1956 11 2
+  -- ben yehuda
+  | ben yehuda arrives in jaffa | 1881 10
+  | 'ben zion' born | 1882
+  | committee of hebrew founded | 1890
+end group
+
+begin group datesSolar
+  | napoleon first konsul | 1799 12 25
+  | napoleon in egypt | 1801
+  | napoleon emperor | 1804 12 2
+  | iraq invasion | 2003 3 19 | 2003 4 30
+  | lebanon war | 2006
+  | world war I; ottoman empire falls; jerusalem liberated; german empire falls | 1914 7 28 | 1918 11 11
+  | world war II; attempted eradication of jews; | 1939 9 1 | 1945 9 3
+  | treaty of versailles | 1919 6 28
+  | hitler both president and chancellor | 1934 8 1
+  | camp david accords | 1978 9 17
+  | egypt peace treaty | 1979 3 26
+  | saddam in power | 1979 7 16
+  | oslo I | 1993 8 20
+  | jordan peace treaty | 1994 10 26
+  | oslo II | 1995 9 24
+  | rabin's death | 1995 11 4
+  | arafat's death | 2004 11 11
+  | saddam's death | 2006 12 30
+  | finished restoration of jewish quarter | 1985
+  | operation moses (ethiopia) | 1984 11 21 | 1985 1 5
+  | operation joshua (ethiopia) | 1985 3
+  | operation salomon (ethiopia) | 1991 5 23 | 1991 5 25
+  | 2nd aliyah | 1904 | 1914
+  | 3rd aliyah | 1919 | 1923
+  | 4th aliyah | 1924 | 1931
+  | 5th aliyah | 1932 | 1938
+  | aliyah B | 1934 | 1947
+  -- ben yehudah
+  | hebrew (additional) official language in palestine | 1921
+  | ben yehudah dies | 1922
+end group
+
+begin group datesModern
+   group dates360
+   group datesSolar
+end group
+
+begin group islamic
+  | dome on the rock build start | 685
+  | dome on the rock build end | 691
+  | al-aqsa build end | 705
+  | al-aqsa destroyed | 746
+  | al-aqsa rebuilt | 754
+  | mohammed's death | 632
+  | mohammed born | 570
+end group

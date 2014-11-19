@@ -76,15 +76,15 @@ findHeMonth dt = let caly = extract calYear dt
                      months = yearMonths prevYear ++ yearMonths dt
                  in head . dropWhile ((< dt) . HDay . snd) $ months
                  
-heDay :: Integer -> Int -> Int -> HDate
+heDay :: (Integral i) => i -> Int -> Int -> HDate
 heDay y m d = let months = yearMonths (hYear y)
               in HDay $ Gregorian.addDays (fromIntegral d-1) (fst $ months !! (m-1))
 
-heMonth :: Integer -> Int -> HDate
+heMonth :: (Integral i) => i -> Int -> HDate
 heMonth y m = let (start, end) = findHeMonth (heDay y m 1)
               in HTimeSpan (HDay start) (HDay end)
 
-heYear :: Integer -> HDate
+heYear :: (Integral i) => i -> HDate
 heYear y = let (HTimeSpan start _) = heMonth y 1
                (HTimeSpan end   _) = heMonth (y+1) 1
            in HTimeSpan start (HDay . addDays (-1) . extract id $ end)

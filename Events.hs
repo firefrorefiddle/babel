@@ -1,296 +1,298 @@
-module Events where
+{-# LANGUAGE NoMonomorphismRestriction #-}
+module Events (readEvents) where
 
 import Dates
 import HebrewCal
+import Text.Parsec
+import Text.Parsec.Token
+import Text.Parsec.Combinator
+import Text.Printf
+import Data.Maybe (fromJust)
+import Control.Applicative ((<$>))
+import Control.Monad
+import Data.Char
+import Data.List
+import Debug.Trace
+import qualified Data.Map.Strict as M
 
-dIsraelDest = ("israel and syria destroyed", hYear $ -720)
-dSennach = ("siege of sennacherib - judah almost falls", hYear $ -701)
-dDownfallAssyria = ("downfall of assyria", hTimeSpan (hYear $ -626) (hYear $ -605))
 
--- third year of jojakim, when 609 was accession year
-dFirstSiegeNebu = ("daniel kidnapped", heYear $ -606)
+-- |Read and parse events file.
+readEvents :: FilePath -> IO [(GroupId, [(String, HDate)])]
+readEvents fp = do
+  parseRes <- parseFile fp
+  case parseRes of
+    Left err -> error $ "Parse error in events file " ++ fp ++ "\n" ++
+                show err
+    Right topExps -> return $ toSimpleEventList topExps
 
--- german wikipedia
-dNebuAcc = ("accession of nebukadnezar", hYear $ -605)
 
--- might also be in 611 or 613
-dNineveh = ("nineveh sacked", hYear (-612))
+langDef = LanguageDef
+   { commentStart = ""
+   , commentEnd = ""
+   , commentLine = "--"
+   , nestedComments = True
+   , identStart = letter
+   , identLetter = alphaNum <|> char '_' <|> char '-'
+   , opStart = fail ""
+   , opLetter = fail ""
+   , reservedNames = ["after", "extend", "begin", "end", "group"]
+   , reservedOpNames = []
+   , caseSensitive = False
+   }
 
--- wikipedia gives "summer" of 605, i'll assume between june and august
-dFallAssyria = ("assyria falls (battle of charchemish)", 
-             hTimeSpan (hMonth (-605) 6) (hMonth (-605) 8))
+tokenParser = makeTokenParser langDef
+lexeme' = lexeme tokenParser
+whiteSpace' = whiteSpace tokenParser
+eventId = identifier tokenParser
+reserved' = reserved tokenParser
 
--- nebukadnezar's firstYear starts 1st nisannu 604,
--- which is between 7th march and 19th april (german wikipedia)
-dNebuFirst = ("nebukadnezars first year starts",
-              hTimeSpan
-              (hDay (-604) 3 7)
-              (hDay (-604) 4 19))
+type EventId = String
+type GroupId = String
 
-dNebuDream = extend (after dNebuFirst "" 360) 
-           "nebukadnezars dream of the standing picture" 360
+data Event = Event
+             { eId   :: Maybe EventId
+             , eText :: String
+             , eDate :: DateSpec }
+           deriving (Read, Show, Eq)
 
--- wikipedia gives the exact date!?
--- according to the babylonian chronicles
--- http://en.wikipedia.org/wiki/Jehoiakim
-dJehoiachinSiege = ("jehoiachin deported", hDay (-597) 3 16)
+data DateSpec = DateSpecEventId EventId
+              | DateSpecAfter TimeSpec DateSpec
+              | DateSpecExtend TimeSpec DateSpec
+              | DateSpecStartEnd DateSpec DateSpec
+              | DateSpec DateType Int (Maybe Int) (Maybe Int)
+              deriving (Read, Show, Eq)
 
--- nineteenth year of nebukadnezar
-dLastSiegeNebu = ("jerusalem destroyed", hYear $ -587)
+data DateType = Regular | Hebrew
+              deriving (Read, Show, Eq)
 
-dTempleDestroyed1 = ("temple destroyed", heDay (-587) 5 9)
-dTempleDestroyed2 = ("alternative date temple dest.", heDay (-586) 5 9)
+data TimeSpec = TimeSpec TimeType Int
+              deriving (Read, Show, Eq)
 
--- after belsazar died, his father nabonid reigned for another 4 years.
--- this is a bit guesswork, though.
-dWritingWall = ("the writing on the wall", hYear (-543))
+data TimeType = Days | Years | Years360
+              deriving (Read, Show, Eq)
 
--- nabonid chronic says that the army entered babylon tishri 16th
--- kyros some 17 days later.
-dFallBabel = ("babylon falls", heDay (-539) 7 16)
-dKyrosEntersBabel = after dFallBabel "kyros enters babylon" 21 
+data TopExp = TEEvent Event
+            | TEGroup GroupId [EventSpec]
+              deriving (Read, Show, Eq)
 
--- kyros was king of persia already when he conquered babylon, so we
--- don't have to count accession years. his first year would start 
--- immediatetely
-dFirstYearKyros = extend dKyrosEntersBabel "kyros' edict" 360
+data EventSpec = ESEvent Event
+               | ESId EventId
+               | ESGroup String
+              deriving (Read, Show, Eq)
+                       
+fakeNewlineChar = '\0'
+fakeNewline = lexeme tokenParser $ char fakeNewlineChar >> return ()
+                       
+int = fromIntegral <$> integer tokenParser
+                       
+strip = dropWhile isSpace . reverse . dropWhile isSpace . reverse
 
--- daniel receives revelation in dan 10 in this year
--- this is the third year kyros reigns in babylon;
--- he was king of persia for some years already.
-dThirdYearKyros = afterSolar dFirstYearKyros "daniel sees jesus" 1
-
-dSerubbabel = after dFirstYearKyros "serubbabel leaves babylon" 0
-
-dStartSac1 = ("start of sacrifices if in same year", heDay (-538) 7 1)
-dStartSac2 = ("start of sacrifices if in next year", heDay (-537) 7 1)
-
--- Now in the second year after their coming to the house of God at Jerusalem, in the second month, (ezr 3)
-dTempleStart1 = ("temple foundations", heDay (-537) 2 1)
--- it may have been one year later though, or could they do the journey so quickly?
-dTempleStart2 = ("temple foundations (alternative)", heDay (-536) 2 1)
-
-dDiscourage1 = ("people of the land stop the building (speculative)", hMonth (-537) 6)
-dDiscourage2 = ("people of the land stop the building (alternative, speculative)", hMonth (-536) 6)
-
-dTempleRestart = ("build temple", hYear $ -520)
-dTempleFinish = ("finish temple", heDay (-516) 12 3)
-
-dAfterTemplePassah = ("passah after temple finished", heDay (-515) 1 14)
-
-dEsraLeave = ("esra leaves babylon", heDay (-458) 1 1) -- hDay (-458) 4 8)
-dEsraArrive = ("esra arrives in jerusalem", heDay (-458) 5 1) -- hDay (-458 8 4)
--- some scholars think ezra's artaxerxes was the 2nd
-dEsraLeaveAlt = ("esra leaves babylon (artaxerxes II theory)", hDay (-397) 3 24)
-dEsraArriveAlt = ("esra arrives in jerusalem (artaxerxes II theory)", heDay (-397) 5 1) -- (hDay (-397) 7 20)
-
--- if artaxerxes ii's rule also started in summer, then his 7th year would not end before
--- summer 396
-dEsraLeaveAltAlt = ("esra leaves babylon (artaxerxes II theory, alt)", heDay (-396) 1 1)
-dEsraArriveAltAlt = ("esra arrives in jerusalem (artaxerxes II theory, alt)", heDay (-396) 5 1)
-dNehemia1 = ("nehemia leaves babylon (445)", heMonth (-445) 1) --  hTimeSpan (hDay (-445) 3 15) (hDay (-445) 4 12))
-
--- this is one month earlier than in torahcalendar.com, which assumes that the 
--- thirteenth month of 445 was counted first of 444 for some reason.
--- i am doing this solely because i want the result to match my theory (69 weeks
--- later being nisan 33), so it is dishonest of course; still, it might be possible
--- and seems to be the only possibility to reach a nisan with passah on the right day
--- of week.
--- however, if this was adar 2 and the persian year started only the month after,
--- then this explains why nehemiah still gives the 20th year of artaxerxes, when it
--- would be the 21st if the new year had already started.
--- then for some reason nehemiah would regard adar 2 as nisan in his own reckoning
--- while officially nisan was only the next month
--- another explanation is that artaxerxes' regnal years spanned summer - summer when
--- he ascended the throne in summer. then -465 (summer) - -464 would be his ascension
--- year, starting his first year in summer -464 and his 2th in summer -445, so 
--- spring -444 would still be his 20th year.
-dNehemia2 = ("nehemia leaves babylon (alt., 444)", heDay (-445) 13 1) -- hTimeSpan (hDay (-444) 3 4) (hDay (-444) 4 2))
-
-d7WeeksNehem1 = after dNehemia1 "7 360-weeks after artaxerxes' edict (starting 445)" (49*360)
-d7WeeksNehem2 = after dNehemia2 "7 360-weeks after artaxerxes' edict (starting 444)" (49*360)
-d69WeeksNehem1 = after dNehemia1 "69 360-weeks after artaxerxes' edict (starting 445)" (69*7*360)
-d69WeeksNehem2 = after dNehemia2 "69 360-weeks after artaxerxes' edict (starting 444)" (69*7*360)
-
-dAndersonStart = ("anderson's start date", hDay (-445) 3 14)
-dAndersonEnd = ("anderson's end date", hDay 32 4 6)
-dAnderson70 = after dAndersonStart "69 weeks after anderson's start date" (69*7*360)
-
-dDareios = ("dareios rises to power", hMonth (-522) 9)
-
-dXerxesStart = ("xerxes/ahasveros beginning reign (ester)", hYear (-486))
-dXerxesEnd = ("xerxes/ahasveros death", hMonth (-465) 8)
--- seventh year + 1 year ascension
-dEstherQueen = ("esther becomes queen",
-                heMonth (-479) 10)
-dPurimLots = ("purim lots cast before haman (est 3,7)",
-              heDay (-474) 1 1)
-dPurimRevenge = ("haman tries to destroy jews, but jews take revenge (purim)",
-                 hTimeSpan (heDay (-474) 12 13) (heDay (-474) 12 15))
-dHamansLaw = ("haman's law to destroy jews signed", heDay (-474) 1 13)
-                                                        
-                 
-babelDates =
-  [ dIsraelDest
-  , dSennach
-  -- , dDownfallAssyria
-  , dFirstSiegeNebu
-  , after dFirstSiegeNebu "70*360 after daniel kidnapped" (offsetCaptivity*360)
-  , afterSolar dFirstSiegeNebu "70 solar after daniel kidnapped" offsetCaptivity
-  , dNebuAcc
-  , dNineveh
-  , dFallAssyria
-  , dNebuFirst
-  , dNebuDream
-  , dJehoiachinSiege
-  , after dJehoiachinSiege "70*360 after jehoiachin" (offsetCaptivity*360)
-  , afterSolar dJehoiachinSiege "70 after jehoiachin" offsetCaptivity
---  , dLastSiegeNebu
-  , dTempleDestroyed1
-  , dTempleDestroyed2
-  , after dTempleDestroyed1 "70*360 after temple destr." (offsetCaptivity*360)
-  , after dTempleDestroyed2 "70*360 after temple destr. (alt.)" (offsetCaptivity*360)
-  , afterSolar dTempleDestroyed1 "70 solar after temple destr." offsetCaptivity
-  , afterSolar dTempleDestroyed2 "70 solar after temple destr. (alt.)" offsetCaptivity
-  , ("nebukadnezar's death", hYear (-562))
---  , ("nebukadnezar's madness ??? (just speculating...)", 
---      hTimeSpan (hYear (-583)) (hYear (-576)))
-  , dWritingWall
-  , dFallBabel
-  , dKyrosEntersBabel
-  , dFirstYearKyros
-  , dSerubbabel
-  , dThirdYearKyros
-  , dStartSac1
---  , dStartSac2
-  , dTempleStart1
---  , dTempleStart2
-  , dDiscourage1
---  , dDiscourage2
---  , dDareios
-  , dTempleRestart
-  , dTempleFinish
-  , dAfterTemplePassah
-  , dEsraLeave
-  , dEsraArrive
-  , dEsraLeaveAlt
-  , dEsraArriveAlt
-  , dEsraLeaveAltAlt
-  , dEsraArriveAltAlt
-  , dNehemia1
-  , dNehemia2
-  , d7WeeksNehem1
-  , d7WeeksNehem2
-  , d69WeeksNehem1
-  , d69WeeksNehem2
-  , dXerxesStart
-  , dXerxesEnd
-  , dEstherQueen
-  , dPurimLots
-  , dPurimRevenge
-  , dHamansLaw
-  , dAndersonStart
-  , dAndersonEnd
-  , dAnderson70
-  ]
+eventSep = reservedOp tokenParser "|"
   
-dates360 =
-  [ ("seven years war ends; prussia rises to great power", hYear 1763)
-  , ("sugar act, stamp act, resistance", hTimeSpan (hYear 1764) (hYear 1765))
-  , ("american independence war peace ratified", hMonth 1784 1)
-  , ("petah tikvah founded", hDay 1878 11 3)
-  , ("france defeated, germany unified", hDay 1871 5 10)
-  , ("first zionist congress", hTimeSpan (hDay 1897 8 29) (hDay 1897 8 31))
-  , ("palestine immigration stop", hDay 1946 8 12)
-  , ("exodus1947", hDay 1947 7 17)    
-  , ("un partition plan", (hDay 1947 11 29))
-  , ("declaration of independence", (hDay 1948 5 14))
-  , ("start of independence war", (hDay 1948 5 15))
-  , ("raising of the ink flag", hDay 1949 3 10)
-  , ("egypt armistice", hDay 1949 2 24)
-  , ("lebanon armistice", hDay 1949 3 23)
-  , ("jordan armistice", hDay 1949 4 3)
-  , ("syria armistice (last)", hDay 1949 7 20)
-  , ("6 day war", hTimeSpan (hDay 1967 6 5) (hDay 1967 6 10))
-  , ("founded jqdc", hDay 1969 4 1)
-  , ("saddam sentenced to death", hDay 2006 11 5)
-    -- arab spring events
-  , ("arab spring starts in tunisia", hDay 2010 12 17)
-  , ("tahrir square - egypt revolution starts", hDay 2011 1 25)
-  , ("tunisian government overthrown", hDay 2011 1 14)
-  , ("syrian protests start", hDay 2011 3 15)
-  , ("mubarak resigns", hDay 2011 2 11)
-  , ("lybian civil war starts", hDay 2011 2 15)
-  , ("gaddafi overthrown", hDay 2011 8 28)
-  , ("egyptian christians killed", hDay 2011 10 10)
-  , ("gaddafi killed", hDay 2011 10 20)
-  , ("syrian army attacks homs", hDay 2012 2 3)
-    -- 1999 events
-  , ("putin becomes prime minister", hDay 1999 8 9)
-  , ("operation desert fox (iraq)", hTimeSpan (hDay 1998 12 16) (hDay 1998 12 20))
-  , ("operation allied force (serbia)", hTimeSpan (hDay 1999 3 24) (hDay 1999 6 10))
-    -- aliyah events
---  , ("1st aliyah", hTimeSpan (hYear 1882) (hYear 1903))
-  , ("operation ezra & nehemiah (iraq)", hTimeSpan (hMonth 1951 5) (hMonth 1952 1))
-  , ("operation magic carpet (yemen)", hTimeSpan (hMonth 1949 6) (hMonth 1950 9))
-  , ("suez crisis, peak exodus from egypt", hTimeSpan (hDay 1956 10 29) (hDay 1956 11 2))
+eventWord = many1 $ satisfy (not . flip elem ['|', '\n', '\0'])
 
-   -- ben yehuda
-   , ("ben yehuda arrives in jaffa", hMonth 1881 10)
-   , ("'ben zion' born", hYear 1882)
-   , ("committee of hebrew founded", hYear 1890)
-  ] -- ++ days100
+mEventParticle = lexeme' $ (Just <$> eventId) <|> (lookAhead eventSep >> return Nothing)
 
-days100 =
-  let dates = takeWhile (<= hYear 2025) $ iterate (addDaysH 100) (hDay 1967 6 7)
-      added = [0,100..]
-  in zipWith (\d x -> ("added " ++ show d ++ " days",x)) added dates
+eventParticle = lexeme tokenParser eventWord
 
-datesSolar =
-  [ ("napoleon first konsul", hDay 1799 12 25)
-  , ("napoleon in egypt", hYear 1801)
-  , ("napoleon emperor", hDay 1804 12 2)
-  , ("iraq invasion", hTimeSpan (hDay 2003 3 19) (hDay 2003 4 30))
-  , ("lebanon war", hYear 2006)
-  , ("world war I; ottoman empire falls; jerusalem liberated; german empire falls",
-     hTimeSpan (hDay 1914 7 28) (hDay 1918 11 11))
-  , ("world war II; attempted eradication of jews;",
-     hTimeSpan (hDay 1939 9 1) (hDay 1945 9 3))
-  , ("treaty of versailles", hDay 1919 6 28)
-  , ("hitler both president and chancellor", hDay 1934 8 1)
-  , ("camp david accords", hDay 1978 9 17)
-  , ("egypt peace treaty", hDay 1979 3 26)
-  , ("saddam in power", hDay 1979 7 16)
-  , ("oslo I", hDay 1993 8 20)
-  , ("jordan peace treaty", hDay 1994 10 26)
-  , ("oslo II", hDay 1995 9 24)
-  , ("rabin's death", hDay 1995 11 4)
-  , ("arafat's death", hDay 2004 11 11)
-  , ("saddam's death", hDay 2006 12 30)
-  , ("finished restoration of jewish quarter", hYear 1985)
-  , ("operation moses (ethiopia)", hTimeSpan (hDay 1984 11 21) (hDay 1985 1 5))
-  , ("operation joshua (ethiopia)", hMonth 1985 3)
-  , ("operation salomon (ethiopia)", hTimeSpan (hDay 1991 5 23) (hDay 1991 5 25))
---  , ("2nd aliyah", hTimeSpan (hYear 1904) (hYear 1914))
---  , ("3rd aliyah", hTimeSpan (hYear 1919) (hYear 1923))
---  , ("4th aliyah", hTimeSpan (hYear 1924) (hYear 1931))
---  , ("5th aliyah", hTimeSpan (hYear 1932) (hYear 1938))
---  , ("aliyah B", hTimeSpan (hYear 1934) (hYear 1947))
-   -- ben yehudah
-   , ("hebrew official language", hYear 1921)
-   , ("ben yehudah dies", hYear 1922)
-  ]
+dateSpec = try dateSpecStartEnd <|> dateSpec'
+dateSpec'
+  =   try dateSpecId
+  <|> try dateSpecAfter
+  <|> try dateSpecExtend
+  <|> dateSpecDirect
 
-datesModern = dates360 ++ datesSolar
+dateSpecId = DateSpecEventId <$> identifier tokenParser
 
-dates360' =
-  [ ("dome on the rock build start", hYear 685)
-  , ("dome on the rock build end", hYear 691)
-  , ("al-aqsa build end", hYear 705)
-  , ("al-aqsa destroyed", hYear 746)
-  , ("al-aqsa rebuilt", hYear 754)
-  , ("mohammed's death", hYear 632)
-  , ("mohammed born", hYear 570)
-  ]
-datesSolar' = dates360'
+dateSpecAfter = do reserved tokenParser "after" 
+                   t <- timeSpec
+                   d <- dateSpec
+                   return $ DateSpecAfter t d
 
+dateSpecExtend = do reserved tokenParser "extend"
+                    t <- timeSpec
+                    d <- dateSpec
+                    return $ DateSpecExtend t d
+
+dateSpecStartEnd = do d1 <- dateSpec'
+                      eventSep
+                      d2 <- dateSpec'
+                      return $ DateSpecStartEnd d1 d2
+
+dateSpecDirect = do year <- int
+                    tp <- option Regular (char 'h' >>
+                                          whiteSpace' >>
+                                          return Hebrew)
+                    month <- optionMaybe int
+                    day   <- optionMaybe int
+                    return $ DateSpec tp year month day
+
+                     
+timeSpec = do num <- int
+              tp <- timeSpecType
+              whiteSpace'
+              return $ TimeSpec tp num
+                
+timeSpecType = option Days ((char 'y' >> return Years) <|>
+                            (char 't' >> return Years360))
+
+event = do whiteSpace'
+           id <- mEventParticle
+           eventSep
+           text <- eventParticle
+           eventSep
+           date <- dateSpec
+           try eof <|> lookAhead fakeNewline
+           return $ Event id (strip text) date
+
+eventSpec = (ESEvent <$> try event)
+        <|> (ESId <$> try eventId)
+        <|> (ESGroup <$> try (reserved' "group" >> eventId))
+             
+egroup = do mapM_ (reserved tokenParser) ["begin", "group"]
+            name <- identifier tokenParser
+            fakeNewline            
+            events <- many (do res <- eventSpec
+                               lexeme' fakeNewline
+                               return res)
+            mapM_ (reserved tokenParser) ["end", "group"]
+            fakeNewline
+            return $ TEGroup name events
+
+topExp = try (TEEvent <$> event) <|> egroup
+
+insertBefore x y (z:zs) | x == z    = y:x:insertBefore x y zs
+                        | otherwise = z:  insertBefore x y zs
+insertBefore _ _ [] = []
+
+topLevel = do res <- many (lexeme' (do many (lexeme' fakeNewline)
+                                       lexeme' topExp))
+              eof
+              return res
+
+parseFile fp = do
+  cont <- readFile fp
+  let cont' = insertBefore '\n' fakeNewlineChar cont
+  return $ parse topLevel fp cont'
+
+type SimpleEvent = (String, HDate)
+type EventList = [SimpleEvent]
+
+toSimpleEventList :: [TopExp] -> [(GroupId, [SimpleEvent])]
+toSimpleEventList exps = M.toList .
+                         resolveGroups exps .
+                         resolveDates .
+                         registerEvents $ exps
+
+  where  
+    -- in the first pass we just id all the dates without trying
+    -- to resolve the dates or events in a group
+    registerEvents :: [TopExp] -> (M.Map EventId Event, M.Map GroupId [String])
+    registerEvents tes = let (mes, mgs, _) = foldr idTopExp (M.empty, M.empty, 1) tes
+                         in (mes, mgs)
+
+    toId :: Int -> String
+    toId i = printf "$e%d" i
+
+    tagEvent :: Event -> Int -> (Event, Int)
+    tagEvent e nextId = case eId e of
+      Nothing -> (e { eId = Just $ toId nextId }, nextId+1)
+      Just _ -> (e, nextId)
+
+    saveEvent e nextId mes = 
+      let (e', nextId') = tagEvent e nextId
+      in (M.insert (fromJust.eId $ e') e' mes, nextId')
+
+    idTopExp (TEEvent e) (mes, mgs, nextId) =
+      let (mes', nextId') = saveEvent e nextId mes
+      in (mes', mgs, nextId')
+    idTopExp (TEGroup gid especs) (mes, mgs, nextId) =
+      let es = groupEvents especs
+          (mes', nextId') = foldr idGroup (mes, nextId) es
+          taggedIds = [eid | Just eid <- map eId es]
+          generatedIds = map toId [nextId..nextId'-1]
+      in (mes', M.insert gid (taggedIds++generatedIds) mgs, nextId')
+    
+    idGroup e (mes, nextId) = saveEvent e nextId mes
+
+    -- all events which are defined inside a group
+    groupEvents especs = [e | ESEvent e <- especs]
+
+    -- resolves relative date specs, so only DateSpec and
+    -- DateSpecStartEnd remain
+    resolveDates :: (M.Map EventId Event, M.Map a b) ->
+                    (M.Map EventId SimpleEvent, M.Map a b)
+    resolveDates (mes, mgs) =
+      (M.map (\e -> (eText e, resolveDate [] mes (eDate e))) mes, mgs)
+    
+    resolveDate ids mes ds =
+
+      case ds of        
+        (DateSpec tp y m d) -> case (tp,y,m,d) of
+          (Regular,y', Nothing, Nothing) -> hYear y'
+          (Regular,y', Just m', Nothing) -> hMonth y' m'
+          (Regular,y', Just m', Just d') -> hDay y' m' d'
+          (Hebrew, y', Nothing, Nothing) -> heYear y'
+          (Hebrew, y', Just m', Nothing) -> heMonth y' m'
+          (Hebrew, y', Just m', Just d') -> heDay y' m' d'
+        
+        DateSpecStartEnd dt1 dt2 ->
+          hTimeSpan (resolveDate ids mes dt1) (resolveDate ids mes dt2)
+        
+        DateSpecEventId eid ->
+          if eid `elem` ids
+          then error $ "resolving dates led to a circle involving events: " ++ intercalate (", ") ids
+          else case M.lookup eid mes of
+            Nothing -> error $ "Unknown event: " ++ eid
+            Just e -> resolveDate (eid:ids) mes (eDate e)
+          
+        DateSpecAfter ts ds -> addTime ts (resolveDate ids mes ds)
+
+        DateSpecExtend ts ds ->
+          let date = resolveDate ids mes ds
+          in case date of
+            HTimeSpan dt1 dt2 -> HTimeSpan dt1 (addTime ts dt2)
+            dt1 -> HTimeSpan dt1 (addTime ts dt1)            
+    
+    -- expects a resolved date, that is, only DateSpecStartEnd or DateSpec
+    -- is allowed
+    addTime :: TimeSpec -> HDate -> HDate
+    addTime ts (HTimeSpan dt1 dt2) =
+      hTimeSpan (addTime ts dt1) (addTime ts dt2)
+    addTime (TimeSpec Days n)     hDate = snd $ after      ("",hDate) "" (fromIntegral n)
+    addTime (TimeSpec Years n)    hDate = snd $ afterSolar ("",hDate) "" (fromIntegral n)
+    addTime (TimeSpec Years360 n) hDate = snd $ after360   ("",hDate) "" (fromIntegral n)
+
+    resolveGroups :: [TopExp] ->
+                     (M.Map EventId SimpleEvent,
+                      M.Map GroupId [EventId]) ->
+                     M.Map GroupId [SimpleEvent]
+    resolveGroups tops (mes, origMgs) =
+      
+      let topGroups = [g | g@(TEGroup _ _) <- tops]
+
+          resolveEventIds :: TopExp -> M.Map GroupId [SimpleEvent] -> M.Map GroupId [SimpleEvent]
+          resolveEventIds (TEGroup gid especs) mgs =
+            M.insert gid ([assertE eid
+                          | (ESId eid) <- especs] ++
+                          [assertE genId
+                          | genId <- fromJust $ M.lookup gid origMgs]) mgs
+
+          resolveGroupIds :: TopExp -> M.Map GroupId [SimpleEvent] -> M.Map GroupId [SimpleEvent]
+          resolveGroupIds (TEGroup gid especs) mgs =
+            M.update (\es -> Just $ es ++
+                             concat [assertG gid
+                                    | (ESGroup gid) <- especs])
+            gid mgs
+
+          assertE e = case M.lookup e mes of
+            Nothing -> error $ "unknown event: " ++ e
+            Just e' -> e'
+          assertG g = case M.lookup g origMgs of
+            Nothing -> error $ "unknown group: " ++ g
+            Just eids -> map assertE eids
+
+          mgs' = foldr resolveEventIds M.empty topGroups
+          mgs'' = foldr resolveGroupIds mgs' topGroups 
+
+      in mgs''

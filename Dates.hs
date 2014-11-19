@@ -5,21 +5,21 @@ import Data.Time.Calendar.Julian
 import Text.Printf
 
 fromCalendar y m d = if (y,m,d) >= (1582,10,15)
-                     then fromGregorian y m d
-                     else fromJulian y m d
+                     then fromGregorian (fromIntegral y) m d
+                     else fromJulian (fromIntegral y) m d
 toCalendar dt = if dt >= fromGregorian 1582 10 15
                 then toGregorian dt
                 else toJulian dt
 
 -- this doesn't handle julian/gregorian conversion correctly
-addMonthsC = addGregorianMonthsClip
+addMonthsC n d = addGregorianMonthsClip (fromIntegral n) d
 
 -- this handles julian/gregorian conversion
-addYearsC :: Integer -> Day -> Day
+addYearsC :: (Integral i) => i -> Day -> Day
 addYearsC n dt = let (y,m,d) = toCalendar dt
                  in if (m,d) == (2,29)
-                    then fromCalendar (y+n) m 28
-                    else fromCalendar (y+n) m d
+                    then fromCalendar (y+fromIntegral n) m 28
+                    else fromCalendar (y+fromIntegral n) m d
 
 offsetCaptivity = 70
 offsetFuture = 2520
@@ -115,7 +115,7 @@ addDaysH n (HYear y) =
 addDaysH n (HMonth m) =
   addDaysH n (HTimeSpan (HDay m)
             (HDay . addMonthsC 1 $ m))
-addDaysH n (HDay d) = HDay . addDays n $ d
+addDaysH n (HDay d) = HDay . addDays (fromIntegral n) $ d
 addDaysH n (HTimeSpan ds de) = HTimeSpan
                                (addDaysH n ds)
                                (addDaysH n de)
@@ -132,7 +132,9 @@ offset hd = let (y, m, d) = toCalendar hd
                     then fromCalendar (y+1) m d
                     else hd
 
-after, afterSolar :: (String, HDate) -> String -> Integer -> (String, HDate)
+after, afterSolar, after360 :: (Integral i) => 
+   (String, HDate) -> String -> i -> (String, HDate)
+after360 (t,d) t' addY = (t', addDaysH (addY*360) d)
 after (t, d) t' addD = (t', addDaysH addD d)
 afterSolar (t, (HYear y))  t' addY = (t', HYear $  addYearsC addY y)
 afterSolar (t, (HMonth y)) t' addY = (t', HMonth $ addYearsC addY y)
@@ -142,7 +144,7 @@ afterSolar (t, (HTimeSpan d1 d2)) t' addY =
       (_, d2') = afterSolar (t, d2) t' addY
   in (t', HTimeSpan d1' d2')
 
-extend :: (String, HDate) -> String -> Integer -> (String, HDate)
+extend :: (Integral i) => (String, HDate) -> String -> i -> (String, HDate)
 extend (t, d) t' addD = let (_, d') = after (t,d) undefined addD
                         in (t', HTimeSpan d d')
 

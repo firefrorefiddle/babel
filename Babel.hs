@@ -21,18 +21,16 @@ mkDateGraph datesBabel dates360 datesSolar =
       sortDs  = sortBy (compare `on` snd)
       sortDs' = sortBy (compare `on` (snd.snd))
       dates1  = sortDs datesBabel
-      dates2  = map (\d -> after d "" (2520*360)) dates1
-      dates3  = map (\d -> afterSolar d "" 2520) dates1
-      dates4  = map (\d -> after d "" (1260*360)) dates1
-      dates5  = map (\d -> afterSolar d "" 1260) dates1      
+      dates2  = map (\d -> after360 d "" 2519) dates1
+      dates3  = map (\d -> afterSolar d "" 2519) dates1
       nodes1  = zip [1..] dates1
       nodes2  = zip [((+1).fst.last $ nodes1)..] (dates2 ++ dates360)
       nodes3  = zip [((+1).fst.last $ nodes2)..] (dates3 ++ datesSolar)
       edges1  = zipWith (\(x,_) (y,_) -> (x,y,"")) nodes1 (tail nodes1)
       edges2  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes2) (tail $ sortDs' nodes2)
       edges3  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes3) (tail $ sortDs' nodes3)
-      crossEdges1 = zipWith (\(x,_) (y,_) -> (x, y, "2520*360d")) nodes1 nodes2
-      crossEdges2 = zipWith (\(x,_) (y,_) -> (x, y, "2520y")) nodes1 nodes3
+      crossEdges1 = zipWith (\(x,_) (y,_) -> (x, y, "2520*360d (inkl.)")) nodes1 nodes2
+      crossEdges2 = zipWith (\(x,_) (y,_) -> (x, y, "2520y (inkl.)")) nodes1 nodes3
       allNodes   = nodes1 ++ nodes2 ++ nodes3
       allEdges = concat [edges1,edges2,edges3,crossEdges1,crossEdges2]
   in mkGraph allNodes allEdges
@@ -53,7 +51,9 @@ unifyEqualNodes (u, v) g =
           labStr = intercalate " ;; " . filter (not.null) $ [uLabStr, vLabStr]
           ctxt = (to, u, (labStr, udat), from)
       in ctxt & g''
-    _ -> error "unifyEqualNodes couldn't find both distinct nodes"
+    _ -> g --  ignore this - it may be that one or both of the nodes
+           --  are already merged away
+           --  error "unifyEqualNodes couldn't find both distinct nodes"
 
 unifyEnclosingNodes (u, v) g =
   let (uctxt, g') = match u g
@@ -68,8 +68,7 @@ unifyEnclosingNodes (u, v) g =
                    uFrom ++ vFrom
           vTo' = filter (not . null . fst) vTo
           vFrom' = filter (not . null . fst) vFrom
-      in (uTo', u, uLab, uFrom') & ((vTo', v, vLab, vFrom') & g'')
-          
+      in (uTo', u, uLab, uFrom') & ((vTo', v, vLab, vFrom') & g'')          
     _ -> error "unifyEnclosingNodes couldn't find both distinct nodes"
 
 labelDiff (u, v) g =

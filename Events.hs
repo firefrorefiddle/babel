@@ -224,9 +224,11 @@ toSimpleEventList exps = M.toList .
                     (M.Map EventId SimpleEvent, M.Map a b)
     resolveDates (mes, mgs) =
       (M.map (\e -> (eText e, resolveDate [] mes (eDate e))) mes, mgs)
-    
-    resolveDate ids mes ds =
 
+    resolveDate ids mes ds = let res = resolveDate' ids mes ds
+                             in res
+                                
+    resolveDate' ids mes ds =
       case ds of        
         (DateSpec tp y m d) -> case (tp,y,m,d) of
           (Regular,y', Nothing, Nothing) -> hYear y'
@@ -252,7 +254,8 @@ toSimpleEventList exps = M.toList .
           let date = resolveDate ids mes ds
           in case date of
             HTimeSpan dt1 dt2 -> HTimeSpan dt1 (addTime ts dt2)
-            dt1 -> HTimeSpan dt1 (addTime ts dt1)            
+            dt1 -> HTimeSpan dt1 (addTime ts dt1)
+
     
     -- expects a resolved date, that is, only DateSpecStartEnd or DateSpec
     -- is allowed

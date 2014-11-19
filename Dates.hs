@@ -132,6 +132,7 @@ offset hd = let (y, m, d) = toCalendar hd
                     then fromCalendar (y+1) m d
                     else hd
 
+-- for now, calculate using inclusive dates
 after, afterSolar, after360 :: (Integral i) => 
    (String, HDate) -> String -> i -> (String, HDate)
 after360 (t,d) t' addY = (t', addDaysH (addY*360) d)

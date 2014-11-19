@@ -111,8 +111,8 @@ dNehemia2 | nehemia leaves babylon (alt., 444) | -445h 13 1
 
 d7WeeksNehem1 | 7 360-weeks after artaxerxes' edict (starting 445) | after 49t dNehemia1
 d7WeeksNehem2 | 7 360-weeks after artaxerxes' edict (starting 444) | after 49t dNehemia2
-d69WeeksNehem1 | 69 360-weeks after artaxerxes' edict (starting 445) | after 360t dNehemia1
-d69WeeksNehem2 | 69 360-weeks after artaxerxes' edict (starting 444) | after 360t dNehemia2
+d69WeeksNehem1 | 69 360-weeks after artaxerxes' edict (starting 445) | after 483t dNehemia1
+d69WeeksNehem2 | 69 360-weeks after artaxerxes' edict (starting 444) | after 483t dNehemia2
 
 dAndersonStart | Sir Robert Anderson's start date | -445 3 14
 dAndersonEnd | Sir Robert Anderson's end date | 32 4 6
@@ -136,6 +136,8 @@ begin group datesBabel
   dFirstSiegeNebu
   | 70*360 after daniel kidnapped | after 70t dFirstSiegeNebu
   | 70 solar after daniel kidnapped | after 70y dFirstSiegeNebu
+  | 70*360 after daniel kidnapped (inclusive count) | after 69t dFirstSiegeNebu
+  | 70 solar after daniel kidnapped (inclusive count) | after 69y dFirstSiegeNebu
   dNebuAcc
   dNineveh
   dFallAssyria
@@ -144,6 +146,8 @@ begin group datesBabel
   dJehoiachinSiege
   | 70*360 after jehoiachin | after 70t dJehoiachinSiege
   | 70 after jehoiachin | after 70y dJehoiachinSiege
+  | 70*360 after jehoiachin (inclusive count) | after 69t dJehoiachinSiege
+  | 70 after jehoiachin (inclusive count) | after 69y dJehoiachinSiege
 --  dLastSiegeNebu
   dTempleDestroyed1
   dTempleDestroyed2
@@ -151,6 +155,10 @@ begin group datesBabel
   | 70*360 after temple destr. (alt.) | after 70t dTempleDestroyed2
   | 70 solar after temple destr. | after 70y dTempleDestroyed1
   | 70 solar after temple destr. (alt.) | after 70y dTempleDestroyed2
+  | 70*360 after temple destr. (inclusive count) | after 69t dTempleDestroyed1
+  | 70*360 after temple destr. (alt., inclusive count)) | after 69t dTempleDestroyed2
+  | 70 solar after temple destr. (inclusive count) | after 69y dTempleDestroyed1
+  | 70 solar after temple destr. (alt., inclusive count)) | after 69y dTempleDestroyed2
   | nebukadnezar's death | -562
   dWritingWall
   dFallBabel

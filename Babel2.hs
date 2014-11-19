@@ -1,4 +1,4 @@
-module C2520 where
+module Main where
 
 import Data.Time.Calendar
 import Data.Time.Calendar.Julian
@@ -33,9 +33,18 @@ offsetDateNodes dates firstNode = concat $
             dates
             [firstNode,firstNode+2..]
 
-mkDateGraph :: Gr (NodeType, String, HDate) String
-mkDateGraph =
-  let nodes1  = zip [1..] (map (tag Ancient) babelDates)
+
+readDates = do
+  evs <- readEvents "Events.txt"
+  case (lookup "datesBabel" evs,
+        lookup "datesModern" evs) of
+    (Just babel, Just modern) -> return (babel,modern)
+    _ -> error "Could not find all required groups in Events.txt. Need datesBabel and datesModern."
+
+
+mkDateGraph :: [(String, HDate)] -> [(String, HDate)] -> Gr (NodeType, String, HDate) String
+mkDateGraph datesBabel datesModern =
+  let nodes1  = zip [1..] (map (tag Ancient) datesBabel)
       offsets :: [(Node, (NodeType, String, HDate), (Node, String))]      
       offsets = offsetDateNodes nodes1 (length nodes1 + 1)
       nodes2  = map (\(n, l, _) -> (n, l)) offsets      
@@ -203,16 +212,17 @@ unifyGraphNodes g =
 
   in g'
 
-mkGraphic = let gr = unifyGraphNodes .
-                     removeUninterestingOffsets .
-                     removeUninterestingModerns .                     
-                     connectOffsetsToModern $
-                     mkDateGraph -- unifyGraphNodes $ 
-            in do fglToDotGeneric gr showNode id id
-                  mapM_ allSameRank .
-                    filter ((/= Modern) . tfst . snd . head) .
-                    groupBy ((==) `on` (tfst . snd)) .
-                    sortBy (compare `on` (tfst . snd)) $ labNodes gr                 
+mkGraphic = do (datesBabel, datesModern) <- readDates
+               let gr = unifyGraphNodes .
+                        removeUninterestingOffsets .
+                        removeUninterestingModerns .                     
+                        connectOffsetsToModern $
+                        mkDateGraph datesBabel datesModern
+               return $ do fglToDotGeneric gr showNode id id
+                           mapM_ allSameRank .
+                             filter ((/= Modern) . tfst . snd . head) .
+                             groupBy ((==) `on` (tfst . snd)) .
+                             sortBy (compare `on` (tfst . snd)) $ labNodes gr
   where showNode (_, str, d) = pretty str ++ "\n" ++ show d
         threshold = 25
         pretty str | length str < threshold = str
@@ -227,4 +237,7 @@ mkGraphic = let gr = unifyGraphNodes .
                                         in (w:taken', rest)
         allSameRank ns = same $ map (userNodeId . fst) ns
 
-writeIt = writeFile "babel.dot" . showDot $ mkGraphic
+
+writeIt = mkGraphic >>= writeFile "babel.dot" . showDot 
+
+main = writeIt

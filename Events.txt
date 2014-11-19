@@ -3,7 +3,7 @@ dSennach | siege of sennacherib - judah almost falls | -701
 dDownfallAssyria | downfall of assyria | -626 | -605
 
 -- third year of jojakim, when 609 was accession year
-dFirstSiegeNebu | daniel kidnapped | -606h | 700
+dFirstSiegeNebu | daniel kidnapped | -606h
 
 -- german wikipedia
 dNebuAcc | accession of nebukadnezar | -605

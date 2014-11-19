@@ -238,6 +238,6 @@ mkGraphic = do (datesBabel, datesModern) <- readDates
         allSameRank ns = same $ map (userNodeId . fst) ns
 
 
-writeIt = mkGraphic >>= writeFile "babel.dot" . showDot 
+writeIt = mkGraphic >>= writeFile "babel2.dot" . showDot 
 
 main = writeIt

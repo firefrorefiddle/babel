@@ -22,7 +22,7 @@ addYearsC n dt = let (y,m,d) = toCalendar dt
                     else fromCalendar (y+fromIntegral n) m d
 
 offsetCaptivity = 70
-offsetFuture = 2520
+offsetFuture = 2519
 
 data HDate -- historic date; some we only know by year,
            -- others more specific

@@ -10,6 +10,7 @@ import Debug.Trace
 import Data.Time.Calendar
 import Data.Time.Calendar.WeekDate
 import HebrewCal
+import System.Environment (getArgs)
 
 import Events
 import Dates
@@ -29,8 +30,8 @@ mkDateGraph datesBabel dates360 datesSolar =
       edges1  = zipWith (\(x,_) (y,_) -> (x,y,"")) nodes1 (tail nodes1)
       edges2  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes2) (tail $ sortDs' nodes2)
       edges3  = zipWith (\(x,_) (y,_) -> (x,y,"")) (sortDs' nodes3) (tail $ sortDs' nodes3)
-      crossEdges1 = zipWith (\(x,_) (y,_) -> (x, y, "2520*360d (inkl.)")) nodes1 nodes2
-      crossEdges2 = zipWith (\(x,_) (y,_) -> (x, y, "2520y (inkl.)")) nodes1 nodes3
+      crossEdges1 = zipWith (\(x,_) (y,_) -> (x, y, "2520*360d (incl.)")) nodes1 nodes2
+      crossEdges2 = zipWith (\(x,_) (y,_) -> (x, y, "2520y (incl.)")) nodes1 nodes3
       allNodes   = nodes1 ++ nodes2 ++ nodes3
       allEdges = concat [edges1,edges2,edges3,crossEdges1,crossEdges2]
   in mkGraph allNodes allEdges
@@ -108,17 +109,17 @@ unifyGraphNodes g =
 
   in g''
 
-readDates = do
-  evs <- readEvents "Events.txt"
+readDates fp = do
+  evs <- readEvents fp
   case (lookup "datesBabel" evs,
         lookup "dates360" evs,
         lookup "datesSolar" evs) of
     (Just babel, Just d360, Just solar) -> return (babel, d360, solar)
-    _ -> error "Could not find all required groups in Events.txt. Need datesBabel, dates360 and datesSolar."
+    _ -> error "Could not find all required groups in events file. Need datesBabel, dates360 and datesSolar."
 
-mkGraphic = do (datesBabel, dates360, datesSolar) <- readDates
-               let gr = unifyGraphNodes $ mkDateGraph datesBabel dates360 datesSolar
-               return $ fglToDotGeneric gr showNode id id
+mkGraphic fp = do (datesBabel, dates360, datesSolar) <- readDates fp
+                  let gr = unifyGraphNodes $ mkDateGraph datesBabel dates360 datesSolar
+                  return $ fglToDotGeneric gr showNode id id
   where showNode (str, d) = pretty str ++ "\n" ++ show d ++ "\n" ++ showHebrew d ++ showWeekDay d
         threshold = 25
         pretty str | length str < threshold = str
@@ -143,6 +144,11 @@ mkGraphic = do (datesBabel, dates360, datesSolar) <- readDates
         showWeekDay' 7 = "Sunday"
 
 
-writeIt = mkGraphic >>= writeFile "babel.dot" . showDot 
+writeIt = mkGraphic "Events.txt" >>= writeFile "babel.dot" . showDot 
 
-main = writeIt
+main = do
+  args <- getArgs
+  evs <- case args of
+      [] -> mkGraphic "Events.txt"
+      (fp:_) -> mkGraphic fp
+  writeFile "babel.dot" $ showDot evs

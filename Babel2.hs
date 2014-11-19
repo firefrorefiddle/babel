@@ -10,6 +10,7 @@ import Text.Dot
 import Data.Function
 import Data.List
 import Debug.Trace
+import System.Environment (getArgs)
 
 import Events
 import Dates
@@ -28,14 +29,14 @@ thrd (_,_,x) = x
 offsetDateNodes :: [(Node, (NodeType, String, HDate))] -> Node -> [(Node, (NodeType, String, HDate), (Node, String))]
 offsetDateNodes dates firstNode = concat $ 
     zipWith (\(n, (_, d, l)) m -> 
-                 [(m,   tag (Offset O360) (after (d,l) "" (offsetFuture*360)), (n, "2520*360d")),
+                 [(m,   tag (Offset O360) (after360 (d,l) "" (offsetFuture)), (n, "2520*360d")),
                   (m+1, tag (Offset OS) (afterSolar (d,l) "" (offsetFuture)), (n, "2520y"))])
             dates
             [firstNode,firstNode+2..]
 
 
-readDates = do
-  evs <- readEvents "Events.txt"
+readDates fp = do
+  evs <- readEvents fp
   case (lookup "datesBabel" evs,
         lookup "datesModern" evs) of
     (Just babel, Just modern) -> return (babel,modern)
@@ -81,7 +82,7 @@ unifyEqualNodes (u, v) g =
            --  error "unifyEqualNodes couldn't find both distinct nodes"
 
 connectOffsetsToModern g =
-  let threshold = 90
+  let threshold = 360
       connected = [(u, v, printf "start %d days before start of" (d1 dtv `diffDays` d1 dtu))
                   | (u, (Offset _, _, dtu)) <- labNodes g
                   , (v, (Modern, _, dtv)) <- labNodes g
@@ -212,17 +213,17 @@ unifyGraphNodes g =
 
   in g'
 
-mkGraphic = do (datesBabel, datesModern) <- readDates
-               let gr = unifyGraphNodes .
-                        removeUninterestingOffsets .
-                        removeUninterestingModerns .                     
-                        connectOffsetsToModern $
-                        mkDateGraph datesBabel datesModern
-               return $ do fglToDotGeneric gr showNode id id
-                           mapM_ allSameRank .
-                             filter ((/= Modern) . tfst . snd . head) .
-                             groupBy ((==) `on` (tfst . snd)) .
-                             sortBy (compare `on` (tfst . snd)) $ labNodes gr
+mkGraphic fp = do (datesBabel, datesModern) <- readDates fp
+                  let gr = unifyGraphNodes .
+                           removeUninterestingOffsets .
+                           removeUninterestingModerns .                     
+                           connectOffsetsToModern $
+                           mkDateGraph datesBabel datesModern
+                  return $ do fglToDotGeneric gr showNode id id
+                              mapM_ allSameRank .
+                                filter ((/= Modern) . tfst . snd . head) .
+                                groupBy ((==) `on` (tfst . snd)) .
+                                sortBy (compare `on` (tfst . snd)) $ labNodes gr
   where showNode (_, str, d) = pretty str ++ "\n" ++ show d
         threshold = 25
         pretty str | length str < threshold = str
@@ -238,6 +239,11 @@ mkGraphic = do (datesBabel, datesModern) <- readDates
         allSameRank ns = same $ map (userNodeId . fst) ns
 
 
-writeIt = mkGraphic >>= writeFile "babel2.dot" . showDot 
+writeIt = mkGraphic "Events.txt" >>= writeFile "babel2.dot" . showDot 
 
-main = writeIt
+main = do
+  args <- getArgs
+  evs <- case args of
+      [] -> mkGraphic "Events.txt"
+      (fp:_) -> mkGraphic fp
+  writeFile "babel2.dot" $ showDot evs

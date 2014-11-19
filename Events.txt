@@ -73,7 +73,7 @@ dTempleFinish | finish temple | -516h 12 3
 
 dAfterTemplePassah | passah after temple finished | -515h 1 14
 
-dEsraLeave | esra leaves babylon | -458h 1 1
+dEsraLeave | esra leaves babylon (if this was just one year earlier, it could correspond to the beginning of jesus' reign...) | -458h 1 1
 dEsraArrive | esra arrives in jerusalem | -458h 5 1
 
 -- some scholars think ezra's artaxerxes was the 2nd
@@ -134,148 +134,163 @@ begin group datesBabel
   dSennach
   -- dDownfallAssyria
   dFirstSiegeNebu
-  | 70*360 after daniel kidnapped | after 70t dFirstSiegeNebu
-  | 70 solar after daniel kidnapped | after 70y dFirstSiegeNebu
-  | 70*360 after daniel kidnapped (inclusive count) | after 69t dFirstSiegeNebu
-  | 70 solar after daniel kidnapped (inclusive count) | after 69y dFirstSiegeNebu
-  dNebuAcc
-  dNineveh
-  dFallAssyria
-  dNebuFirst
-  dNebuDream
-  dJehoiachinSiege
-  | 70*360 after jehoiachin | after 70t dJehoiachinSiege
-  | 70 after jehoiachin | after 70y dJehoiachinSiege
-  | 70*360 after jehoiachin (inclusive count) | after 69t dJehoiachinSiege
-  | 70 after jehoiachin (inclusive count) | after 69y dJehoiachinSiege
+--  | 70*360 after daniel kidnapped | after 70t dFirstSiegeNebu
+  | 70 solar after daniel kidnapped (excl.) | after 70y dFirstSiegeNebu
+--  | 70*360 after daniel kidnapped (inclusive count) | after 69t dFirstSiegeNebu
+--  | 70 solar after daniel kidnapped (inclusive count) | after 69y dFirstSiegeNebu
+--  dNebuAcc
+--  dNineveh
+--  dFallAssyria
+--  dNebuFirst
+--   dNebuDream
+--  dJehoiachinSiege
+--  | 70*360 after jehoiachin | after 70t dJehoiachinSiege
+  | 70 solar after jehoiachin (excl.) | after 70y dJehoiachinSiege
+--  | 70*360 after jehoiachin (inclusive count) | after 69t dJehoiachinSiege
+--  | 70 after jehoiachin (inclusive count) | after 69y dJehoiachinSiege
 --  dLastSiegeNebu
   dTempleDestroyed1
-  dTempleDestroyed2
-  | 70*360 after temple destr. | after 70t dTempleDestroyed1
-  | 70*360 after temple destr. (alt.) | after 70t dTempleDestroyed2
-  | 70 solar after temple destr. | after 70y dTempleDestroyed1
-  | 70 solar after temple destr. (alt.) | after 70y dTempleDestroyed2
-  | 70*360 after temple destr. (inclusive count) | after 69t dTempleDestroyed1
-  | 70*360 after temple destr. (alt., inclusive count)) | after 69t dTempleDestroyed2
-  | 70 solar after temple destr. (inclusive count) | after 69y dTempleDestroyed1
-  | 70 solar after temple destr. (alt., inclusive count)) | after 69y dTempleDestroyed2
-  | nebukadnezar's death | -562
+--  dTempleDestroyed2
+--  | 70*360 after temple destr. | after 70t dTempleDestroyed1
+--  | 70*360 after temple destr. (alt.) | after 70t dTempleDestroyed2
+  | 70 solar after temple destr. (excl.) | after 70y dTempleDestroyed1
+--  | 70 solar after temple destr. (alt., excl.) | after 70y dTempleDestroyed2
+--  | 70*360 after temple destr. (inclusive count) | after 69t dTempleDestroyed1
+--  | 70*360 after temple destr. (alt., inclusive count)) | after 69t dTempleDestroyed2
+--  | 70 solar after temple destr. (inclusive count) | after 69y dTempleDestroyed1
+--  | 70 solar after temple destr. (alt., inclusive count)) | after 69y dTempleDestroyed2
+--  | nebukadnezar's death | -562
   dWritingWall
   dFallBabel
   dKyrosEntersBabel
   dFirstYearKyros
   dSerubbabel
-  dThirdYearKyros
-  dStartSac1
---  dStartSac2
-  dTempleStart1
--- dTempleStart2
-  dDiscourage1
---  dDiscourage2
+--  dThirdYearKyros
+--  dStartSac1
+  dStartSac2
+--  dTempleStart1
+  dTempleStart2
+--  dDiscourage1
+  dDiscourage2
 --  dDareios
   dTempleRestart
   dTempleFinish
   dAfterTemplePassah
-  dEsraLeave
-  dEsraArrive
-  dEsraLeaveAlt
-  dEsraArriveAlt
-  dEsraLeaveAltAlt
-  dEsraArriveAltAlt
-  dNehemia1
-  dNehemia2
-  d7WeeksNehem1
-  d7WeeksNehem2
-  d69WeeksNehem1
-  d69WeeksNehem2
-  dXerxesStart
-  dXerxesEnd
+--  dEsraLeave
+--  dEsraArrive
+--  dEsraLeaveAlt
+--  dEsraArriveAlt
+--  dEsraLeaveAltAlt
+--  dEsraArriveAltAlt
+--  dNehemia1
+--  dNehemia2
+--  d7WeeksNehem1
+--  d7WeeksNehem2
+--  d69WeeksNehem1
+--  d69WeeksNehem2
+--  dXerxesStart
+--  dXerxesEnd
   dEstherQueen
-  dPurimLots
+--  dPurimLots
   dPurimRevenge
-  dHamansLaw
-  dAndersonStart
-  dAndersonEnd
-  dAnderson70
+--  dHamansLaw
+--  dAndersonStart
+--  dAndersonEnd
+--  dAnderson70
 end group
   
 begin group dates360
   | seven years war ends; prussia rises to great power | 1763
-  | sugar act, stamp act, resistance | 1764 | 1765
-  | american independence war peace ratified | 1784 1
+--  | sugar act, stamp act, resistance | 1764 | 1765
+  | american independence war | 1775 | 1783 
   | petah tikvah founded | 1878 11 3
-  | france defeated, germany unified | 1871 5 10
+--  | france defeated, germany unified | 1871 5 10
   | first zionist congress | 1897 8 29 | 1897 8 31
-  | palestine immigration stop | 1946 8 12
-  | exodus1947 | 1947 7 17
+--  | palestine immigration stop | 1946 8 12
+--  | exodus1947 | 1947 7 17
   | un partition plan | 1947 11 29
-  | declaration of independence | 1948 5 14
-  | start of independence war | 1948 5 15
+  | declaration of independence, start of war | 1948 5 14
+--  | start of independence war | 1948 5 15
   | raising of the ink flag | 1949 3 10
-  | egypt armistice | 1949 2 24
-  | lebanon armistice | 1949 3 23
-  | jordan armistice | 1949 4 3
+--  | egypt armistice | 1949 2 24
+--  | lebanon armistice | 1949 3 23
+--  | jordan armistice | 1949 4 3
   | syria armistice (last) | 1949 7 20
   | 6 day war | 1967 6 5 | 1967 6 10
   | founded jqdc | 1969 4 1
-  | saddam sentenced to death | 2006 11 5
+--  | saddam sentenced to death | 2006 11 5
+  dGaza
   -- arab spring events
-  | arab spring starts in tunisia | 2010 12 17
-  | tahrir square - egypt revolution starts | 2011 1 25
-  | tunisian government overthrown | 2011 1 14
-  | syrian protests start | 2011 3 15
-  | mubarak resigns | 2011 2 11
-  | lybian civil war starts | 2011 2 15
-  | gaddafi overthrown | 2011 8 28
-  | egyptian christians killed | 2011 10 10
-  | gaddafi killed | 2011 10 20
-  | syrian army attacks homs | 2012 2 3
+--  | arab spring starts in tunisia | 2010 12 17
+  | mohamed bouazizi dies, sparking arab spring | 2011 1 4
+--  | tahrir square - egypt revolution starts | 2011 1 25
+--  | tunisian government overthrown | 2011 1 14
+--  | syrian protests start | 2011 3 15
+--  | mubarak resigns | 2011 2 11
+--  | lybian civil war starts | 2011 2 15
+--  | gaddafi overthrown | 2011 8 28
+--  | egyptian christians killed | 2011 10 10
+--  | gaddafi killed | 2011 10 20
+--  | syrian army attacks homs | 2012 2 3
   -- 1999 events
-  | putin becomes prime minister | 1999 8 9
-  | operation desert fox (iraq) | 1998 12 16 | 1998 12 20
-  | operation allied force (serbia) | 1999 3 24 | 1999 6 10
+--  | putin becomes prime minister | 1999 8 9
+--  | operation desert fox (iraq) | 1998 12 16 | 1998 12 20
+--  | operation allied force (serbia) | 1999 3 24 | 1999 6 10
   -- aliyah events
-  | 1st aliyah | 1882 | 1903
+--  | 1st aliyah | 1882 | 1903
   | operation ezra & nehemiah (iraq) | 1951 5 | 1952 1
   | operation magic carpet (yemen) | 1949 6 | 1950 9
   | suez crisis, peak exodus from egypt | 1956 10 29 | 1956 11 2
   -- ben yehuda
-  | ben yehuda arrives in jaffa | 1881 10
-  | 'ben zion' born | 1882
-  | committee of hebrew founded | 1890
+--  | ben yehuda arrives in jaffa | 1881 10
+--  | 'ben zion' born | 1882
+--  | committee of hebrew founded | 1890
+  | world war II start | 1939 9 1 
+  | world war II end | 1945 9 3
+  | hiroshima bomb | 1945 8 6
+  | nagasaki bomb | 1945 8 9
 end group
 
 begin group datesSolar
-  | napoleon first konsul | 1799 12 25
-  | napoleon in egypt | 1801
-  | napoleon emperor | 1804 12 2
+--  | napoleon first konsul | 1799 12 25
+--  | napoleon in egypt | 1801
+--  | napoleon emperor | 1804 12 2
+  | napoleon rises to power | 1799 12 25 | 1804 12 2
+  | anti-jewish "hep-hep" riots in german empire, lasting months | 1819
   | iraq invasion | 2003 3 19 | 2003 4 30
-  | lebanon war | 2006
+  | 1st lebanon war | 1982 6 6 | 1982 6
+  | 2nd lebanon war | 2006 7 12 | 2006 9 8
   | world war I; ottoman empire falls; jerusalem liberated; german empire falls | 1914 7 28 | 1918 11 11
-  | world war II; attempted eradication of jews; | 1939 9 1 | 1945 9 3
-  | treaty of versailles | 1919 6 28
-  | hitler both president and chancellor | 1934 8 1
+--  | world war II; attempted eradication of jews; | 1939 9 1 | 1945 9 3
+--  | treaty of versailles | 1919 6 28
+  | hitler rises to power, first anti-jewish laws | 1933
+--  | hitler both president and chancellor | 1934 8 1
   | camp david accords | 1978 9 17
-  | egypt peace treaty | 1979 3 26
-  | saddam in power | 1979 7 16
+--  | egypt peace treaty | 1979 3 26
+--  | saddam in power | 1979 7 16
   | oslo I | 1993 8 20
   | jordan peace treaty | 1994 10 26
   | oslo II | 1995 9 24
   | rabin's death | 1995 11 4
   | arafat's death | 2004 11 11
-  | saddam's death | 2006 12 30
+  | Start of 1st Intifada | 1987 12 8
+  | End of 1st Intifada | 1993 9 13
+  | Start of 2nd Intifada | 2000 9 28
+  | End of 2nd Intifada | 2005 2 8
+  dGaza | Retreat from Gaza | 2005 8 15 | 2005 9 12
+--  | saddam's death | 2006 12 30
   | finished restoration of jewish quarter | 1985
   | operation moses (ethiopia) | 1984 11 21 | 1985 1 5
   | operation joshua (ethiopia) | 1985 3
   | operation salomon (ethiopia) | 1991 5 23 | 1991 5 25
-  | 2nd aliyah | 1904 | 1914
-  | 3rd aliyah | 1919 | 1923
-  | 4th aliyah | 1924 | 1931
-  | 5th aliyah | 1932 | 1938
-  | aliyah B | 1934 | 1947
+--  | 2nd aliyah | 1904 | 1914
+--  | 3rd aliyah | 1919 | 1923
+--  | 4th aliyah | 1924 | 1931
+--  | 5th aliyah | 1932 | 1938
+--  | aliyah B | 1934 | 1947
   -- ben yehudah
-  | hebrew (additional) official language in palestine | 1921
-  | ben yehudah dies | 1922
+--  | hebrew (additional) official language in palestine | 1921
+--  | ben yehudah dies | 1922
 end group
 
 begin group datesModern

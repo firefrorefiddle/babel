@@ -2,3 +2,5 @@
 #*.*#
 *.dot
 *.o
+*.hi
+.monthmap.cache

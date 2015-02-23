@@ -145,6 +145,12 @@ afterSolar (t, (HTimeSpan d1 d2)) t' addY =
       (_, d2') = afterSolar (t, d2) t' addY
   in (t', HTimeSpan d1' d2')
 
+after', afterSolar', after360' :: (Integral i) => 
+  (String, HDate) -> i -> (String, HDate)
+after360'   d t = after360   d "" t
+after'      d t = after      d "" t
+afterSolar' d t = afterSolar d "" t
+
 extend :: (Integral i) => (String, HDate) -> String -> i -> (String, HDate)
 extend (t, d) t' addD = let (_, d') = after (t,d) undefined addD
                         in (t', HTimeSpan d d')
